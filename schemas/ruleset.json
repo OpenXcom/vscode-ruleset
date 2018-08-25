@@ -1,0 +1,46 @@
+{
+    "id": "https://example.com/arrays.schema.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "An OpenXcom ruleset",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/item"
+            }
+        }
+    },
+    "definitions": {
+        "item": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "description": "String ID of the internal item name."
+                },
+                "requires": {
+                    "type": "array",
+                    "description": "List of topics (string IDs) that must be researched to unlock this item. If none are specified, this item is unlocked from the start. Soldiers can only use unlocked items in the Battlescape.",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "size": {
+                    "type": "number",
+                    "description": "Space occupied by this item in Base Stores."
+                },
+                "costBuy": {
+                    "type": "integer",
+                    "description": "Amount of money spent for purchasing this item. If set to 0, this item will not be available in the Purchase/Recruit screen."
+                },
+                "costSell": {
+                    "type": "integer",
+                    "description": "Amount of money gained for selling this item."
+                }
+            }
+        }
+    }
+}
