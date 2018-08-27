@@ -1,0 +1,45 @@
+{
+  "$id": "https://openxcom.org/RuleCommendations.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "description": {
+      "type": "string"
+    },
+    "criteria": {
+      "additionalProperties": {
+        "items": {
+          "type": "integer"
+        },
+        "type": "array"
+      },
+      "type": "object"
+    },
+    "sprite": {
+      "type": "integer"
+    },
+    "killCriteria": {
+      "items": {
+        "items": {
+          "items": [
+            {
+              "type": "integer"
+            },
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            }
+          ],
+          "minItems": 2,
+          "maxItems": 2,
+          "type": "array"
+        },
+        "type": "array"
+      },
+      "type": "array"
+    }
+  }
+}

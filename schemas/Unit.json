@@ -1,0 +1,86 @@
+{
+  "$id": "https://openxcom.org/Unit.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "race": {
+      "type": "string"
+    },
+    "rank": {
+      "type": "string"
+    },
+    "stats": {
+      "$ref": "UnitStats.json"
+    },
+    "armor": {
+      "type": "string"
+    },
+    "standHeight": {
+      "type": "integer"
+    },
+    "kneelHeight": {
+      "type": "integer"
+    },
+    "floatHeight": {
+      "type": "integer"
+    },
+    "value": {
+      "type": "integer"
+    },
+    "intelligence": {
+      "type": "integer"
+    },
+    "aggression": {
+      "type": "integer"
+    },
+    "energyRecovery": {
+      "type": "integer"
+    },
+    "specab": {
+      "type": "integer"
+    },
+    "spawnUnit": {
+      "type": "string"
+    },
+    "livingWeapon": {
+      "type": "boolean"
+    },
+    "meleeWeapon": {
+      "type": "string"
+    },
+    "psiWeapon": {
+      "type": "string"
+    },
+    "capturable": {
+      "type": "boolean"
+    },
+    "builtInWeaponSets": {
+      "items": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "type": "array"
+    },
+    "builtInWeapons": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "deathSound": {
+      "type": "integer"
+    },
+    "aggroSound": {
+      "type": "integer"
+    },
+    "moveSound": {
+      "type": "integer"
+    }
+  }
+}

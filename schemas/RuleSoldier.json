@@ -1,0 +1,53 @@
+{
+  "$id": "https://openxcom.org/RuleSoldier.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "requires": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "minStats": {
+      "$ref": "UnitStats.json"
+    },
+    "maxStats": {
+      "$ref": "UnitStats.json"
+    },
+    "statCaps": {
+      "$ref": "UnitStats.json"
+    },
+    "armor": {
+      "type": "string"
+    },
+    "costBuy": {
+      "type": "integer"
+    },
+    "costSalary": {
+      "type": "integer"
+    },
+    "standHeight": {
+      "type": "integer"
+    },
+    "kneelHeight": {
+      "type": "integer"
+    },
+    "floatHeight": {
+      "type": "integer"
+    },
+    "femaleFrequency": {
+      "type": "integer"
+    },
+    "deathMale": {
+      "type": "integer"
+    },
+    "deathFemale": {
+      "type": "integer"
+    }
+  }
+}

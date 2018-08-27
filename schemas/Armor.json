@@ -1,0 +1,126 @@
+{
+  "$id": "https://openxcom.org/Armor.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "spriteSheet": {
+      "type": "string"
+    },
+    "spriteInv": {
+      "type": "string"
+    },
+    "allowInv": {
+      "type": "boolean"
+    },
+    "corpseBattle": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "corpseGeo": {
+      "type": "string"
+    },
+    "storeItem": {
+      "type": "string"
+    },
+    "specialWeapon": {
+      "type": "string"
+    },
+    "frontArmor": {
+      "type": "integer"
+    },
+    "sideArmor": {
+      "type": "integer"
+    },
+    "rearArmor": {
+      "type": "integer"
+    },
+    "underArmor": {
+      "type": "integer"
+    },
+    "drawingRoutine": {
+      "type": "integer"
+    },
+    "movementType": {
+      "type": "integer"
+    },
+    "size": {
+      "type": "integer"
+    },
+    "weight": {
+      "type": "integer"
+    },
+    "stats": {
+      "$ref": "UnitStats.json"
+    },
+    "damageModifier": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "maxItems": 10
+    },
+    "loftempsSet": {
+      "items": {
+        "type": "integer"
+      },
+      "type": "array"
+    },
+    "deathFrames": {
+      "type": "integer"
+    },
+    "constantAnimation": {
+      "type": "boolean"
+    },
+    "forcedTorso": {
+      "type": "integer"
+    },
+    "spriteFaceGroup": {
+      "type": "integer"
+    },
+    "spriteHairGroup": {
+      "type": "integer"
+    },
+    "spriteRankGroup": {
+      "type": "integer"
+    },
+    "spriteUtileGroup": {
+      "type": "integer"
+    },
+    "spriteFaceColor": {
+      "items": {
+        "type": "integer"
+      },
+      "type": "array"
+    },
+    "spriteHairColor": {
+      "items": {
+        "type": "integer"
+      },
+      "type": "array"
+    },
+    "spriteRankColor": {
+      "items": {
+        "type": "integer"
+      },
+      "type": "array"
+    },
+    "spriteUtileColor": {
+      "items": {
+        "type": "integer"
+      },
+      "type": "array"
+    },
+    "units": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "$id": "https://openxcom.org/StatString.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "string": {
+      "type": "string"
+    },
+    "tu": {
+      "$ref": "#/definitions/StatStringCondition"
+    },
+    "stamina": {
+      "$ref": "#/definitions/StatStringCondition"
+    },
+    "health": {
+      "$ref": "#/definitions/StatStringCondition"
+    },
+    "bravery": {
+      "$ref": "#/definitions/StatStringCondition"
+    },
+    "reactions": {
+      "$ref": "#/definitions/StatStringCondition"
+    },
+    "firing": {
+      "$ref": "#/definitions/StatStringCondition"
+    },
+    "throwing": {
+      "$ref": "#/definitions/StatStringCondition"
+    },
+    "strength": {
+      "$ref": "#/definitions/StatStringCondition"
+    },
+    "psiStrength": {
+      "$ref": "#/definitions/StatStringCondition"
+    },
+    "psiSkill": {
+      "$ref": "#/definitions/StatStringCondition"
+    },
+    "melee": {
+      "$ref": "#/definitions/StatStringCondition"
+    },
+    "psiTraining": {
+      "type": "boolean"
+    }
+  },
+  "definitions": {
+    "StatStringCondition": {
+      "items": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "minItems": 2,
+      "maxItems": 2,
+      "type": "array"
+    }
+  }
+}

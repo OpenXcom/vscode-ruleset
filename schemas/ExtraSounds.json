@@ -1,0 +1,17 @@
+{
+  "$id": "https://openxcom.org/ExtraSounds.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "files": {
+      "patternProperties": {
+        "^\\d+$": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "type": "object"
+    }
+  }
+}

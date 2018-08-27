@@ -1,0 +1,44 @@
+{
+  "$id": "https://openxcom.org/RuleManufacture.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "requires": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "space": {
+      "type": "integer"
+    },
+    "time": {
+      "type": "integer"
+    },
+    "cost": {
+      "type": "integer"
+    },
+    "requiredItems": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "type": "object"
+    },
+    "producedItems": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "type": "object"
+    },
+    "listOrder": {
+      "type": "integer"
+    }
+  }
+}

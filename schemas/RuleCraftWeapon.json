@@ -1,0 +1,56 @@
+{
+  "$id": "https://openxcom.org/RuleCraftWeapon.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "sprite": {
+      "type": "integer"
+    },
+    "sound": {
+      "type": "integer"
+    },
+    "damage": {
+      "type": "integer"
+    },
+    "range": {
+      "type": "integer"
+    },
+    "accuracy": {
+      "type": "integer"
+    },
+    "reloadCautious": {
+      "type": "integer"
+    },
+    "reloadStandard": {
+      "type": "integer"
+    },
+    "reloadAggressive": {
+      "type": "integer"
+    },
+    "ammoMax": {
+      "type": "integer"
+    },
+    "rearmRate": {
+      "type": "integer"
+    },
+    "projectileType": {
+      "type": "integer"
+    },
+    "projectileSpeed": {
+      "type": "integer"
+    },
+    "launcher": {
+      "type": "string"
+    },
+    "clip": {
+      "type": "string"
+    },
+    "underwaterOnly": {
+      "type": "boolean"
+    }
+  }
+}

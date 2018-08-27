@@ -1,46 +1,631 @@
 {
-    "id": "https://example.com/arrays.schema.json",
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "description": "An OpenXcom ruleset",
-    "type": "object",
-    "additionalProperties": false,
-    "properties": {
-        "items": {
-            "type": "array",
-            "items": {
-                "$ref": "#/definitions/item"
-            }
-        }
+  "id": "https://openxcom.org/ruleset.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "countries": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "RuleCountry.json"
+          }
+        ]
+      }
     },
-    "definitions": {
-        "item": {
-            "type": "object",
-            "additionalProperties": false,
-            "properties": {
-                "type": {
-                    "type": "string",
-                    "description": "String ID of the internal item name."
-                },
-                "requires": {
-                    "type": "array",
-                    "description": "List of topics (string IDs) that must be researched to unlock this item. If none are specified, this item is unlocked from the start. Soldiers can only use unlocked items in the Battlescape.",
-                    "items": {
-                        "type": "string"
-                    }
-                },
-                "size": {
-                    "type": "number",
-                    "description": "Space occupied by this item in Base Stores."
-                },
-                "costBuy": {
-                    "type": "integer",
-                    "description": "Amount of money spent for purchasing this item. If set to 0, this item will not be available in the Purchase/Recruit screen."
-                },
-                "costSell": {
-                    "type": "integer",
-                    "description": "Amount of money gained for selling this item."
-                }
-            }
+    "regions": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "RuleRegion.json"
+          }
+        ]
+      }
+    },
+    "facilities": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "RuleBaseFacility.json"
+          }
+        ]
+      }
+    },
+    "crafts": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "RuleCraft.json"
+          }
+        ]
+      }
+    },
+    "craftWeapons": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "RuleCraftWeapon.json"
+          }
+        ]
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "RuleItem.json"
+          }
+        ]
+      }
+    },
+    "ufos": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "RuleUfo.json"
+          }
+        ]
+      }
+    },
+    "invs": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "RuleInventory.json"
+          }
+        ]
+      }
+    },
+    "terrains": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "RuleTerrain.json"
+          }
+        ]
+      }
+    },
+    "armors": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "Armor.json"
+          }
+        ]
+      }
+    },
+    "soldiers": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "RuleSoldier.json"
+          }
+        ]
+      }
+    },
+    "units": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "Unit.json"
+          }
+        ]
+      }
+    },
+    "alienRaces": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "AlienRace.json"
+          }
+        ]
+      }
+    },
+    "alienDeployments": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "AlienDeployment.json"
+          }
+        ]
+      }
+    },
+    "research": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "RuleResearch.json"
+          }
+        ]
+      }
+    },
+    "manufacture": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "RuleManufacture.json"
+          }
+        ]
+      }
+    },
+    "ufopaedia": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "ArticleDefinition.json"
+          }
+        ]
+      }
+    },
+    "ufoTrajectories": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "UfoTrajectory.json"
+          }
+        ]
+      }
+    },
+    "alienMissions": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "RuleAlienMission.json"
+          }
+        ]
+      }
+    },
+    "MCDPatches": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "MCDPatch.json"
+          }
+        ]
+      }
+    },
+    "extraSprites": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "ExtraSprites.json"
+          }
+        ]
+      }
+    },
+    "extraSounds": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "ExtraSounds.json"
+          }
+        ]
+      }
+    },
+    "extraStrings": {
+      "type": "array"
+    },
+    "statStrings": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "StatString.json"
+          }
+        ]
+      }
+    },
+    "interfaces": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "RuleInterface.json"
+          }
+        ]
+      }
+    },
+    "soundDefs": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "SoundDefinition.json"
+          }
+        ]
+      }
+    },
+    "globe": {
+      "$ref": "RuleGlobe.json"
+    },
+    "constants": {
+      "$ref": "#/definitions/constants"
+    },
+    "transparencyLUTs": {
+      "type": "object"
+    },
+    "mapScripts": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "MapScript.json"
+          }
+        ]
+      }
+    },
+    "missionScripts": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "RuleMissionScript.json"
+          }
+        ]
+      }
+    },
+    "cutscenes": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "RuleVideo.json"
+          }
+        ]
+      }
+    },
+    "musics": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "RuleMusic.json"
+          }
+        ]
+      }
+    },
+    "commendations": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "RuleCommendations.json"
+          }
+        ]
+      }
+    },
+    "startingBase": {
+      "type": "object"
+    },
+    "staringTime": {
+      "$ref": "#/definitions/GameTime"
+    },
+    "costEngineer": {
+      "type": "integer"
+    },
+    "costScientist": {
+      "type": "integer"
+    },
+    "timePersonnel": {
+      "type": "integer"
+    },
+    "initialFunding": {
+      "type": "integer"
+    },
+    "alienFuel": {
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "integer"
         }
+      ],
+      "minItems": 2,
+      "maxItems": 2,
+      "type": "array"
+    },
+    "fontName": {
+      "type": "string"
+    },
+    "turnAIUseGrenade": {
+      "type": "integer"
+    },
+    "turnAIUseBlaster": {
+      "type": "integer"
+    },
+    "defeatScore": {
+      "type": "integer"
+    },
+    "defeatFunds": {
+      "type": "integer"
+    },
+    "alienItemLevels": {
+      "items": {
+        "items": {
+          "type": "integer"
+        },
+        "type": "array"
+      },
+      "type": "array"
+    },
+    "aimAndArmorMultipliers": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "maxItems": 5
+    },
+    "statGrowthMultipliers": {
+      "type": "array",
+      "items": {
+        "$ref": "UnitStats.json"
+      },
+      "maxItems": 5
+    },
+    "difficultyCoefficient": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      },
+      "maxItems": 5
     }
+  },
+  "definitions": {
+    "delete": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "delete": {
+          "type": "string"
+        }
+      }
+    },
+    "GameTime": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "second": {
+          "type": "integer"
+        },
+        "minute": {
+          "type": "integer"
+        },
+        "hour": {
+          "type": "integer"
+        },
+        "weekday": {
+          "type": "integer"
+        },
+        "day": {
+          "type": "integer"
+        },
+        "month": {
+          "type": "integer"
+        },
+        "year": {
+          "type": "integer"
+        }
+      }
+    },
+    "constants": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "doorSound": {
+          "type": "integer"
+        },
+        "slidingDoorSound": {
+          "type": "integer"
+        },
+        "slidingDoorClose": {
+          "type": "integer"
+        },
+        "smallExplosion": {
+          "type": "integer"
+        },
+        "largeExplosion": {
+          "type": "integer"
+        },
+        "explosionOffset": {
+          "type": "integer"
+        },
+        "smokeOffset": {
+          "type": "integer"
+        },
+        "underwaterSmokeOffset": {
+          "type": "integer"
+        },
+        "itemDrop": {
+          "type": "integer"
+        },
+        "itemThrow": {
+          "type": "integer"
+        },
+        "itemReload": {
+          "type": "integer"
+        },
+        "walkOffset": {
+          "type": "integer"
+        },
+        "flyingSound": {
+          "type": "integer"
+        },
+        "buttonPress": {
+          "type": "integer"
+        },
+        "windowPopup": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "maxItems": 3
+        },
+        "ufoFire": {
+          "type": "integer"
+        },
+        "ufoHit": {
+          "type": "integer"
+        },
+        "ufoCrash": {
+          "type": "integer"
+        },
+        "ufoExplode": {
+          "type": "integer"
+        },
+        "interceptorHit": {
+          "type": "integer"
+        },
+        "interceptorExplode": {
+          "type": "integer"
+        },
+        "geoscapeCursor": {
+          "type": "integer"
+        },
+        "basescapeCursor": {
+          "type": "integer"
+        },
+        "battlescapeCursor": {
+          "type": "integer"
+        },
+        "ufopaediaCursor": {
+          "type": "integer"
+        },
+        "graphsCursor": {
+          "type": "integer"
+        },
+        "damageRange": {
+          "type": "integer"
+        },
+        "explosiveDamageRange": {
+          "type": "integer"
+        },
+        "fireDamageRange": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "maxItems": 2
+        },
+        "goodDebriefingMusic": {
+          "type": "string"
+        },
+        "badDebriefingMusic": {
+          "type": "string"
+        }
+      }
+    }
+  }
 }

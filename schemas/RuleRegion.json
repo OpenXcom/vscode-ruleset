@@ -1,0 +1,68 @@
+{
+  "$id": "https://openxcom.org/RuleRegion.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "cost": {
+      "type": "integer"
+    },
+    "areas": {
+      "items": {
+        "items": {
+          "type": "number"
+        },
+        "type": "array"
+      },
+      "type": "array"
+    },
+    "missionZones": {
+      "items": {
+        "$ref": "#/definitions/MissionZone"
+      },
+      "type": "array"
+    },
+    "regionWeight": {
+      "type": "integer"
+    },
+    "missionRegion": {
+      "type": "string"
+    }
+  },
+  "definitions": {
+    "MissionZone": {
+      "items": {
+        "$ref": "#/definitions/MissionArea"
+      },
+      "type": "array"
+    },
+    "MissionArea": {
+      "items": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "integer"
+        },
+        {
+          "type": "string"
+        }
+      ],
+      "minItems": 4,
+      "maxItems": 6,
+      "type": "array"
+    }
+  }
+}

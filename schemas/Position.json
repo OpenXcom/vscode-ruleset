@@ -1,0 +1,10 @@
+{
+  "$id": "https://openxcom.org/Position.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "items": {
+    "type": "integer"
+  },
+  "minItems": 3,
+  "maxItems": 3,
+  "type": "array"
+}

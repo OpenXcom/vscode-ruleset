@@ -1,0 +1,73 @@
+{
+  "$id": "https://openxcom.org/RuleAlienMission.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "points": {
+      "type": "integer"
+    },
+    "waves": {
+      "items": {
+        "$ref": "#/definitions/MissionWave"
+      },
+      "type": "array"
+    },
+    "spawnUfo": {
+      "type": "string"
+    },
+    "spawnZone": {
+      "type": "integer"
+    },
+    "missionWeights": {
+      "patternProperties": {
+        "^\\d+$": {
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false,
+      "type": "object"
+    },
+    "retaliationOdds": {
+      "type": "integer"
+    },
+    "siteType": {
+      "type": "string"
+    },
+    "raceWeights": {
+      "patternProperties": {
+        "^\\d+$": {
+          "$ref": "WeightedOptions.json"
+        }
+      },
+      "additionalProperties": false,
+      "type": "object"
+    }
+  },
+  "definitions": {
+    "MissionWave": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ufo": {
+          "type": "string"
+        },
+        "count": {
+          "type": "integer"
+        },
+        "trajectory": {
+          "type": "string"
+        },
+        "timer": {
+          "type": "integer"
+        },
+        "objective": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

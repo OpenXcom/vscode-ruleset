@@ -1,0 +1,53 @@
+{
+  "$id": "https://openxcom.org/RuleMissionScript.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "varName": {
+      "type": "string"
+    },
+    "firstMonth": {
+      "type": "integer"
+    },
+    "lastMonth": {
+      "type": "integer"
+    },
+    "label": {
+      "type": "integer"
+    },
+    "executionOdds": {
+      "type": "integer"
+    },
+    "targetBaseOdds": {
+      "type": "integer"
+    },
+    "minDifficulty": {
+      "type": "integer"
+    },
+    "maxRuns": {
+      "type": "integer"
+    },
+    "avoidRepeats": {
+      "type": "integer"
+    },
+    "startDelay": {
+      "type": "integer"
+    },
+    "conditionals": {
+      "items": {
+        "type": "integer"
+      },
+      "type": "array"
+    },
+    "researchTriggers": {
+      "additionalProperties": {
+        "type": "boolean"
+      },
+      "type": "object"
+    },
+    "useTable": {
+      "type": "boolean"
+    }
+  }
+}

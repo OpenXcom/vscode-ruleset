@@ -1,0 +1,11 @@
+{
+  "$id": "https://openxcom.org/SoundDefinition.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "file": {
+      "type": "string"
+    }
+  }
+}

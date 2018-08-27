@@ -1,0 +1,239 @@
+{
+  "$id": "https://openxcom.org/RuleItem.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "requires": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "size": {
+      "type": "number"
+    },
+    "costBuy": {
+      "type": "integer"
+    },
+    "costSell": {
+      "type": "integer"
+    },
+    "transferTime": {
+      "type": "integer"
+    },
+    "weight": {
+      "type": "integer"
+    },
+    "bigSprite": {
+      "type": "integer"
+    },
+    "floorSprite": {
+      "type": "integer"
+    },
+    "handSprite": {
+      "type": "integer"
+    },
+    "bulletSprite": {
+      "type": "integer"
+    },
+    "fireSound": {
+      "type": "integer"
+    },
+    "hitSound": {
+      "type": "integer"
+    },
+    "meleeSound": {
+      "type": "integer"
+    },
+    "hitAnimation": {
+      "type": "integer"
+    },
+    "meleeAnimation": {
+      "type": "integer"
+    },
+    "meleeHitSound": {
+      "type": "integer"
+    },
+    "power": {
+      "type": "integer"
+    },
+    "compatibleAmmo": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "damageType": {
+      "type": "integer"
+    },
+    "accuracyAuto": {
+      "type": "integer"
+    },
+    "accuracySnap": {
+      "type": "integer"
+    },
+    "accuracyAimed": {
+      "type": "integer"
+    },
+    "tuAuto": {
+      "type": "integer"
+    },
+    "tuSnap": {
+      "type": "integer"
+    },
+    "tuAimed": {
+      "type": "integer"
+    },
+    "clipSize": {
+      "type": "integer"
+    },
+    "accuracyMelee": {
+      "type": "integer"
+    },
+    "tuMelee": {
+      "type": "integer"
+    },
+    "battleType": {
+      "type": "integer"
+    },
+    "twoHanded": {
+      "type": "boolean"
+    },
+    "waypoints": {
+      "type": "integer"
+    },
+    "fixedWeapon": {
+      "type": "boolean"
+    },
+    "invWidth": {
+      "type": "integer"
+    },
+    "invHeight": {
+      "type": "integer"
+    },
+    "painKiller": {
+      "type": "integer"
+    },
+    "heal": {
+      "type": "integer"
+    },
+    "stimulant": {
+      "type": "integer"
+    },
+    "woundRecovery": {
+      "type": "integer"
+    },
+    "healthRecovery": {
+      "type": "integer"
+    },
+    "stunRecovery": {
+      "type": "integer"
+    },
+    "energyRecovery": {
+      "type": "integer"
+    },
+    "tuUse": {
+      "type": "integer"
+    },
+    "recoveryPoints": {
+      "type": "integer"
+    },
+    "armor": {
+      "type": "integer"
+    },
+    "turretType": {
+      "type": "integer"
+    },
+    "recover": {
+      "type": "boolean"
+    },
+    "liveAlien": {
+      "type": "boolean"
+    },
+    "blastRadius": {
+      "type": "integer"
+    },
+    "attraction": {
+      "type": "integer"
+    },
+    "flatRate": {
+      "type": "boolean"
+    },
+    "arcingShot": {
+      "type": "boolean"
+    },
+    "listOrder": {
+      "type": "integer"
+    },
+    "maxRange": {
+      "type": "integer"
+    },
+    "aimRange": {
+      "type": "integer"
+    },
+    "snapRange": {
+      "type": "integer"
+    },
+    "autoRange": {
+      "type": "integer"
+    },
+    "minRange": {
+      "type": "integer"
+    },
+    "dropoff": {
+      "type": "integer"
+    },
+    "bulletSpeed": {
+      "type": "integer"
+    },
+    "explosionSpeed": {
+      "type": "integer"
+    },
+    "autoShots": {
+      "type": "integer"
+    },
+    "shotgunPellets": {
+      "type": "integer"
+    },
+    "zombieUnit": {
+      "type": "string"
+    },
+    "strengthApplied": {
+      "type": "boolean"
+    },
+    "skillApplied": {
+      "type": "boolean"
+    },
+    "LOSRequired": {
+      "type": "boolean"
+    },
+    "meleePower": {
+      "type": "integer"
+    },
+    "underwaterOnly": {
+      "type": "boolean"
+    },
+    "landOnly": {
+      "type": "boolean"
+    },
+    "specialType": {
+      "type": "integer"
+    },
+    "vaporColor": {
+      "type": "integer"
+    },
+    "vaporDensity": {
+      "type": "integer"
+    },
+    "vaporProbability": {
+      "type": "integer"
+    }
+  }
+}

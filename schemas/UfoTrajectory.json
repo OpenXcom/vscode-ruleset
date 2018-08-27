@@ -1,0 +1,30 @@
+{
+  "$id": "https://openxcom.org/UfoTrajectory.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "groundTimer": {
+      "type": "integer"
+    },
+    "waypoints": {
+      "items": {
+        "$ref": "#/definitions/TrajectoryWaypoint"
+      },
+      "type": "array"
+    }
+  },
+  "definitions": {
+    "TrajectoryWaypoint": {
+      "items": {
+        "type": "integer"
+      },
+      "minItems": 3,
+      "maxItems": 3,
+      "type": "array"
+    }
+  }
+}

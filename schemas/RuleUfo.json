@@ -1,0 +1,56 @@
+{
+  "$id": "https://openxcom.org/RuleUfo.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
+    },
+    "sprite": {
+      "type": "integer"
+    },
+    "marker": {
+      "type": "integer"
+    },
+    "damageMax": {
+      "type": "integer"
+    },
+    "speedMax": {
+      "type": "integer"
+    },
+    "accel": {
+      "type": "integer"
+    },
+    "power": {
+      "type": "integer"
+    },
+    "range": {
+      "type": "integer"
+    },
+    "score": {
+      "type": "integer"
+    },
+    "reload": {
+      "type": "integer"
+    },
+    "breakOffTime": {
+      "type": "integer"
+    },
+    "sightRange": {
+      "type": "integer"
+    },
+    "missionScore": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "modSprite": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "$id": "https://openxcom.org/ArticleDefinition.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "section": {
+      "type": "string"
+    },
+    "requires": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "title": {
+      "type": "string"
+    },
+    "type_id": {
+      "type": "integer"
+    },
+    "listOrder": {
+      "type": "integer"
+    },
+    "image_id": {
+      "type": "string"
+    },
+    "rect_stats": {
+      "$ref": "#/definitions/ArticleDefinitionRect"
+    },
+    "rect_text": {
+      "$ref": "#/definitions/ArticleDefinitionRect"
+    },
+    "text": {
+      "type": "string"
+    },
+    "text_width": {
+      "type": "integer"
+    },
+    "weapon": {
+      "type": "string"
+    }
+  },
+  "definitions": {
+    "ArticleDefinitionRect": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "x": {
+          "type": "integer"
+        },
+        "y": {
+          "type": "integer"
+        },
+        "width": {
+          "type": "integer"
+        },
+        "height": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

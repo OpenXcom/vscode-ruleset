@@ -1,0 +1,45 @@
+{
+  "$id": "https://openxcom.org/RuleVideo.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "imagePath": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "captionSize": {
+      "items": {
+        "type": "integer"
+      },
+      "minItems": 2,
+      "maxItems": 2,
+      "type": "array"
+    },
+    "captionPos": {
+      "items": {
+        "type": "integer"
+      },
+      "minItems": 2,
+      "maxItems": 2,
+      "type": "array"
+    },
+    "captionColor": {
+      "type": "integer"
+    },
+    "transitionSeconds": {
+      "type": "integer"
+    },
+    "captionAlign": {
+      "type": "integer"
+    },
+    "useUfoAudioSequence": {
+      "type": "boolean"
+    },
+    "musicId": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "$id": "https://openxcom.org/RuleCountry.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "fundingBase": {
+      "type": "integer"
+    },
+    "fundingCap": {
+      "type": "integer"
+    },
+    "labelLon": {
+      "type": "number"
+    },
+    "labelLat": {
+      "type": "number"
+    },
+    "areas": {
+      "items": {
+        "items": {
+          "type": "number"
+        },
+        "type": "array"
+      },
+      "type": "array"
+    }
+  }
+}

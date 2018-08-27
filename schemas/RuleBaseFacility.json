@@ -1,0 +1,92 @@
+{
+  "$id": "https://openxcom.org/RuleBaseFacility.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "requires": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "spriteShape": {
+      "type": "integer"
+    },
+    "spriteFacility": {
+      "type": "integer"
+    },
+    "lift": {
+      "type": "boolean"
+    },
+    "hyper": {
+      "type": "boolean"
+    },
+    "mind": {
+      "type": "boolean"
+    },
+    "grav": {
+      "type": "boolean"
+    },
+    "size": {
+      "type": "integer"
+    },
+    "buildCost": {
+      "type": "integer"
+    },
+    "buildTime": {
+      "type": "integer"
+    },
+    "monthlyCost": {
+      "type": "integer"
+    },
+    "storage": {
+      "type": "integer"
+    },
+    "personnel": {
+      "type": "integer"
+    },
+    "aliens": {
+      "type": "integer"
+    },
+    "crafts": {
+      "type": "integer"
+    },
+    "labs": {
+      "type": "integer"
+    },
+    "workshops": {
+      "type": "integer"
+    },
+    "psiLabs": {
+      "type": "integer"
+    },
+    "radarRange": {
+      "type": "integer"
+    },
+    "radarChance": {
+      "type": "integer"
+    },
+    "defense": {
+      "type": "integer"
+    },
+    "hitRatio": {
+      "type": "integer"
+    },
+    "fireSound": {
+      "type": "integer"
+    },
+    "hitSound": {
+      "type": "integer"
+    },
+    "mapName": {
+      "type": "string"
+    },
+    "listOrder": {
+      "type": "integer"
+    }
+  }
+}

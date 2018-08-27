@@ -1,0 +1,101 @@
+{
+  "$id": "https://openxcom.org/RuleCraft.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "requires": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "sprite": {
+      "type": "integer"
+    },
+    "marker": {
+      "type": "integer"
+    },
+    "fuelMax": {
+      "type": "integer"
+    },
+    "damageMax": {
+      "type": "integer"
+    },
+    "speedMax": {
+      "type": "integer"
+    },
+    "accel": {
+      "type": "integer"
+    },
+    "weapons": {
+      "type": "integer"
+    },
+    "soldiers": {
+      "type": "integer"
+    },
+    "vehicles": {
+      "type": "integer"
+    },
+    "costBuy": {
+      "type": "integer"
+    },
+    "costRent": {
+      "type": "integer"
+    },
+    "costSell": {
+      "type": "integer"
+    },
+    "refuelItem": {
+      "type": "string"
+    },
+    "repairRate": {
+      "type": "integer"
+    },
+    "refuelRate": {
+      "type": "integer"
+    },
+    "radarRange": {
+      "type": "integer"
+    },
+    "radarChance": {
+      "type": "integer"
+    },
+    "sightRange": {
+      "type": "integer"
+    },
+    "transferTime": {
+      "type": "integer"
+    },
+    "score": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "deployment": {
+      "items": {
+        "items": {
+          "type": "integer"
+        },
+        "type": "array"
+      },
+      "type": "array"
+    },
+    "spacecraft": {
+      "type": "boolean"
+    },
+    "listOrder": {
+      "type": "integer"
+    },
+    "maxAltitude": {
+      "type": "integer"
+    },
+    "maxItems": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$id": "https://openxcom.org/RuleMusic.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "catPos": {
+      "type": "integer"
+    },
+    "normalization": {
+      "type": "number"
+    }
+  }
+}

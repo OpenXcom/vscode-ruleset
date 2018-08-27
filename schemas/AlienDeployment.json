@@ -1,0 +1,232 @@
+{
+  "$id": "https://openxcom.org/AlienDeployment.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "data": {
+      "items": {
+        "$ref": "#/definitions/DeploymentData"
+      },
+      "type": "array"
+    },
+    "width": {
+      "type": "integer"
+    },
+    "length": {
+      "type": "integer"
+    },
+    "height": {
+      "type": "integer"
+    },
+    "civilians": {
+      "type": "integer"
+    },
+    "terrains": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "shade": {
+      "type": "integer"
+    },
+    "nextStage": {
+      "type": "string"
+    },
+    "race": {
+      "type": "string"
+    },
+    "finalDestination": {
+      "type": "boolean"
+    },
+    "winCutscene": {
+      "type": "string"
+    },
+    "loseCutscene": {
+      "type": "string"
+    },
+    "abortCutscene": {
+      "type": "string"
+    },
+    "script": {
+      "type": "string"
+    },
+    "alert": {
+      "type": "string"
+    },
+    "alertBackground": {
+      "type": "string"
+    },
+    "briefing": {
+      "$ref": "#/definitions/BriefingData"
+    },
+    "markerName": {
+      "type": "string"
+    },
+    "markerIcon": {
+      "type": "integer"
+    },
+    "depth": {
+      "items": {
+        "type": "integer"
+      },
+      "minItems": 2,
+      "maxItems": 2,
+      "type": "array"
+    },
+    "duration": {
+      "items": {
+        "type": "integer"
+      },
+      "minItems": 2,
+      "maxItems": 2,
+      "type": "array"
+    },
+    "music": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "objectiveType": {
+      "type": "integer"
+    },
+    "objectivesRequired": {
+      "type": "integer"
+    },
+    "objectivePopup": {
+      "type": "string"
+    },
+    "objectiveComplete": {
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "integer"
+        }
+      ],
+      "minItems": 2,
+      "maxItems": 2,
+      "type": "array"
+    },
+    "objectiveFailed": {
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "integer"
+        }
+      ],
+      "minItems": 2,
+      "maxItems": 2,
+      "type": "array"
+    },
+    "despawnPenalty": {
+      "type": "integer"
+    },
+    "points": {
+      "type": "integer"
+    },
+    "cheatTurn": {
+      "type": "integer"
+    },
+    "turnLimit": {
+      "type": "integer"
+    },
+    "chronoTrigger": {
+      "type": "integer"
+    },
+    "alienBase": {
+      "type": "boolean"
+    },
+    "escapeType": {
+      "type": "integer"
+    },
+    "genMission": {
+      "$ref": "WeightedOptions.json"
+    },
+    "genMissionFreq": {
+      "type": "integer"
+    }
+  },
+  "definitions": {
+    "ItemSet": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "DeploymentData": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "alienRank": {
+          "type": "integer"
+        },
+        "lowQty": {
+          "type": "integer"
+        },
+        "highQty": {
+          "type": "integer"
+        },
+        "dQty": {
+          "type": "integer"
+        },
+        "extraQty": {
+          "type": "integer"
+        },
+        "percentageOutsideUfo": {
+          "type": "integer"
+        },
+        "itemSets": {
+          "items": {
+            "$ref": "#/definitions/ItemSet"
+          },
+          "type": "array"
+        }
+      }
+    },
+    "BriefingData": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "palette": {
+          "type": "integer"
+        },
+        "textOffset": {
+          "type": "integer"
+        },
+        "title": {
+          "type": "string"
+        },
+        "desc": {
+          "type": "string"
+        },
+        "music": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "cutscene": {
+          "type": "string"
+        },
+        "background": {
+          "type": "string"
+        },
+        "showCraft": {
+          "type": "boolean"
+        },
+        "showTarget": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
