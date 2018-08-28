@@ -25,6 +25,9 @@
       },
       "type": "array"
     },
+    "missionWeights": {
+      "$ref": "WeightedOptions.json"
+    },
     "regionWeight": {
       "type": "integer"
     },

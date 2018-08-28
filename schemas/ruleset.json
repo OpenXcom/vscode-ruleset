@@ -1,5 +1,5 @@
 {
-  "id": "https://openxcom.org/ruleset.json",
+  "$id": "https://openxcom.org/ruleset.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "additionalProperties": false,
@@ -336,9 +336,15 @@
       "$ref": "RuleGlobe.json"
     },
     "constants": {
-      "$ref": "#/definitions/constants"
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/constants"
+      }
     },
     "transparencyLUTs": {
+      "type": "object"
+    },
+    "converter": {
       "type": "object"
     },
     "mapScripts": {
@@ -409,7 +415,7 @@
     "startingBase": {
       "type": "object"
     },
-    "staringTime": {
+    "startingTime": {
       "$ref": "#/definitions/GameTime"
     },
     "costEngineer": {
@@ -469,11 +475,7 @@
       "maxItems": 5
     },
     "statGrowthMultipliers": {
-      "type": "array",
-      "items": {
-        "$ref": "UnitStats.json"
-      },
-      "maxItems": 5
+      "$ref": "UnitStats.json"
     },
     "difficultyCoefficient": {
       "type": "array",

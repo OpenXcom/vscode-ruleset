@@ -16,6 +16,9 @@
       },
       "type": "array"
     },
+    "objective": {
+      "type": "integer"
+    },
     "spawnUfo": {
       "type": "string"
     },
@@ -65,7 +68,7 @@
           "type": "integer"
         },
         "objective": {
-          "type": "integer"
+          "type": "boolean"
         }
       }
     }

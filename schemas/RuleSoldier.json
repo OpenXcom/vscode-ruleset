@@ -43,11 +43,29 @@
     "femaleFrequency": {
       "type": "integer"
     },
+    "soldierNames": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
     "deathMale": {
-      "type": "integer"
+      "items": {
+        "type": "integer"
+      },
+      "type": [
+        "integer",
+        "array"
+      ]
     },
     "deathFemale": {
-      "type": "integer"
+      "items": {
+        "type": "integer"
+      },
+      "type": [
+        "integer",
+        "array"
+      ]
     }
   }
 }

@@ -209,10 +209,7 @@
           "type": "string"
         },
         "music": {
-          "items": {
-            "type": "string"
-          },
-          "type": "array"
+          "type": "string"
         },
         "cutscene": {
           "type": "string"
