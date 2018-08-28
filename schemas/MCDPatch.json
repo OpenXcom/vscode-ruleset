@@ -4,62 +4,79 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "MCDIndex": {
-      "type": "integer"
+    "type": {
+      "type": "string"
     },
-    "bigWall": {
-      "type": "integer"
-    },
-    "TUWalk": {
-      "type": "integer"
-    },
-    "TUFly": {
-      "type": "integer"
-    },
-    "TUSlide": {
-      "type": "integer"
-    },
-    "deathTile": {
-      "type": "integer"
-    },
-    "terrainHeight": {
-      "type": "integer"
-    },
-    "specialType": {
-      "type": "integer"
-    },
-    "explosive": {
-      "type": "integer"
-    },
-    "armor": {
-      "type": "integer"
-    },
-    "flammability": {
-      "type": "integer"
-    },
-    "fuel": {
-      "type": "integer"
-    },
-    "footstepSound": {
-      "type": "integer"
-    },
-    "HEBlock": {
-      "type": "integer"
-    },
-    "noFloor": {
-      "type": "boolean"
-    },
-    "LOFTS": {
+    "data": {
       "items": {
-        "type": "integer"
+        "$ref": "#/definitions/MCD"
       },
       "type": "array"
-    },
-    "stopLOS": {
-      "type": "boolean"
-    },
-    "objectType": {
-      "type": "integer"
+    }
+  },
+  "definitions": {
+    "MCD": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "MCDIndex": {
+          "type": "integer"
+        },
+        "bigWall": {
+          "type": "integer"
+        },
+        "TUWalk": {
+          "type": "integer"
+        },
+        "TUFly": {
+          "type": "integer"
+        },
+        "TUSlide": {
+          "type": "integer"
+        },
+        "deathTile": {
+          "type": "integer"
+        },
+        "terrainHeight": {
+          "type": "integer"
+        },
+        "specialType": {
+          "type": "integer"
+        },
+        "explosive": {
+          "type": "integer"
+        },
+        "armor": {
+          "type": "integer"
+        },
+        "flammability": {
+          "type": "integer"
+        },
+        "fuel": {
+          "type": "integer"
+        },
+        "footstepSound": {
+          "type": "integer"
+        },
+        "HEBlock": {
+          "type": "integer"
+        },
+        "noFloor": {
+          "type": "boolean"
+        },
+        "LOFTS": {
+          "items": {
+            "type": "integer"
+          },
+          "type": "array"
+        },
+        "stopLOS": {
+          "type": "boolean"
+        },
+        "objectType": {
+          "type": "integer"
+        }
+      }
     }
   }
 }

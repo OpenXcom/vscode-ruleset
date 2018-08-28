@@ -7,42 +7,80 @@
     "type": {
       "type": "string"
     },
-    "imagePath": {
-      "type": "string"
-    },
-    "caption": {
-      "type": "string"
-    },
-    "captionSize": {
-      "items": {
-        "type": "integer"
-      },
-      "minItems": 2,
-      "maxItems": 2,
-      "type": "array"
-    },
-    "captionPos": {
-      "items": {
-        "type": "integer"
-      },
-      "minItems": 2,
-      "maxItems": 2,
-      "type": "array"
-    },
-    "captionColor": {
-      "type": "integer"
-    },
-    "transitionSeconds": {
-      "type": "integer"
-    },
-    "captionAlign": {
-      "type": "integer"
-    },
     "useUfoAudioSequence": {
       "type": "boolean"
     },
-    "musicId": {
-      "type": "string"
+    "videos": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "audioTracks": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "slideshow": {
+      "$ref": "#/definitions/Slideshow"
+    }
+  },
+  "definitions": {
+    "Slideshow": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "musicId": {
+          "type": "string"
+        },
+        "transitionSeconds": {
+          "type": "integer"
+        },
+        "slides": {
+          "items": {
+            "$ref": "#/definitions/SlideshowSlide"
+          },
+          "type": "array"
+        }
+      }
+    },
+    "SlideshowSlide": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "imagePath": {
+          "type": "string"
+        },
+        "caption": {
+          "type": "string"
+        },
+        "captionSize": {
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "type": "array"
+        },
+        "captionPos": {
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "type": "array"
+        },
+        "captionColor": {
+          "type": "integer"
+        },
+        "transitionSeconds": {
+          "type": "integer"
+        },
+        "captionAlign": {
+          "type": "integer"
+        }
+      }
     }
   }
 }

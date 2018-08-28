@@ -7,11 +7,36 @@
     "data": {
       "type": "string"
     },
-    "id": {
-      "type": "integer"
+    "polygons": {
+      "items": {
+        "items": {
+          "type": "number"
+        },
+        "type": "array"
+      },
+      "type": "array"
     },
-    "delete": {
-      "type": "integer"
+    "polylines": {
+      "items": {
+        "items": {
+          "type": "number"
+        },
+        "type": "array"
+      },
+      "type": "array"
+    },
+    "textures": {
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "#/definitions/delete"
+          },
+          {
+            "$ref": "Texture.json"
+          }
+        ]
+      },
+      "type": "array"
     },
     "countryColor": {
       "type": "integer"
@@ -27,6 +52,17 @@
     },
     "oceanPalette": {
       "type": "integer"
+    }
+  },
+  "definitions": {
+    "delete": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "delete": {
+          "type": "string"
+        }
+      }
     }
   }
 }

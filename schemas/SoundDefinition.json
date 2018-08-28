@@ -4,6 +4,26 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
+    "type": {
+      "type": "string"
+    },
+    "soundRanges": {
+      "items": {
+        "items": {
+          "type": "integer"
+        },
+        "minItems": 2,
+        "maxItems": 2,
+        "type": "array"
+      },
+      "type": "array"
+    },
+    "sounds": {
+      "items": {
+        "type": "integer"
+      },
+      "type": "array"
+    },
     "file": {
       "type": "string"
     }

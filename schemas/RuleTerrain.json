@@ -7,6 +7,38 @@
     "name": {
       "type": "string"
     },
+    "mapDataSets": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "mapBlocks": {
+      "items": {
+        "$ref": "MapBlock.json"
+      },
+      "type": "array"
+    },
+    "civilianTypes": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "music": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "depth": {
+      "items": {
+        "type": "integer"
+      },
+      "minItems": 2,
+      "maxItems": 2,
+      "type": "array"
+    },
     "ambience": {
       "type": "integer"
     },

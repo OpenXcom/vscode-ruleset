@@ -16,36 +16,50 @@
     "music": {
       "type": "string"
     },
-    "size": {
+    "elements": {
       "items": {
-        "type": "integer"
+        "$ref": "#/definitions/Element"
       },
-      "minItems": 2,
-      "maxItems": 2,
       "type": "array"
-    },
-    "pos": {
-      "items": {
-        "type": "integer"
-      },
-      "minItems": 2,
-      "maxItems": 2,
-      "type": "array"
-    },
-    "color": {
-      "type": "integer"
-    },
-    "color2": {
-      "type": "integer"
-    },
-    "border": {
-      "type": "integer"
-    },
-    "TFTDMode": {
-      "type": "boolean"
-    },
-    "id": {
-      "type": "string"
+    }
+  },
+  "definitions": {
+    "Element": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "size": {
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "type": "array"
+        },
+        "pos": {
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "type": "array"
+        },
+        "color": {
+          "type": "integer"
+        },
+        "color2": {
+          "type": "integer"
+        },
+        "border": {
+          "type": "integer"
+        },
+        "TFTDMode": {
+          "type": "boolean"
+        }
+      }
     }
   }
 }
