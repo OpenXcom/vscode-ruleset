@@ -7,7 +7,7 @@
     "countries": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -20,7 +20,7 @@
     "regions": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -33,7 +33,7 @@
     "facilities": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -46,7 +46,7 @@
     "crafts": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -59,7 +59,7 @@
     "craftWeapons": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -72,7 +72,7 @@
     "items": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -85,7 +85,7 @@
     "ufos": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -98,7 +98,7 @@
     "invs": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -111,7 +111,7 @@
     "terrains": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -124,7 +124,7 @@
     "armors": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -137,7 +137,7 @@
     "soldiers": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -150,7 +150,7 @@
     "units": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -163,7 +163,7 @@
     "alienRaces": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -176,7 +176,7 @@
     "alienDeployments": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -189,7 +189,7 @@
     "research": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -202,7 +202,7 @@
     "manufacture": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -215,7 +215,7 @@
     "ufopaedia": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -228,7 +228,7 @@
     "ufoTrajectories": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -241,7 +241,7 @@
     "alienMissions": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -254,7 +254,7 @@
     "MCDPatches": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -267,7 +267,7 @@
     "extraSprites": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -280,7 +280,7 @@
     "extraSounds": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -296,7 +296,7 @@
     "statStrings": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -309,7 +309,7 @@
     "interfaces": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -322,7 +322,7 @@
     "soundDefs": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -342,7 +342,7 @@
       }
     },
     "transparencyLUTs": {
-      "type": "object"
+      "type": "array"
     },
     "converter": {
       "type": "object"
@@ -350,7 +350,7 @@
     "mapScripts": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -363,7 +363,7 @@
     "missionScripts": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -376,7 +376,7 @@
     "cutscenes": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -389,7 +389,7 @@
     "musics": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
@@ -402,7 +402,7 @@
     "commendations": {
       "type": "array",
       "items": {
-        "anyOf": [
+        "oneOf": [
           {
             "$ref": "#/definitions/delete"
           },
