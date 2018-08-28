@@ -4,29 +4,137 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "level": {
-      "type": "integer"
-    },
     "type": {
       "type": "string"
     },
-    "entry": {
-      "type": "integer"
+    "commands": {
+      "items": {
+        "$ref": "#/definitions/MapScript"
+      },
+      "type": "array"
+    }
+  },
+  "definitions": {
+    "MapScript": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "rects": {
+          "items": {
+            "items": {
+              "type": "integer"
+            },
+            "minItems": 4,
+            "maxItems": 4,
+            "type": "array"
+          },
+          "type": "array"
+        },
+        "tunnelData": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "level": {
+              "type": "integer"
+            },
+            "MCDReplacements": {
+              "items": {
+                "$ref": "#/definitions/MCDReplacement"
+              },
+              "type": "array"
+            }
+          }
+        },
+        "conditionals": {
+          "items": {
+            "type": "integer"
+          },
+          "type": [
+            "integer",
+            "array"
+          ]
+        },
+        "size": {
+          "items": {
+            "type": "integer"
+          },
+          "type": [
+            "integer",
+            "array"
+          ],
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "groups": {
+          "items": {
+            "type": "integer"
+          },
+          "type": [
+            "integer",
+            "array"
+          ]
+        },
+        "blocks": {
+          "items": {
+            "type": "integer"
+          },
+          "type": [
+            "integer",
+            "array"
+          ]
+        },
+        "freqs": {
+          "items": {
+            "type": "integer"
+          },
+          "type": [
+            "integer",
+            "array"
+          ]
+        },
+        "maxUses": {
+          "items": {
+            "type": "integer"
+          },
+          "type": [
+            "integer",
+            "array"
+          ]
+        },
+        "direction": {
+          "type": "string"
+        },
+        "executionChances": {
+          "type": "integer"
+        },
+        "executions": {
+          "type": "integer"
+        },
+        "UFOName": {
+          "type": "string"
+        },
+        "label": {
+          "type": "integer"
+        }
+      }
     },
-    "set": {
-      "type": "integer"
-    },
-    "executionChances": {
-      "type": "integer"
-    },
-    "executions": {
-      "type": "integer"
-    },
-    "UFOName": {
-      "type": "string"
-    },
-    "label": {
-      "type": "integer"
+    "MCDReplacement": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "entry": {
+          "type": "integer"
+        },
+        "set": {
+          "type": "integer"
+        }
+      }
     }
   }
 }
