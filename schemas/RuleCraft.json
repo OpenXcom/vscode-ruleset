@@ -73,8 +73,8 @@
     "score": {
       "type": "integer"
     },
-    "name": {
-      "type": "string"
+    "battlescapeTerrainData": {
+      "$ref": "RuleTerrain.json"
     },
     "deployment": {
       "items": {

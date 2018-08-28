@@ -46,8 +46,8 @@
     "missionScore": {
       "type": "integer"
     },
-    "name": {
-      "type": "string"
+    "battlescapeTerrainData": {
+      "$ref": "RuleTerrain.json"
     },
     "modSprite": {
       "type": "string"
