@@ -4,12 +4,12 @@
     "description": "Validates YAML ruleset files for OpenXcom mods",
     "version": "0.0.1",
     "publisher": "openxcom",
-    "bugs": "https://github.com/SupSuper/vscode-openxcom/issues",
+    "bugs": "https://github.com/OpenXcom/vscode-ruleset/issues",
     "repository": {
         "type": "git",
-        "url": "https://github.com/SupSuper/vscode-openxcom"
+        "url": "https://github.com/OpenXcom/vscode-ruleset"
     },
-    "icon": "icon.png",
+    "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.26.0"
     },
@@ -25,7 +25,6 @@
     ],
     "keywords": [
         "openxcom",
-        "mod",
         "ruleset",
         "yaml",
         "autocompletion",
