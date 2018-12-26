@@ -43,7 +43,7 @@
         "yamlValidation": [
             {
                 "fileMatch": "*.rul",
-                "url": "./schemas/ruleset.json"
+                "url": "./schemas/oxc/ruleset.json"
             },
             {
                 "fileMatch": "metadata.yml",
