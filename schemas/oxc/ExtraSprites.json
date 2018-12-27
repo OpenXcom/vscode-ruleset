@@ -1,5 +1,5 @@
 {
-  "$id": "https://openxcom.org/ExtraSprites.json",
+  "$id": "https://openxcom.org/schemas/oxc/ExtraSprites.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "additionalProperties": false,
