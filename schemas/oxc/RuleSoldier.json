@@ -43,6 +43,12 @@
     "femaleFrequency": {
       "type": "integer"
     },
+    "value": {
+      "type": "integer"
+    },
+    "transferTime": {
+      "type": "integer"
+    },
     "soldierNames": {
       "items": {
         "type": "string"

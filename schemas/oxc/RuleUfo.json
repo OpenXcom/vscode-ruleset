@@ -16,6 +16,12 @@
     "marker": {
       "type": "integer"
     },
+    "markerLand": {
+      "type": "integer"
+    },
+    "markerCrash": {
+      "type": "integer"
+    },
     "damageMax": {
       "type": "integer"
     },
