@@ -22,6 +22,9 @@
     "isMaster": {
       "type": "boolean"
     },
+    "master": {
+      "type": "string"
+    },
     "reservedSpace": {
       "type": "integer"
     },
