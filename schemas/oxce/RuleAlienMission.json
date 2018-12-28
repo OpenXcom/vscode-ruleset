@@ -1,0 +1,68 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/RuleAlienMission.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "allOf": [
+    {
+      "$ref": "../oxc/RuleAlienMission.json"
+    },
+    {
+      "properties": {
+        "waves": {
+          "items": {
+            "$ref": "#/definitions/MissionWave"
+          },
+          "type": "array"
+        },
+        "endlessInfiltration": {
+          "type": "boolean"
+        },
+        "despawnEvenIfTargeted": {
+          "type": "boolean"
+        },
+        "operationType": {
+          "type": "integer"
+        },
+        "operationSpawnZone": {
+          "type": "integer"
+        },
+        "operationBaseType": {
+          "type": "string"
+        },
+        "targetBaseOdds": {
+          "type": "integer"
+        },
+        "regionWeights": {
+          "$ref": "../oxc/WeightedOptions.json#/definitions/Map"
+        }
+      }
+    }
+  ],
+  "definitions": {
+    "MissionWave": {
+      "allOf": [
+        {
+          "$ref": "../oxc/RuleAlienMission.json#/definitions/MissionWave"
+        },
+        {
+          "properties": {
+            "hunterKillerPercentage": {
+              "type": "integer"
+            },
+            "huntMode": {
+              "type": "integer"
+            },
+            "huntBehavior": {
+              "type": "integer"
+            },
+            "escort": {
+              "type": "boolean"
+            },
+            "interruptPercentage": {
+              "type": "integer"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

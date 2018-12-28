@@ -1,0 +1,34 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/AlienRace.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "allOf": [
+    {
+      "$ref": "../oxc/AlienRace.json"
+    },
+    {
+      "properties": {
+        "baseCustomDeploy": {
+          "type": "string"
+        },
+        "baseCustomMission": {
+          "type": "string"
+        },
+        "retaliationMission": {
+          "type": "string"
+        },
+        "membersRandom": {
+          "items": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "type": "array"
+        },
+        "retaliationAggression": {
+          "type": "integer"
+        }
+      }
+    }
+  ]
+}

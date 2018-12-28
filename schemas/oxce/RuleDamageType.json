@@ -1,0 +1,113 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/RuleDamageType.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "FixRadius": {
+      "type": "integer"
+    },
+    "RandomType": {
+      "type": "integer"
+    },
+    "ResistType": {
+      "type": "integer"
+    },
+    "FireBlastCalc": {
+      "type": "boolean"
+    },
+    "IgnoreDirection": {
+      "type": "boolean"
+    },
+    "IgnoreSelfDestruct": {
+      "type": "boolean"
+    },
+    "IgnorePainImmunity": {
+      "type": "boolean"
+    },
+    "IgnoreNormalMoraleLose": {
+      "type": "boolean"
+    },
+    "IgnoreOverKill": {
+      "type": "boolean"
+    },
+    "ArmorEffectiveness": {
+      "type": "number"
+    },
+    "RadiusEffectiveness": {
+      "type": "number"
+    },
+    "RadiusReduction": {
+      "type": "number"
+    },
+    "FireThreshold": {
+      "type": "number"
+    },
+    "SmokeThreshold": {
+      "type": "number"
+    },
+    "ToHealth": {
+      "type": "number"
+    },
+    "ToArmor": {
+      "type": "number"
+    },
+    "ToArmorPre": {
+      "type": "number"
+    },
+    "ToWound": {
+      "type": "number"
+    },
+    "ToItem": {
+      "type": "number"
+    },
+    "ToTile": {
+      "type": "number"
+    },
+    "ToStun": {
+      "type": "number"
+    },
+    "ToEnergy": {
+      "type": "number"
+    },
+    "ToTime": {
+      "type": "number"
+    },
+    "ToMorale": {
+      "type": "number"
+    },
+    "RandomHealth": {
+      "type": "boolean"
+    },
+    "RandomArmor": {
+      "type": "boolean"
+    },
+    "RandomArmorPre": {
+      "type": "boolean"
+    },
+    "RandomWound": {
+      "type": "boolean"
+    },
+    "RandomItem": {
+      "type": "boolean"
+    },
+    "RandomTile": {
+      "type": "boolean"
+    },
+    "RandomStun": {
+      "type": "boolean"
+    },
+    "RandomEnergy": {
+      "type": "boolean"
+    },
+    "RandomTime": {
+      "type": "boolean"
+    },
+    "RandomMorale": {
+      "type": "boolean"
+    },
+    "TileDamageMethod": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/RuleSoldierTransformation.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "listOrder": {
+      "type": "integer"
+    },
+    "requires": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "requiresBaseFunc": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "producedSoldierType": {
+      "type": "string"
+    },
+    "producedSoldierArmor": {
+      "type": "string"
+    },
+    "keepSoldierArmor": {
+      "type": "boolean"
+    },
+    "createsClone": {
+      "type": "boolean"
+    },
+    "needsCorpseRecovered": {
+      "type": "boolean"
+    },
+    "allowsDeadSoldiers": {
+      "type": "boolean"
+    },
+    "allowsLiveSoldiers": {
+      "type": "boolean"
+    },
+    "allowsWoundedSoldiers": {
+      "type": "boolean"
+    },
+    "allowedSoldierTypes": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "requiredPreviousTransformations": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "forbiddenPreviousTransformations": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "requiredMinStats": {
+      "$ref": "../oxc/UnitStats.json"
+    },
+    "requiredItems": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "type": "object"
+    },
+    "cost": {
+      "type": "integer"
+    },
+    "transferTime": {
+      "type": "integer"
+    },
+    "recoveryTime": {
+      "type": "integer"
+    },
+    "flatOverallStatChange": {
+      "$ref": "../oxc/UnitStats.json"
+    },
+    "percentOverallStatChange": {
+      "$ref": "../oxc/UnitStats.json"
+    },
+    "percentGainedStatChange": {
+      "$ref": "../oxc/UnitStats.json"
+    },
+    "useRandomStats": {
+      "type": "boolean"
+    },
+    "lowerBoundAtMinStats": {
+      "type": "boolean"
+    },
+    "upperBoundAtMaxStats": {
+      "type": "boolean"
+    },
+    "upperBoundAtStatCaps": {
+      "type": "boolean"
+    }
+  }
+}

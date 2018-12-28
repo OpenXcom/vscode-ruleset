@@ -1,0 +1,16 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/RuleMissionScript.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "allOf": [
+    {
+      "$ref": "../oxc/RuleMissionScript.json"
+    },
+    {
+      "properties": {
+        "randomDelay": {
+          "type": "integer"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/RuleUfoStats.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "allOf": [
+    {
+      "$ref": "RuleCraftStats.json"
+    },
+    {
+      "properties": {
+        "craftCustomDeploy": {
+          "type": "string"
+        },
+        "missionCustomDeploy": {
+          "type": "string"
+        }
+      }
+    }
+  ]
+}

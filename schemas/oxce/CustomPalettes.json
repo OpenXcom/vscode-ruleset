@@ -1,0 +1,26 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/CustomPalettes.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "file": {
+      "type": "string"
+    },
+    "palette": {
+      "patternProperties": {
+        "^\\d+$": {
+          "$ref": "../oxc/Position.json"
+        }
+      },
+      "additionalProperties": false,
+      "type": "object"
+    }
+  }
+}

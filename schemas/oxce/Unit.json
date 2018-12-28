@@ -1,0 +1,40 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/Unit.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "allOf": [
+    {
+      "$ref": "../oxc/Unit.json"
+    },
+    {
+      "properties": {
+        "civilianRecoveryType": {
+          "type": "string"
+        },
+        "showFullNameInAlienInventory": {
+          "type": "integer"
+        },
+        "moraleLossWhenKilled": {
+          "type": "integer"
+        },
+        "spotter": {
+          "type": "integer"
+        },
+        "sniper": {
+          "type": "integer"
+        },
+        "canSurrender": {
+          "type": "boolean"
+        },
+        "autoSurrender": {
+          "type": "boolean"
+        },
+        "isLeeroyJenkins": {
+          "type": "boolean"
+        },
+        "waitIfOutsideWeaponRange": {
+          "type": "boolean"
+        }
+      }
+    }
+  ]
+}

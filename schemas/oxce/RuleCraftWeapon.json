@@ -1,0 +1,25 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/RuleCraftWeapon.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "allOf": [
+    {
+      "$ref": "../oxc/RuleCraftWeapon.json"
+    },
+    {
+      "properties": {
+        "stats": {
+          "$ref": "RuleCraftStats.json"
+        },
+        "shieldDamageModifier": {
+          "type": "integer"
+        },
+        "weaponType": {
+          "type": "integer"
+        },
+        "tractorBeamPower": {
+          "type": "integer"
+        }
+      }
+    }
+  ]
+}

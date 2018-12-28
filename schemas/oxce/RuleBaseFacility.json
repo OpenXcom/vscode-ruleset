@@ -1,0 +1,103 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/RuleBaseFacility.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "allOf": [
+    {
+      "$ref": "../oxc/RuleBaseFacility.json"
+    },
+    {
+      "properties": {
+        "requiresBaseFunc": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "provideBaseFunc": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "forbiddenBaseFunc": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "missileAttraction": {
+          "type": "integer"
+        },
+        "refundValue": {
+          "type": "integer"
+        },
+        "trainingRooms": {
+          "type": "integer"
+        },
+        "maxAllowedPerBase": {
+          "type": "integer"
+        },
+        "sickBayAbsoluteBonus": {
+          "type": "number"
+        },
+        "sickBayRelativeBonus": {
+          "type": "number"
+        },
+        "prisonType": {
+          "type": "integer"
+        },
+        "rightClickActionType": {
+          "type": "integer"
+        },
+        "buildCostItems": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "build": {
+                "type": "integer"
+              },
+              "refund": {
+                "type": "integer"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "verticalLevels": {
+          "items": {
+            "$ref": "MapScript.json#/definitions/VerticalLevels"
+          },
+          "type": "array"
+        },
+        "leavesBehindOnSell": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "removalTime": {
+          "type": "integer"
+        },
+        "canBeBuiltOver": {
+          "type": "boolean"
+        },
+        "buildOverFacilities": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "storageTiles": {
+          "items": {
+            "$ref": "../oxc/Position.json"
+          },
+          "type": "array"
+        },
+        "destroyedFacility": {
+          "type": "string"
+        }
+      }
+    }
+  ]
+}

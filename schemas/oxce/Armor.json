@@ -1,0 +1,175 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/Armor.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "allOf": [
+    {
+      "$ref": "../oxc/Armor.json"
+    },
+    {
+      "properties": {
+        "builtInWeapons": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "layersDefaultPrefix": {
+          "type": "string"
+        },
+        "layersSpecificPrefix": {
+          "patternProperties": {
+            "^\\d+$": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "type": "object"
+        },
+        "layersDefinition": {
+          "additionalProperties": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "type": "object"
+        },
+        "leftArmorDiff": {
+          "type": "integer"
+        },
+        "moveSound": {
+          "type": "integer"
+        },
+        "visibilityAtDark": {
+          "type": "integer"
+        },
+        "visibilityAtDay": {
+          "type": "integer"
+        },
+        "personalLight": {
+          "type": "integer"
+        },
+        "camouflageAtDay": {
+          "type": "integer"
+        },
+        "camouflageAtDark": {
+          "type": "integer"
+        },
+        "antiCamouflageAtDay": {
+          "type": "integer"
+        },
+        "antiCamouflageAtDark": {
+          "type": "integer"
+        },
+        "heatVision": {
+          "type": "integer"
+        },
+        "psiVision": {
+          "type": "integer"
+        },
+        "fearImmune": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "bleedImmune": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "painImmune": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "zombiImmune": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "ignoresMeleeThreat": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "createsMeleeThreat": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "overKill": {
+          "type": "number"
+        },
+        "meleeDodgeBackPenalty": {
+          "type": "number"
+        },
+        "psiDefence": {
+          "$ref": "RuleStatBonus.json"
+        },
+        "meleeDodge": {
+          "$ref": "RuleStatBonus.json"
+        },
+        "recovery": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "time": {
+              "$ref": "RuleStatBonus.json"
+            },
+            "energy": {
+              "$ref": "RuleStatBonus.json"
+            },
+            "morale": {
+              "$ref": "RuleStatBonus.json"
+            },
+            "health": {
+              "$ref": "RuleStatBonus.json"
+            },
+            "stun": {
+              "$ref": "RuleStatBonus.json"
+            }
+          }
+        },
+        "allowsRunning": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "allowsStrafing": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "allowsKneeling": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "allowsMoving": {
+          "type": "boolean"
+        },
+        "instantWoundRecovery": {
+          "type": "boolean"
+        },
+        "standHeight": {
+          "type": "integer"
+        },
+        "kneelHeight": {
+          "type": "integer"
+        },
+        "floatHeight": {
+          "type": "integer"
+        }
+      }
+    }
+  ]
+}

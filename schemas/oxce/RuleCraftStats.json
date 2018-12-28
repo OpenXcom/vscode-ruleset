@@ -1,0 +1,53 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/RuleCraftStats.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "fuelMax": {
+      "type": "integer"
+    },
+    "damageMax": {
+      "type": "integer"
+    },
+    "speedMax": {
+      "type": "integer"
+    },
+    "accel": {
+      "type": "integer"
+    },
+    "radarRange": {
+      "type": "integer"
+    },
+    "radarChance": {
+      "type": "integer"
+    },
+    "sightRange": {
+      "type": "integer"
+    },
+    "hitBonus": {
+      "type": "integer"
+    },
+    "avoidBonus": {
+      "type": "integer"
+    },
+    "powerBonus": {
+      "type": "integer"
+    },
+    "armor": {
+      "type": "integer"
+    },
+    "shieldCapacity": {
+      "type": "integer"
+    },
+    "shieldRecharge": {
+      "type": "integer"
+    },
+    "shieldRechargeInGeoscape": {
+      "type": "integer"
+    },
+    "shieldBleedThrough": {
+      "type": "integer"
+    }
+  }
+}

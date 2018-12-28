@@ -1,0 +1,64 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/AlienDeployment.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "allOf": [
+    {
+      "$ref": "../oxc/AlienDeployment.json"
+    },
+    {
+      "properties": {
+        "startingCondition": {
+          "type": "string"
+        },
+        "unlockedResearch": {
+          "type": "string"
+        },
+        "missionBountyItem": {
+          "type": "string"
+        },
+        "bughuntMinTurn": {
+          "type": "integer"
+        },
+        "civiliansByType": {
+          "additionalProperties": {
+            "type": "integer"
+          },
+          "type": "object"
+        },
+        "minShade": {
+          "type": "integer"
+        },
+        "maxShade": {
+          "type": "integer"
+        },
+        "alertDescription": {
+          "type": "string"
+        },
+        "alertSound": {
+          "type": "integer"
+        },
+        "keepCraftAfterFailedMission": {
+          "type": "boolean"
+        },
+        "genMissionLimit": {
+          "type": "integer"
+        },
+        "baseDetectionRange": {
+          "type": "integer"
+        },
+        "baseDetectionChance": {
+          "type": "integer"
+        },
+        "huntMissionMaxFrequency": {
+          "type": "integer"
+        },
+        "huntMissionWeights": {
+          "$ref": "../oxc/WeightedOptions.json#/definitions/Map"
+        },
+        "alienBaseUpgrades": {
+          "$ref": "../oxc/WeightedOptions.json#/definitions/Map"
+        }
+      }
+    }
+  ]
+}

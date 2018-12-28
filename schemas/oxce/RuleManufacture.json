@@ -1,0 +1,25 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/RuleManufacture.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "allOf": [
+    {
+      "$ref": "../oxc/RuleManufacture.json"
+    },
+    {
+      "properties": {
+        "requiresBaseFunc": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "spawnedPersonType": {
+          "type": "string"
+        },
+        "spawnedPersonName": {
+          "type": "string"
+        }
+      }
+    }
+  ]
+}

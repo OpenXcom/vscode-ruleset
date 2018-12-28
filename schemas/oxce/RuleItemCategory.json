@@ -1,0 +1,20 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/RuleItemCategory.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "replaceBy": {
+      "type": "string"
+    },
+    "hidden": {
+      "type": "boolean"
+    },
+    "listOrder": {
+      "type": "integer"
+    }
+  }
+}

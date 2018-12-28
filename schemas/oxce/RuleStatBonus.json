@@ -1,0 +1,98 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/RuleStatBonus.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "flatOne": {
+      "type": "number"
+    },
+    "flatHundred": {
+      "type": "number"
+    },
+    "tu": {
+      "type": "number"
+    },
+    "stamina": {
+      "type": "number"
+    },
+    "health": {
+      "type": "number"
+    },
+    "bravery": {
+      "type": "number"
+    },
+    "reactions": {
+      "type": "number"
+    },
+    "firing": {
+      "type": "number"
+    },
+    "throwing": {
+      "type": "number"
+    },
+    "strength": {
+      "type": "number"
+    },
+    "psiStrength": {
+      "type": "number"
+    },
+    "psiSkill": {
+      "type": "number"
+    },
+    "melee": {
+      "type": "number"
+    },
+    "psi": {
+      "type": "number"
+    },
+    "strengthMelee": {
+      "type": "number"
+    },
+    "strengthThrowing": {
+      "type": "number"
+    },
+    "firingReactions": {
+      "type": "number"
+    },
+    "rank": {
+      "type": "number"
+    },
+    "fatalWounds": {
+      "type": "number"
+    },
+    "healthCurrent": {
+      "type": "number"
+    },
+    "tuCurrent": {
+      "type": "number"
+    },
+    "energyCurrent": {
+      "type": "number"
+    },
+    "moraleCurrent": {
+      "type": "number"
+    },
+    "stunCurrent": {
+      "type": "number"
+    },
+    "healthNormalized": {
+      "type": "number"
+    },
+    "tuNormalized": {
+      "type": "number"
+    },
+    "energyNormalized": {
+      "type": "number"
+    },
+    "moraleNormalized": {
+      "type": "number"
+    },
+    "stunNormalized": {
+      "type": "number"
+    },
+    "energyRegen": {
+      "type": "number"
+    }
+  }
+}

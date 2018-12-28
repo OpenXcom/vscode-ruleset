@@ -1,0 +1,19 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/Texture.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "allOf": [
+    {
+      "$ref": "../oxc/Texture.json"
+    },
+    {
+      "properties": {
+        "baseTerrain": {
+          "items": {
+            "$ref": "../oxc/Texture.json#/definitions/TerrainCriteria"
+          },
+          "type": "array"
+        }
+      }
+    }
+  ]
+}

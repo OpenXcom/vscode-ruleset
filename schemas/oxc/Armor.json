@@ -62,8 +62,7 @@
       "type": "array",
       "items": {
         "type": "number"
-      },
-      "maxItems": 10
+      }
     },
     "loftempsSet": {
       "items": {

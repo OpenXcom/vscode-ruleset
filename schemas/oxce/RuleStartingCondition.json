@@ -1,0 +1,118 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/RuleStartingCondition.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "paletteTransformations": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "type": "object"
+    },
+    "environmentalConditions": {
+      "additionalProperties": {
+        "$ref": "#/definitions/EnvironmentalCondition"
+      },
+      "type": "object"
+    },
+    "armorTransformations": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "type": "object"
+    },
+    "defaultArmor": {
+      "additionalProperties": {
+        "additionalProperties": {
+          "type": "integer"
+        },
+        "type": "object"
+      },
+      "type": "object"
+    },
+    "allowedArmors": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "allowedVehicles": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "allowedItems": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "allowedItemCategories": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "allowedCraft": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "requiredItems": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "type": "object"
+    },
+    "destroyRequiredItems": {
+      "type": "boolean"
+    },
+    "mapBackgroundColor": {
+      "type": "integer"
+    },
+    "inventoryShockIndicator": {
+      "type": "string"
+    },
+    "mapShockIndicator": {
+      "type": "string"
+    }
+  },
+  "definitions": {
+    "EnvironmentalCondition": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "chancePerTurn": {
+          "type": "integer"
+        },
+        "firstTurn": {
+          "type": "integer"
+        },
+        "lastTurn": {
+          "type": "integer"
+        },
+        "message": {
+          "type": "string"
+        },
+        "color": {
+          "type": "integer"
+        },
+        "weaponOrAmmo": {
+          "type": "string"
+        },
+        "side": {
+          "type": "integer"
+        },
+        "bodyPart": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

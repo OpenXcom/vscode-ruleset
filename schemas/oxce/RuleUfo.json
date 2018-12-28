@@ -1,0 +1,43 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/RuleUfo.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "allOf": [
+    {
+      "$ref": "../oxc/RuleUfo.json"
+    },
+    {
+      "$ref": "RuleUfoStats.json"
+    },
+    {
+      "properties": {
+        "hunterKillerPercentage": {
+          "type": "integer"
+        },
+        "huntMode": {
+          "type": "integer"
+        },
+        "huntSpeed": {
+          "type": "integer"
+        },
+        "huntBehavior": {
+          "type": "integer"
+        },
+        "missilePower": {
+          "type": "integer"
+        },        
+        "raceBonus": {
+          "additionalProperties": {
+            "$ref": "RuleUfoStats.json"
+          },
+          "type": "object"
+        },
+        "fireSound": {
+          "type": "integer"
+        },
+        "alertSound": {
+          "type": "integer"
+        }
+      }
+    }
+  ]
+}

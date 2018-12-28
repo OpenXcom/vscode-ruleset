@@ -1,0 +1,85 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/RuleSoldier.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "allOf": [
+    {
+      "$ref": "../oxc/RuleSoldier.json"
+    },
+    {
+      "properties": {
+        "requiresBuyBaseFunc": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "trainingStatCaps": {
+          "$ref": "../oxc/UnitStats.json"
+        },
+        "dogfightExperience": {
+          "$ref": "../oxc/UnitStats.json"
+        },
+        "armorForAvatar": {
+          "type": "string"
+        },
+        "avatarOffsetX": {
+          "type": "integer"
+        },
+        "avatarOffsetY": {
+          "type": "integer"
+        },
+        "flagOffset": {
+          "type": "integer"
+        },
+        "allowPromotion": {
+          "type": "boolean"
+        },
+        "allowPiloting": {
+          "type": "boolean"
+        },
+        "costSalarySquaddie": {
+          "type": "integer"
+        },
+        "costSalarySergeant": {
+          "type": "integer"
+        },
+        "costSalaryCaptain": {
+          "type": "integer"
+        },
+        "costSalaryColonel": {
+          "type": "integer"
+        },
+        "costSalaryCommander": {
+          "type": "integer"
+        },
+        "moraleLossWhenKilled": {
+          "type": "integer"
+        },
+        "statStrings": {
+          "items": {
+            "$ref": "../oxc/StatString.json"
+          },
+          "type": "array"
+        },
+        "rankStrings": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "rankSprite": {
+          "type": "integer"
+        },
+        "rankBattleSprite": {
+          "type": "integer"
+        },
+        "rankTinySprite": {
+          "type": "integer"
+        },
+        "listOrder": {
+          "type": "integer"
+        }
+      }
+    }
+  ]
+}

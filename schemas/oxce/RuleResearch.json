@@ -1,0 +1,40 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/RuleResearch.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "allOf": [
+    {
+      "$ref": "../oxc/RuleResearch.json"
+    },
+    {
+      "properties": {
+        "spawnedItem": {
+          "type": "string"
+        },
+        "disables": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "requiresBaseFunc": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "sequentialGetOneFree": {
+          "type": "boolean"
+        },
+        "getOneFreeProtected": {
+          "additionalProperties": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "type": "object"
+        }
+      }
+    }
+  ]
+}
