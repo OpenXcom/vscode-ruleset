@@ -4,5 +4,16 @@
   "type": "object",
   "additionalProperties": {
     "type": "integer"
+  },
+  "definitions": {
+    "Map": {
+      "patternProperties": {
+        "^\\d+$": {
+          "$ref": "#"
+        }
+      },
+      "additionalProperties": false,
+      "type": "object"
+    }
   }
 }

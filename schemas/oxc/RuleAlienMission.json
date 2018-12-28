@@ -41,13 +41,7 @@
       "type": "string"
     },
     "raceWeights": {
-      "patternProperties": {
-        "^\\d+$": {
-          "$ref": "WeightedOptions.json"
-        }
-      },
-      "additionalProperties": false,
-      "type": "object"
+      "$ref": "WeightedOptions.json#/definitions/Map"
     }
   },
   "definitions": {

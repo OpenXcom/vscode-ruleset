@@ -44,31 +44,13 @@
       "type": "array"
     },
     "missionWeights": {
-      "patternProperties": {
-        "^\\d+$": {
-          "$ref": "WeightedOptions.json"
-        }
-      },
-      "additionalProperties": false,
-      "type": "object"
+      "$ref": "WeightedOptions.json#/definitions/Map"
     },
     "raceWeights": {
-      "patternProperties": {
-        "^\\d+$": {
-          "$ref": "WeightedOptions.json"
-        }
-      },
-      "additionalProperties": false,
-      "type": "object"
+      "$ref": "WeightedOptions.json#/definitions/Map"
     },
     "regionWeights": {
-      "patternProperties": {
-        "^\\d+$": {
-          "$ref": "WeightedOptions.json"
-        }
-      },
-      "additionalProperties": false,
-      "type": "object"
+      "$ref": "WeightedOptions.json#/definitions/Map"
     },
     "researchTriggers": {
       "additionalProperties": {

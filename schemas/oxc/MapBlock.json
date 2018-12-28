@@ -17,13 +17,19 @@
       "type": "integer"
     },
     "groups": {
-      "type": ["array", "integer"],
+      "type": [
+        "array",
+        "integer"
+      ],
       "items": {
         "type": "integer"
       }
     },
     "revealedFloors": {
-      "type": ["array", "integer"],
+      "type": [
+        "array",
+        "integer"
+      ],
       "items": {
         "type": "integer"
       }
