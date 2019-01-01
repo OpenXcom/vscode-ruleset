@@ -3,6 +3,7 @@
 out/test/**
 out/**/*.map
 src/**
+schemas/oxce-merge/**
 .gitattributes
 .gitignore
 tsconfig.json
