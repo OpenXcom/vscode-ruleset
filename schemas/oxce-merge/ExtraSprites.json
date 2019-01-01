@@ -1,11 +1,11 @@
 {
-  "$id": "https://openxcom.org/schemas/oxce/ExtraSprites.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "allOf": [
-    {
-      "$ref": "../oxc/ExtraSprites.json"
+  "$merge": {
+    "source": {
+      "$import": "../oxc/ExtraSprites.json"
     },
-    {
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/ExtraSprites.json",
       "properties": {
         "typeSingle": {
           "type": "string"
@@ -15,5 +15,5 @@
         }
       }
     }
-  ]
+  }
 }

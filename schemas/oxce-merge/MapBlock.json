@@ -1,11 +1,10 @@
 {
-  "$id": "https://openxcom.org/schemas/oxce/MapBlock.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "allOf": [
-    {
-      "$ref": "../oxc/MapBlock.json"
+  "$merge": {
+    "source": {
+      "$import": "../oxc/MapBlock.json"
     },
-    {
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/MapBlock.json",
       "properties": {
         "randomizedItems": {
           "items": {
@@ -29,28 +28,28 @@
           },
           "type": "object"
         }
-      }
-    }
-  ],
-  "definitions": {
-    "RandomizedItems": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "position": {
-          "$ref": "../oxc/Position.json"
-        },
-        "amount": {
-          "type": "integer"
-        },
-        "mixed": {
-          "type": "boolean"
-        },
-        "itemList": {
-          "items": {
-            "type": "string"
-          },
-          "type": "array"
+      },
+      "definitions": {
+        "RandomizedItems": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "position": {
+              "$ref": "Position.json"
+            },
+            "amount": {
+              "type": "integer"
+            },
+            "mixed": {
+              "type": "boolean"
+            },
+            "itemList": {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            }
+          }
         }
       }
     }

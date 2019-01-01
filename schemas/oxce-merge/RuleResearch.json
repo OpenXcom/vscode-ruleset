@@ -1,11 +1,10 @@
 {
-  "$id": "https://openxcom.org/schemas/oxce/RuleResearch.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "allOf": [
-    {
-      "$ref": "../oxc/RuleResearch.json"
+  "$merge": {
+    "source": {
+      "$import": "../oxc/RuleResearch.json"
     },
-    {
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/RuleResearch.json",
       "properties": {
         "spawnedItem": {
           "type": "string"
@@ -36,5 +35,5 @@
         }
       }
     }
-  ]
+  }
 }

@@ -1,14 +1,10 @@
 {
-  "$id": "https://openxcom.org/schemas/oxce/RuleCraft.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "allOf": [
-    {
-      "$ref": "../oxc/RuleCraft.json"
+  "$merge": {
+    "source": {
+      "$import": "../oxc/RuleCraft.json"
     },
-    {
-      "$ref": "RuleCraftStats.json"
-    },
-    {
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/RuleCraft.json",
       "properties": {
         "requiresBuyBaseFunc": {
           "items": {
@@ -54,5 +50,5 @@
         }
       }
     }
-  ]
+  }
 }

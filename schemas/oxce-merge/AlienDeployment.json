@@ -1,11 +1,10 @@
 {
-  "$id": "https://openxcom.org/schemas/oxce/AlienDeployment.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "allOf": [
-    {
-      "$ref": "../oxc/AlienDeployment.json"
+  "$merge": {
+    "source": {
+      "$import": "../oxc/AlienDeployment.json"
     },
-    {
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/AlienDeployment.json",
       "properties": {
         "startingCondition": {
           "type": "string"
@@ -53,12 +52,12 @@
           "type": "integer"
         },
         "huntMissionWeights": {
-          "$ref": "../oxc/WeightedOptions.json#/definitions/Map"
+          "$ref": "WeightedOptions.json#/definitions/Map"
         },
         "alienBaseUpgrades": {
-          "$ref": "../oxc/WeightedOptions.json#/definitions/Map"
+          "$ref": "WeightedOptions.json#/definitions/Map"
         }
       }
     }
-  ]
+  }
 }

@@ -1,18 +1,11 @@
 {
-  "$id": "https://openxcom.org/schemas/oxce/RuleAlienMission.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "allOf": [
-    {
-      "$ref": "../oxc/RuleAlienMission.json"
+  "$merge": {
+    "source": {
+      "$import": "../oxc/RuleAlienMission.json"
     },
-    {
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/RuleAlienMission.json",
       "properties": {
-        "waves": {
-          "items": {
-            "$ref": "#/definitions/MissionWave"
-          },
-          "type": "array"
-        },
         "endlessInfiltration": {
           "type": "boolean"
         },
@@ -32,18 +25,11 @@
           "type": "integer"
         },
         "regionWeights": {
-          "$ref": "../oxc/WeightedOptions.json#/definitions/Map"
+          "$ref": "WeightedOptions.json#/definitions/Map"
         }
-      }
-    }
-  ],
-  "definitions": {
-    "MissionWave": {
-      "allOf": [
-        {
-          "$ref": "../oxc/RuleAlienMission.json#/definitions/MissionWave"
-        },
-        {
+      },
+      "definitions": {
+        "MissionWave": {
           "properties": {
             "hunterKillerPercentage": {
               "type": "integer"
@@ -62,7 +48,7 @@
             }
           }
         }
-      ]
+      }
     }
   }
 }

@@ -1,9 +1,10 @@
 {
-  "$id": "https://openxcom.org/schemas/oxce/RuleItem.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "allOf": [
-    {
-      "$ref": "../oxc/RuleItem.json"
+  "$merge": {
+    "source": {
+      "$import": "../oxc/RuleItem.json"
+    },
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/RuleItem.json"
     }
-  ]
+  }
 }

@@ -16,7 +16,7 @@
     "palette": {
       "patternProperties": {
         "^\\d+$": {
-          "$ref": "../oxc/Position.json"
+          "$ref": "Position.json"
         }
       },
       "additionalProperties": false,

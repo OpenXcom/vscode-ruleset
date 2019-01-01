@@ -1,11 +1,10 @@
 {
-  "$id": "https://openxcom.org/schemas/oxce/RuleUfoStats.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "allOf": [
-    {
-      "$ref": "RuleCraftStats.json"
+  "$merge": {
+    "source": {
+      "$import": "RuleCraftStats.json"
     },
-    {
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/RuleUfoStats.json",
       "properties": {
         "craftCustomDeploy": {
           "type": "string"
@@ -15,5 +14,5 @@
         }
       }
     }
-  ]
+  }
 }

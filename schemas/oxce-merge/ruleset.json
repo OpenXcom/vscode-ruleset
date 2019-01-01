@@ -1,40 +1,15 @@
 {
-  "$id": "https://openxcom.org/schemas/oxce/ruleset.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "anyOf": [
-    {
-      "$ref": "../oxc/ruleset.json"
+  "$merge": {
+    "source": {
+      "$import": "../oxc/ruleset.json"
     },
-    {
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/ruleset.json",
       "properties": {
-        "countries": {
-          "type": "array",
-          "items": {
-            "$ref": "RuleCountry.json"
-          }
-        },
         "extraGlobeLabels": {
           "type": "array",
           "items": {
             "$ref": "RuleCountry.json"
-          }
-        },
-        "facilities": {
-          "type": "array",
-          "items": {
-            "$ref": "RuleBaseFacility.json"
-          }
-        },
-        "crafts": {
-          "type": "array",
-          "items": {
-            "$ref": "RuleCraft.json"
-          }
-        },
-        "craftWeapons": {
-          "type": "array",
-          "items": {
-            "$ref": "RuleCraftWeapon.json"
           }
         },
         "itemCategories": {
@@ -43,70 +18,10 @@
             "$ref": "RuleItemCategory.json"
           }
         },
-        "items": {
-          "type": "array",
-          "items": {
-            "$ref": "RuleItem.json"
-          }
-        },
-        "ufos": {
-          "type": "array",
-          "items": {
-            "$ref": "RuleUfo.json"
-          }
-        },
-        "terrains": {
-          "type": "array",
-          "items": {
-            "$ref": "RuleTerrain.json"
-          }
-        },
-        "armors": {
-          "type": "array",
-          "items": {
-            "$ref": "Armor.json"
-          }
-        },
-        "soldiers": {
-          "type": "array",
-          "items": {
-            "$ref": "RuleSoldier.json"
-          }
-        },
-        "units": {
-          "type": "array",
-          "items": {
-            "$ref": "Unit.json"
-          }
-        },
-        "alienRaces": {
-          "type": "array",
-          "items": {
-            "$ref": "AlienRace.json"
-          }
-        },
         "startingConditions": {
           "type": "array",
           "items": {
             "$ref": "RuleStartingCondition.json"
-          }
-        },
-        "alienDeployments": {
-          "type": "array",
-          "items": {
-            "$ref": "AlienDeployment.json"
-          }
-        },
-        "research": {
-          "type": "array",
-          "items": {
-            "$ref": "RuleResearch.json"
-          }
-        },
-        "manufacture": {
-          "type": "array",
-          "items": {
-            "$ref": "RuleManufacture.json"
           }
         },
         "soldierTransformation": {
@@ -115,43 +30,13 @@
             "$ref": "RuleSoldierTransformation.json"
           }
         },
-        "alienMissions": {
-          "type": "array",
-          "items": {
-            "$ref": "RuleAlienMission.json"
-          }
-        },
-        "extraSprites": {
-          "type": "array",
-          "items": {
-            "$ref": "ExtraSprites.json"
-          }
-        },        
         "customPalettes": {
           "type": "array",
           "items": {
             "$ref": "CustomPalettes.json"
           }
-        },
-        "interfaces": {
-          "type": "array",
-          "items": {
-            "$ref": "RuleInterface.json"
-          }
-        },
-        "mapScripts": {
-          "type": "array",
-          "items": {
-            "$ref": "MapScript.json"
-          }
-        },
-        "missionScripts": {
-          "type": "array",
-          "items": {
-            "$ref": "RuleMissionScript.json"
-          }
         }
       }
     }
-  ]
+  }
 }

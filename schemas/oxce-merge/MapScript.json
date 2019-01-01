@@ -1,26 +1,12 @@
 {
-  "$id": "https://openxcom.org/schemas/oxce/MapScript.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "type": "object",
-  "additionalProperties": false,
-  "properties": {
-    "type": {
-      "type": "string"
+  "$merge": {
+    "source": {
+      "$import": "../oxc/MapScript.json"
     },
-    "commands": {
-      "items": {
-        "$ref": "#/definitions/MapScript"
-      },
-      "type": "array"
-    }
-  },
-  "definitions": {
-    "MapScript": {
-      "allOf": [
-        {
-          "$ref": "../oxc/MapScript.json#/definitions/MapScript"
-        },
-        {
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/MapScript.json",
+      "definitions": {
+        "MapScript": {
           "properties": {
             "canBeSkipped": {
               "type": "boolean"
@@ -38,48 +24,48 @@
               "type": "array"
             }
           }
-        }
-      ]
-    },
-    "VerticalLevels": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "type": {
-          "type": "string"
         },
-        "size": {
-          "items": {
-            "type": "integer"
-          },
-          "type": [
-            "integer",
-            "array"
-          ]
-        },
-        "maxRepeats": {
-          "type": "integer"
-        },
-        "groups": {
-          "items": {
-            "type": "integer"
-          },
-          "type": [
-            "integer",
-            "array"
-          ]
-        },
-        "blocks": {
-          "items": {
-            "type": "integer"
-          },
-          "type": [
-            "integer",
-            "array"
-          ]
-        },
-        "terrain": {
-          "type": "string"
+        "VerticalLevels": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "type": "string"
+            },
+            "size": {
+              "items": {
+                "type": "integer"
+              },
+              "type": [
+                "integer",
+                "array"
+              ]
+            },
+            "maxRepeats": {
+              "type": "integer"
+            },
+            "groups": {
+              "items": {
+                "type": "integer"
+              },
+              "type": [
+                "integer",
+                "array"
+              ]
+            },
+            "blocks": {
+              "items": {
+                "type": "integer"
+              },
+              "type": [
+                "integer",
+                "array"
+              ]
+            },
+            "terrain": {
+              "type": "string"
+            }
+          }
         }
       }
     }

@@ -1,11 +1,10 @@
 {
-  "$id": "https://openxcom.org/schemas/oxce/Armor.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "allOf": [
-    {
-      "$ref": "../oxc/Armor.json"
+  "$merge": {
+    "source": {
+      "$import": "../oxc/Armor.json"
     },
-    {
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/Armor.json",
       "properties": {
         "builtInWeapons": {
           "items": {
@@ -171,5 +170,5 @@
         }
       }
     }
-  ]
+  }
 }

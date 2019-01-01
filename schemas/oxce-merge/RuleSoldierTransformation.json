@@ -65,7 +65,7 @@
       "type": "array"
     },
     "requiredMinStats": {
-      "$ref": "../oxc/UnitStats.json"
+      "$ref": "UnitStats.json"
     },
     "requiredItems": {
       "additionalProperties": {
@@ -83,13 +83,13 @@
       "type": "integer"
     },
     "flatOverallStatChange": {
-      "$ref": "../oxc/UnitStats.json"
+      "$ref": "UnitStats.json"
     },
     "percentOverallStatChange": {
-      "$ref": "../oxc/UnitStats.json"
+      "$ref": "UnitStats.json"
     },
     "percentGainedStatChange": {
-      "$ref": "../oxc/UnitStats.json"
+      "$ref": "UnitStats.json"
     },
     "useRandomStats": {
       "type": "boolean"

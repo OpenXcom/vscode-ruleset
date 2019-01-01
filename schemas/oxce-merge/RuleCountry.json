@@ -1,11 +1,10 @@
 {
-  "$id": "https://openxcom.org/schemas/oxce/RuleCountry.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "allOf": [
-    {
-      "$ref": "../oxc/RuleCountry.json"
+  "$merge": {
+    "source": {
+      "$import": "../oxc/RuleCountry.json"
     },
-    {
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/RuleCountry.json",
       "properties": {
         "labelColor": {
           "type": "integer"
@@ -15,5 +14,5 @@
         }
       }
     }
-  ]
+  }
 }

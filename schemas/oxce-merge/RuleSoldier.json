@@ -1,11 +1,10 @@
 {
-  "$id": "https://openxcom.org/schemas/oxce/RuleSoldier.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "allOf": [
-    {
-      "$ref": "../oxc/RuleSoldier.json"
+  "$merge": {
+    "source": {
+      "$import": "../oxc/RuleSoldier.json"
     },
-    {
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/RuleSoldier.json",
       "properties": {
         "requiresBuyBaseFunc": {
           "items": {
@@ -14,10 +13,10 @@
           "type": "array"
         },
         "trainingStatCaps": {
-          "$ref": "../oxc/UnitStats.json"
+          "$ref": "UnitStats.json"
         },
         "dogfightExperience": {
-          "$ref": "../oxc/UnitStats.json"
+          "$ref": "UnitStats.json"
         },
         "armorForAvatar": {
           "type": "string"
@@ -57,7 +56,7 @@
         },
         "statStrings": {
           "items": {
-            "$ref": "../oxc/StatString.json"
+            "$ref": "StatString.json"
           },
           "type": "array"
         },
@@ -81,5 +80,5 @@
         }
       }
     }
-  ]
+  }
 }

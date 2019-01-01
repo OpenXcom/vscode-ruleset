@@ -1,11 +1,10 @@
 {
-  "$id": "https://openxcom.org/schemas/oxce/RuleBaseFacility.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "allOf": [
-    {
-      "$ref": "../oxc/RuleBaseFacility.json"
+  "$merge": {
+    "source": {
+      "$import": "../oxc/RuleBaseFacility.json"
     },
-    {
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/RuleBaseFacility.json",
       "properties": {
         "requiresBaseFunc": {
           "items": {
@@ -99,5 +98,5 @@
         }
       }
     }
-  ]
+  }
 }
