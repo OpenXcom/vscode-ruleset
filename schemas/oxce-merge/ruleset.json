@@ -6,6 +6,18 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/ruleset.json",
       "properties": {
+        "extended": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "tags": {
+              "type": "object"
+            },
+            "scripts": {
+              "type": "object"
+            }
+          }
+        },
         "extraGlobeLabels": {
           "type": "array",
           "items": {

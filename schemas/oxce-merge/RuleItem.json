@@ -440,6 +440,12 @@
         },
         "psiRequired": {
           "type": "boolean"
+        },
+        "tags": {
+          "type": "object"
+        },
+        "scripts": {
+          "type": "object"
         }
       },
       "definitions": {

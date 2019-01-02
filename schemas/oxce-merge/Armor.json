@@ -149,6 +149,12 @@
         },
         "floatHeight": {
           "type": "integer"
+        },
+        "tags": {
+          "type": "object"
+        },
+        "scripts": {
+          "type": "object"
         }
       }
     }
