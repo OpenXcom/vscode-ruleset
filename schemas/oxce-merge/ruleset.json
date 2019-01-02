@@ -42,10 +42,282 @@
             "$ref": "RuleSoldierTransformation.json"
           }
         },
+        "startingDifficulty": {
+          "type": "integer"
+        },
+        "maxViewDistance": {
+          "type": "integer"
+        },
+        "maxDarknessToSeeUnits": {
+          "type": "integer"
+        },
+        "costHireEngineer": {
+          "type": "integer"
+        },
+        "costHireScientist": {
+          "type": "integer"
+        },
+        "psiUnlockResearch": {
+          "type": "string"
+        },
+        "destroyedFacility": {
+          "type": "string"
+        },
+        "ai": {
+          "$ref": "#/definitions/ai"
+        },
+        "maxLookVariant": {
+          "type": "integer"
+        },
+        "tooMuchSmokeThreshold": {
+          "type": "integer"
+        },
+        "customTrainingFactor": {
+          "type": "integer"
+        },
+        "minReactionAccuracy": {
+          "type": "integer"
+        },
+        "chanceToStopRetaliation": {
+          "type": "integer"
+        },
+        "allowCountriesToCancelAlienPact": {
+          "type": "boolean"
+        },
+        "kneelBonusGlobal": {
+          "type": "integer"
+        },
+        "oneHandedPenaltyGlobal": {
+          "type": "integer"
+        },
+        "enableCloseQuartersCombat": {
+          "type": "integer"
+        },
+        "closeQuartersAccuracyGlobal": {
+          "type": "integer"
+        },
+        "closeQuartersTuCostGlobal": {
+          "type": "integer"
+        },
+        "closeQuartersEnergyCostGlobal": {
+          "type": "integer"
+        },
+        "noLOSAccuracyPenaltyGlobal": {
+          "type": "integer"
+        },
+        "surrenderMode": {
+          "type": "integer"
+        },
+        "bughuntMinTurn": {
+          "type": "integer"
+        },
+        "bughuntMaxEnemies": {
+          "type": "integer"
+        },
+        "bughuntRank": {
+          "type": "integer"
+        },
+        "bughuntLowMorale": {
+          "type": "integer"
+        },
+        "bughuntTimeUnitsLeft": {
+          "type": "integer"
+        },
+        "ufoGlancingHitThreshold": {
+          "type": "integer"
+        },
+        "ufoBeamWidthParameter": {
+          "type": "integer"
+        },
+        "ufoTractorBeamSizeModifiers": {
+          "items": {
+            "type": "integer"
+          },
+          "type": "array",
+          "maxItems": 5
+        },
+        "escortRange": {
+          "type": "integer"
+        },
+        "escortsJoinFightAgainstHK": {
+          "type": "boolean"
+        },
+        "hunterKillerFastRetarget": {
+          "type": "boolean"
+        },
+        "crewEmergencyEvacuationSurvivalChance": {
+          "type": "integer"
+        },
+        "pilotsEmergencyEvacuationSurvivalChance": {
+          "type": "integer"
+        },
+        "soldiersPerSergeant": {
+          "type": "integer"
+        },
+        "soldiersPerCaptain": {
+          "type": "integer"
+        },
+        "soldiersPerColonel": {
+          "type": "integer"
+        },
+        "soldiersPerCommander": {
+          "type": "integer"
+        },
+        "pilotAccuracyZeroPoint": {
+          "type": "integer"
+        },
+        "pilotAccuracyRange": {
+          "type": "integer"
+        },
+        "pilotReactionsZeroPoint": {
+          "type": "integer"
+        },
+        "pilotReactionsRange": {
+          "type": "integer"
+        },
+        "pilotBraveryThresholds": {
+          "items": {
+            "type": "integer"
+          },
+          "type": "array",
+          "maxItems": 3
+        },
+        "performanceBonusFactor": {
+          "type": "integer"
+        },
+        "useCustomCategories": {
+          "type": "boolean"
+        },
+        "showDogfightDistanceInKm": {
+          "type": "boolean"
+        },
+        "showFullNameInAlienInventory": {
+          "type": "boolean"
+        },
+        "hidePediaInfoButton": {
+          "type": "boolean"
+        },
+        "extraNerdyPediaInfo": {
+          "type": "boolean"
+        },
+        "showAllCommendations": {
+          "type": "boolean"
+        },
+        "giveScoreAlsoForResearchedArtifacts": {
+          "type": "boolean"
+        },
+        "theMostUselessOptionEver": {
+          "type": "integer"
+        },
+        "theBiggestRipOffEver": {
+          "type": "integer"
+        },
+        "shortRadarRange": {
+          "type": "integer"
+        },
+        "baseDefenseMapFromLocation": {
+          "type": "integer"
+        },
+        "pediaReplaceCraftFuelWithRangeType": {
+          "type": "integer"
+        },
+        "missionRatings": {
+          "patternProperties": {
+            "^-?\\d+$": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "type": "object"
+        },
+        "monthlyRatings": {
+          "patternProperties": {
+            "^-?\\d+$": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "type": "object"
+        },
+        "fixedUserOptions": {
+          "type": "object"
+        },
+        "hiddenMovementBackgrounds": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "flagByKills": {
+          "items": {
+            "type": "integer"
+          },
+          "type": "array"
+        },
+        "difficultyBasedRetaliationDelay": {
+          "items": {
+            "type": "integer"
+          },
+          "type": "array",
+          "maxItems": 5
+        },
         "customPalettes": {
           "type": "array",
           "items": {
             "$ref": "CustomPalettes.json"
+          }
+        },
+        "lighting": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "maxStatic": {
+              "type": "integer"
+            },
+            "maxDynamic": {
+              "type": "integer"
+            },
+            "enhanced": {
+              "type": "integer"
+            }
+          }
+        }
+      },
+      "definitions": {
+        "ai": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "useDelayBlaster": {
+              "type": "integer"
+            },
+            "useDelayFirearm": {
+              "type": "integer"
+            },
+            "useDelayGrenade": {
+              "type": "integer"
+            },
+            "useDelayMelee": {
+              "type": "integer"
+            },
+            "useDelayPsionic": {
+              "type": "integer"
+            },
+            "fireChoiceIntelCoeff": {
+              "type": "integer"
+            },
+            "fireChoiceAggroCoeff": {
+              "type": "integer"
+            },
+            "extendedFireModeChoice": {
+              "type": "boolean"
+            },
+            "respectMaxRange": {
+              "type": "boolean"
+            },
+            "destroyBaseFacilities": {
+              "type": "boolean"
+            }
           }
         }
       }
