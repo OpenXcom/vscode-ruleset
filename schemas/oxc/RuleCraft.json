@@ -81,6 +81,8 @@
         "items": {
           "type": "integer"
         },
+        "minItems": 4,
+        "maxItems": 4,
         "type": "array"
       },
       "type": "array"

@@ -28,9 +28,6 @@
     "speedMax": {
       "type": "integer"
     },
-    "accel": {
-      "type": "integer"
-    },
     "power": {
       "type": "integer"
     },

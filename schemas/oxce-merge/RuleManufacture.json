@@ -12,6 +12,9 @@
           },
           "type": "array"
         },
+        "refund": {
+          "type": "boolean"
+        },
         "spawnedPersonType": {
           "type": "string"
         },

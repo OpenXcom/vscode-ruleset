@@ -67,12 +67,6 @@
       },
       "type": "array"
     },
-    "builtInWeapons": {
-      "items": {
-        "type": "string"
-      },
-      "type": "array"
-    },
     "deathSound": {
       "items": {
         "type": "integer"
