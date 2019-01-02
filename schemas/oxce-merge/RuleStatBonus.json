@@ -5,94 +5,102 @@
   "additionalProperties": false,
   "properties": {
     "flatOne": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "flatHundred": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "tu": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "stamina": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "health": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "bravery": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "reactions": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "firing": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "throwing": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "strength": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "psiStrength": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "psiSkill": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "melee": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "psi": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "strengthMelee": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "strengthThrowing": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "firingReactions": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "rank": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "fatalWounds": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "healthCurrent": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "tuCurrent": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "energyCurrent": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "moraleCurrent": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "stunCurrent": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "healthNormalized": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "tuNormalized": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "energyNormalized": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "moraleNormalized": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "stunNormalized": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
     },
     "energyRegen": {
-      "type": "number"
+      "$ref": "#/definitions/RuleStatBonusData"
+    }
+  },
+  "definitions": {
+    "RuleStatBonusData": {
+      "type": ["number", "array"],
+      "items": {
+        "type": "number"
+      }
     }
   }
 }

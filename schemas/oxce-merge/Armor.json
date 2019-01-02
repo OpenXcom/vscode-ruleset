@@ -67,40 +67,22 @@
           "type": "integer"
         },
         "fearImmune": {
-          "type": [
-            "boolean",
-            "null"
-          ]
+          "type": "boolean"
         },
         "bleedImmune": {
-          "type": [
-            "boolean",
-            "null"
-          ]
+          "type": "boolean"
         },
         "painImmune": {
-          "type": [
-            "boolean",
-            "null"
-          ]
+          "type": "boolean"
         },
         "zombiImmune": {
-          "type": [
-            "boolean",
-            "null"
-          ]
+          "type": "boolean"
         },
         "ignoresMeleeThreat": {
-          "type": [
-            "boolean",
-            "null"
-          ]
+          "type": "boolean"
         },
         "createsMeleeThreat": {
-          "type": [
-            "boolean",
-            "null"
-          ]
+          "type": "boolean"
         },
         "overKill": {
           "type": "number"
@@ -135,23 +117,23 @@
             }
           }
         },
-        "allowsRunning": {
+        "customArmorPreviewIndex": {
           "type": [
-            "boolean",
-            "null"
-          ]
+            "array",
+            "integer"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        },
+        "allowsRunning": {
+          "type": "boolean"
         },
         "allowsStrafing": {
-          "type": [
-            "boolean",
-            "null"
-          ]
+          "type": "boolean"
         },
         "allowsKneeling": {
-          "type": [
-            "boolean",
-            "null"
-          ]
+          "type": "boolean"
         },
         "allowsMoving": {
           "type": "boolean"

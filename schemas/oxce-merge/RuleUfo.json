@@ -1,7 +1,14 @@
 {
   "$merge": {
     "source": {
-      "$import": "../oxc/RuleUfo.json"
+      "$merge": {
+        "source": {
+          "$import": "../oxc/RuleUfo.json"
+        },
+        "with": {
+          "$import": "RuleUfoStats.json"
+        }
+      }
     },
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/RuleUfo.json",
