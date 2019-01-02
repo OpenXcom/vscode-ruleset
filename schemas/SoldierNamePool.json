@@ -1,0 +1,41 @@
+{
+  "$id": "https://openxcom.org/schemas/SoldierNamePool.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "maleFirst": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "femaleFirst": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "maleLast": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "femaleLast": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "lookWeights": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "femaleFrequency": {
+      "type": "integer"
+    }
+  }
+}
