@@ -18,9 +18,35 @@
     "MapScript": {
       "type": "object",
       "additionalProperties": false,
+      "if": {
+        "properties": {
+          "type": {
+            "enum": [
+              "addLine",
+              "digTunnel"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "direction"
+        ]
+      },
       "properties": {
         "type": {
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "addBlock",
+            "addLine",
+            "addCraft",
+            "addUFO",
+            "digTunnel",
+            "fillArea",
+            "checkBlock",
+            "removeBlock",
+            "resize"
+          ]
         },
         "rects": {
           "items": {
@@ -104,7 +130,12 @@
           ]
         },
         "direction": {
-          "type": "string"
+          "type": "string",
+          "examples": [
+            "vertical",
+            "horizontal",
+            "both"
+          ]
         },
         "executionChances": {
           "type": "integer"

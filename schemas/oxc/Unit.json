@@ -41,7 +41,9 @@
       "type": "integer"
     },
     "specab": {
-      "type": "integer"
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
     },
     "spawnUnit": {
       "type": "string"

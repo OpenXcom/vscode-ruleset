@@ -38,7 +38,9 @@
       "type": "integer"
     },
     "projectileType": {
-      "type": "integer"
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
     },
     "projectileSpeed": {
       "type": "integer"

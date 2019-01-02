@@ -8,7 +8,9 @@
       "type": "integer"
     },
     "RandomType": {
-      "type": "integer"
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 7
     },
     "ResistType": {
       "type": "integer"

@@ -5,7 +5,12 @@
   "additionalProperties": false,
   "properties": {
     "type": {
-      "type": "string"
+      "type": "string",
+      "enum": [
+        "GEO.CAT",
+        "BATTLE.CAT",
+        "INTRO.CAT"
+      ]
     },
     "files": {
       "patternProperties": {

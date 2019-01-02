@@ -14,7 +14,9 @@
       "type": "integer"
     },
     "type": {
-      "type": "integer"
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 2
     },
     "slots": {
       "items": {

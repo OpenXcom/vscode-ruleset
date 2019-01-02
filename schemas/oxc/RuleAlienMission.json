@@ -17,7 +17,9 @@
       "type": "array"
     },
     "objective": {
-      "type": "integer"
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
     },
     "spawnUfo": {
       "type": "string"

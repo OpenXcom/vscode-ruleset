@@ -169,7 +169,9 @@
           "type": "string"
         },
         "fuseType": {
-          "type": "integer"
+          "type": "integer",
+          "minimum": -3,
+          "maximum": 24
         },
         "hiddenOnMinimap": {
           "type": "boolean"
@@ -346,7 +348,9 @@
           "type": "number"
         },
         "medikitType": {
-          "type": "integer"
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
         },
         "medikitBackground": {
           "type": "string"
@@ -373,7 +377,9 @@
           "type": "integer"
         },
         "experienceTrainingMode": {
-          "type": "integer"
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 32
         },
         "shotgunBehavior": {
           "type": "integer"

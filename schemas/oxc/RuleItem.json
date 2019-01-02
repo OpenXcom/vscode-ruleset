@@ -101,7 +101,9 @@
       "type": "integer"
     },
     "battleType": {
-      "type": "integer"
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 11
     },
     "twoHanded": {
       "type": "boolean"

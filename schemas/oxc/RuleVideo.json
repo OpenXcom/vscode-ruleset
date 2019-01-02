@@ -78,7 +78,9 @@
           "type": "integer"
         },
         "captionAlign": {
-          "type": "integer"
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 2
         }
       }
     }
