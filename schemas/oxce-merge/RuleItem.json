@@ -4,7 +4,530 @@
       "$import": "../oxc/RuleItem.json"
     },
     "with": {
-      "$id": "https://openxcom.org/schemas/oxce/RuleItem.json"
+      "$id": "https://openxcom.org/schemas/oxce/RuleItem.json",
+      "properties": {
+        "nameAsAmmo": {
+          "type": "string"
+        },
+        "requires": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "requiresBuy": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "requiresBuyBaseFunc": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "recoveryDividers": {
+          "additionalProperties": {
+            "type": "integer"
+          },
+          "type": "object"
+        },
+        "categories": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "specialIconSprite": {
+          "type": "integer"
+        },
+        "reloadSound": {
+          "type": [
+            "integer",
+            "array"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        },
+        "fireSound": {
+          "type": [
+            "integer",
+            "array"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        },
+        "hitSound": {
+          "type": [
+            "integer",
+            "array"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        },
+        "hitMissSound": {
+          "type": [
+            "integer",
+            "array"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        },
+        "meleeSound": {
+          "type": [
+            "integer",
+            "array"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        },
+        "meleeMissSound": {
+          "type": [
+            "integer",
+            "array"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        },
+        "psiSound": {
+          "type": [
+            "integer",
+            "array"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        },
+        "psiMissSound": {
+          "type": [
+            "integer",
+            "array"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        },
+        "hitMissAnimation": {
+          "type": "integer"
+        },
+        "meleeMissAnimation": {
+          "type": "integer"
+        },
+        "psiAnimation": {
+          "type": "integer"
+        },
+        "psiMissAnimation": {
+          "type": "integer"
+        },
+        "meleeHitSound": {
+          "type": [
+            "integer",
+            "array"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        },
+        "explosionHitSound": {
+          "type": [
+            "integer",
+            "array"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        },
+        "damageAlter": {
+          "$ref": "RuleDamageType.json"
+        },
+        "meleeType": {
+          "type": "integer"
+        },
+        "meleeAlter": {
+          "$ref": "RuleDamageType.json"
+        },
+        "psiAttackName": {
+          "type": "string"
+        },
+        "primeActionName": {
+          "type": "string"
+        },
+        "primeActionMessage": {
+          "type": "string"
+        },
+        "unprimeActionName": {
+          "type": "string"
+        },
+        "unprimeActionMessage": {
+          "type": "string"
+        },
+        "fuseType": {
+          "type": "integer"
+        },
+        "hiddenOnMinimap": {
+          "type": "boolean"
+        },
+        "fuseTriggerEvents": {
+          "$ref": "#/definitions/RuleItemFuseTrigger"
+        },
+        "accuracyUse": {
+          "type": "integer"
+        },
+        "accuracyMindControl": {
+          "type": "integer"
+        },
+        "accuracyPanic": {
+          "type": "integer"
+        },
+        "accuracyThrow": {
+          "type": "integer"
+        },
+        "accuracyCloseQuarters": {
+          "type": "integer"
+        },
+        "noLOSAccuracyPenalty": {
+          "type": "integer"
+        },
+        "tuMindControl": {
+          "type": "integer"
+        },
+        "tuPanic": {
+          "type": "integer"
+        },
+        "tuThrow": {
+          "type": "integer"
+        },
+        "tuPrime": {
+          "type": "integer"
+        },
+        "tuUnprime": {
+          "type": "integer"
+        },
+        "costAimed": {
+          "$ref": "#/definitions/RuleItemCost"
+        },
+        "costAuto": {
+          "$ref": "#/definitions/RuleItemCost"
+        },
+        "costSnap": {
+          "$ref": "#/definitions/RuleItemCost"
+        },
+        "costMelee": {
+          "$ref": "#/definitions/RuleItemCost"
+        },
+        "costUse": {
+          "$ref": "#/definitions/RuleItemCost"
+        },
+        "costMindControl": {
+          "$ref": "#/definitions/RuleItemCost"
+        },
+        "costPanic": {
+          "$ref": "#/definitions/RuleItemCost"
+        },
+        "costThrow": {
+          "$ref": "#/definitions/RuleItemCost"
+        },
+        "costPrime": {
+          "$ref": "#/definitions/RuleItemCost"
+        },
+        "costUnprime": {
+          "$ref": "#/definitions/RuleItemCost"
+        },
+        "flatAimed": {
+          "$ref": "#/definitions/RuleItemPercent"
+        },
+        "flatAuto": {
+          "$ref": "#/definitions/RuleItemPercent"
+        },
+        "flatSnap": {
+          "$ref": "#/definitions/RuleItemPercent"
+        },
+        "flatMelee": {
+          "$ref": "#/definitions/RuleItemPercent"
+        },
+        "flatUse": {
+          "$ref": "#/definitions/RuleItemPercent"
+        },
+        "flatThrow": {
+          "$ref": "#/definitions/RuleItemPercent"
+        },
+        "flatPrime": {
+          "$ref": "#/definitions/RuleItemPercent"
+        },
+        "flatUnprime": {
+          "$ref": "#/definitions/RuleItemPercent"
+        },
+        "confAimed": {
+          "$ref": "#/definitions/RuleItemAction"
+        },
+        "confAuto": {
+          "$ref": "#/definitions/RuleItemAction"
+        },
+        "confSnap": {
+          "$ref": "#/definitions/RuleItemAction"
+        },
+        "confMelee": {
+          "$ref": "#/definitions/RuleItemAction"
+        },
+        "tuLoad": {
+          "type": "integer"
+        },
+        "tuUnload": {
+          "type": "integer"
+        },
+        "ammo": {
+          "patternProperties": {
+            "^\\d+$": {
+              "properties": {
+                "compatibleAmmo": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "tuLoad": {
+                  "type": "integer"
+                },
+                "tuUnload": {
+                  "type": "integer"
+                }
+              },
+              "additionalProperties": false,
+              "type": "object"
+            }
+          },
+          "additionalProperties": false,
+          "type": "object"
+        },
+        "specialChance": {
+          "type": "integer"
+        },
+        "blockBothHands": {
+          "type": "boolean"
+        },
+        "fixedWeaponShow": {
+          "type": "boolean"
+        },
+        "defaultInventorySlot": {
+          "type": "string"
+        },
+        "supportedInventorySections": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "allowSelfHeal": {
+          "type": "boolean"
+        },
+        "isConsumable": {
+          "type": "boolean"
+        },
+        "isFireExtinguisher": {
+          "type": "boolean"
+        },
+        "isExplodingInHands": {
+          "type": "boolean"
+        },
+        "specialUseEmptyHand": {
+          "type": "boolean"
+        },
+        "moraleRecovery": {
+          "type": "integer"
+        },
+        "painKillerRecovery": {
+          "type": "number"
+        },
+        "medikitType": {
+          "type": "integer"
+        },
+        "medikitBackground": {
+          "type": "string"
+        },
+        "ai": {
+          "properties": {
+            "useDelay": {
+              "type": "integer"
+            },
+            "meleeHitCount": {
+              "type": "integer"
+            }
+          },
+          "additionalProperties": false,
+          "type": "object"
+        },
+        "recoverCorpse": {
+          "type": "boolean"
+        },
+        "ignoreInBaseDefense": {
+          "type": "boolean"
+        },
+        "prisonType": {
+          "type": "integer"
+        },
+        "experienceTrainingMode": {
+          "type": "integer"
+        },
+        "shotgunBehavior": {
+          "type": "integer"
+        },
+        "shotgunSpread": {
+          "type": "integer"
+        },
+        "shotgunChoke": {
+          "type": "integer"
+        },
+        "spawnUnit": {
+          "type": "string"
+        },
+        "spawnUnitFaction": {
+          "type": "integer"
+        },
+        "customItemPreviewIndex": {
+          "type": [
+            "array",
+            "integer"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        },
+        "kneelBonus": {
+          "type": "integer"
+        },
+        "oneHandedPenalty": {
+          "type": "integer"
+        },
+        "monthlySalary": {
+          "type": "integer"
+        },
+        "monthlyMaintenance": {
+          "type": "integer"
+        },
+        "sprayWaypoints": {
+          "type": "integer"
+        },
+        "damageBonus": {
+          "$ref": "RuleStatBonus.json"
+        },
+        "meleeBonus": {
+          "$ref": "RuleStatBonus.json"
+        },
+        "accuracyMultiplier": {
+          "$ref": "RuleStatBonus.json"
+        },
+        "meleeMultiplier": {
+          "$ref": "RuleStatBonus.json"
+        },
+        "throwMultiplier": {
+          "$ref": "RuleStatBonus.json"
+        },
+        "closeQuartersMultiplier": {
+          "$ref": "RuleStatBonus.json"
+        },
+        "powerRangeReduction": {
+          "type": "number"
+        },
+        "powerRangeThreshold": {
+          "type": "number"
+        },
+        "psiRequired": {
+          "type": "boolean"
+        }
+      },
+      "definitions": {
+        "RuleItemFuseTrigger": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "defaultBehavior": {
+              "type": "boolean"
+            },
+            "throwTrigger": {
+              "type": "boolean"
+            },
+            "throwExplode": {
+              "type": "boolean"
+            },
+            "proximityTrigger": {
+              "type": "boolean"
+            },
+            "proximityExplode": {
+              "type": "boolean"
+            }
+          }
+        },
+        "RuleItemCost": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "time": {
+              "type": "integer"
+            },
+            "energy": {
+              "type": "integer"
+            },
+            "morale": {
+              "type": "integer"
+            },
+            "health": {
+              "type": "integer"
+            },
+            "stun": {
+              "type": "integer"
+            }
+          }
+        },
+        "RuleItemPercent": {
+          "type": [
+            "object",
+            "boolean"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "time": {
+              "type": "boolean"
+            },
+            "energy": {
+              "type": "boolean"
+            },
+            "morale": {
+              "type": "boolean"
+            },
+            "health": {
+              "type": "boolean"
+            },
+            "stun": {
+              "type": "boolean"
+            }
+          }
+        },
+        "RuleItemAction": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "shots": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "ammoSlot": {
+              "type": "integer"
+            },
+            "arcing": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
     }
   }
 }
