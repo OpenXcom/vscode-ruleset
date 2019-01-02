@@ -36,7 +36,11 @@
             {
                 "id": "yaml",
                 "extensions": [
-                    ".rul"
+                    ".rul",
+                    ".nam"
+                ],
+                "filenamePatterns": [
+                    "*Font.dat"
                 ]
             }
         ],
@@ -44,6 +48,14 @@
             {
                 "fileMatch": "*.rul",
                 "url": "./schemas/oxce/ruleset.json"
+            },
+            {
+                "fileMatch": "*.nam",
+                "url": "./schemas/SoldierNamePool.json"
+            },
+            {
+                "fileMatch": "*Font.dat",
+                "url": "./schemas/Font.json"
             },
             {
                 "fileMatch": "metadata.yml",
