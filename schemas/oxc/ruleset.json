@@ -291,7 +291,10 @@
       }
     },
     "extraStrings": {
-      "type": "array"
+      "type": "array",
+      "items": {
+        "$ref": "ExtraStrings.json"
+      }
     },
     "statStrings": {
       "type": "array",

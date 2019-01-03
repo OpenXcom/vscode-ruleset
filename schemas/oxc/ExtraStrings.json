@@ -1,0 +1,17 @@
+{
+  "$id": "https://openxcom.org/schemas/oxc/ExtraStrings.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ],
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "strings": {
+      "type": "object"
+    }
+  }
+}
