@@ -1,3 +1,5 @@
+[![Marketplace Version](https://vsmarketplacebadge.apphb.com/version/openxcom.ruleset-tools.svg "Current Release")](https://marketplace.visualstudio.com/items?itemName=openxcom.ruleset-tools)
+
 # Ruleset Tools for Visual Studio Code
 
 This extension adds support for OpenXcom [rulesets](https://www.ufopaedia.org/index.php/Rulesets_(OpenXcom)) to Visual Studio Code for a better editing experience. Powered by [vscode-yaml](https://github.com/redhat-developer/vscode-yaml).
@@ -9,6 +11,7 @@ This extension adds support for OpenXcom [rulesets](https://www.ufopaedia.org/in
 * Registers `*.rul` as YAML files, enabling syntax highlighting and validation.
 * Validates the names and datatypes of all ruleset properties via [JSON schemas](https://json-schema.org/).
 * Supports autocompletion.
+* Supports OpenXcom Extended.
 
 ## Future Ideas
 
@@ -16,5 +19,4 @@ This extension adds support for OpenXcom [rulesets](https://www.ufopaedia.org/in
 * Autocompletion and validation of complex datatypes (eg. string IDs).
 * Common ruleset snippets.
 * Outline by element IDs.
-* Support for OpenXcom forks.
 * Support for other filetypes.
