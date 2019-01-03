@@ -38,12 +38,15 @@
           "type": "boolean"
         },
         "weaponTypes": {
-          "type": [
-            "array",
-            "integer"
-          ],
+          "type": "array",
           "items": {
-            "type": "integer"
+            "type": [
+              "array",
+              "integer"
+            ],
+            "items": {
+              "type": "integer"
+            }
           }
         },
         "weaponStrings": {

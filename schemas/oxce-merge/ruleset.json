@@ -21,25 +21,53 @@
         "extraGlobeLabels": {
           "type": "array",
           "items": {
-            "$ref": "RuleCountry.json"
+            "oneOf": [
+              {
+                "$ref": "#/definitions/delete"
+              },
+              {
+                "$ref": "RuleCountry.json"
+              }
+            ]
           }
         },
         "itemCategories": {
           "type": "array",
           "items": {
-            "$ref": "RuleItemCategory.json"
+            "oneOf": [
+              {
+                "$ref": "#/definitions/delete"
+              },
+              {
+                "$ref": "RuleItemCategory.json"
+              }
+            ]
           }
         },
         "startingConditions": {
           "type": "array",
           "items": {
-            "$ref": "RuleStartingCondition.json"
+            "oneOf": [
+              {
+                "$ref": "#/definitions/delete"
+              },
+              {
+                "$ref": "RuleStartingCondition.json"
+              }
+            ]
           }
         },
         "soldierTransformation": {
           "type": "array",
           "items": {
-            "$ref": "RuleSoldierTransformation.json"
+            "oneOf": [
+              {
+                "$ref": "#/definitions/delete"
+              },
+              {
+                "$ref": "RuleSoldierTransformation.json"
+              }
+            ]
           }
         },
         "startingDifficulty": {
@@ -264,7 +292,14 @@
         "customPalettes": {
           "type": "array",
           "items": {
-            "$ref": "CustomPalettes.json"
+            "oneOf": [
+              {
+                "$ref": "#/definitions/delete"
+              },
+              {
+                "$ref": "CustomPalettes.json"
+              }
+            ]
           }
         },
         "lighting": {
