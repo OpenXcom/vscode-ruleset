@@ -32,6 +32,25 @@
     ],
     "main": "./out/extension",
     "contributes": {
+        "configuration": {
+            "type": "object",
+            "title": "OpenXcom Ruleset",
+            "properties": {
+                "openxcom.ruleset.validator": {
+                    "type": "string",
+                    "enum": [
+                        "oxc",
+                        "oxce"
+                    ],
+                    "enumDescriptions": [
+                        "OpenXcom",
+                        "OpenXcom Extended"
+                    ],
+                    "default": "oxc",
+                    "description": "Controls the version used for validating rulesets."
+                }
+            }
+        },
         "languages": [
             {
                 "id": "yaml",
@@ -45,10 +64,6 @@
             }
         ],
         "yamlValidation": [
-            {
-                "fileMatch": "*.rul",
-                "url": "./schemas/oxce/ruleset.json"
-            },
             {
                 "fileMatch": "*.nam",
                 "url": "./schemas/SoldierNamePool.json"

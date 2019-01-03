@@ -17,15 +17,22 @@ if (fs.existsSync(outFolder)) {
     fs.mkdirSync(outFolder);
 }
 
+let merged = 0;
+let copied = 0;
+
 // Merge files from oxce-merge into oxce
 fs.readdirSync(inFolder).forEach(file => {
     var result = merger.mergeFile(path.join(inFolder, file));
     fs.writeFileSync(path.join(outFolder, file), result);
+    merged++;
 });
 
 // Add missing files from oxc into oxce
 fs.readdirSync(origFolder).forEach(file => {
     if (!fs.existsSync(path.join(outFolder, file))) {
         fs.copyFileSync(path.join(origFolder, file), path.join(outFolder, file));
+        copied++;
     }
 });
+
+console.log("%d schemas merged, %d schemas unchanged", merged, copied);
