@@ -12,6 +12,7 @@
       "enum": [
         "GEO.CAT",
         "BATTLE.CAT",
+        "BATTLE2.CAT",
         "INTRO.CAT"
       ]
     },
