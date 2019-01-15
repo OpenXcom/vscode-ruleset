@@ -63,6 +63,9 @@
     "capturable": {
       "type": "boolean"
     },
+    "builtInWeapons": {
+      "deprecationMessage": "Deprecated: use \"builtInWeaponSets\" instead"
+    },
     "builtInWeaponSets": {
       "items": {
         "items": {

@@ -19,6 +19,9 @@
     "allowInv": {
       "type": "boolean"
     },
+    "corpseItem": {
+      "deprecationMessage": "Deprecated: use \"corpseBattle\" or \"corpseGeo\" instead"
+    },
     "corpseBattle": {
       "items": {
         "type": "string"
@@ -70,6 +73,9 @@
       "items": {
         "type": "number"
       }
+    },
+    "loftemps": {
+      "deprecationMessage": "Deprecated: use \"loftempsSet\" instead"
     },
     "loftempsSet": {
       "items": {
