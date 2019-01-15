@@ -6,6 +6,15 @@
     },
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/ExtraSprites.json",
+      "oneOf": [
+        {
+          "$append": {
+            "required": [
+              "typeSingle"
+            ]
+          }
+        }
+      ],
       "properties": {
         "typeSingle": {
           "type": "string"
