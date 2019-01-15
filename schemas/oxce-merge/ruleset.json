@@ -276,6 +276,9 @@
           },
           "type": "array"
         },
+        "disableUnderwaterSounds": {
+          "type": "boolean"
+        },
         "flagByKills": {
           "items": {
             "type": "integer"

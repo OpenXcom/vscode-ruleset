@@ -52,6 +52,9 @@
     },
     "oceanPalette": {
       "type": "integer"
+    },
+    "oceanShading": {
+      "type": "boolean"
     }
   },
   "definitions": {

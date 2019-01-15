@@ -54,6 +54,9 @@
       "minimum": 0,
       "maximum": 22
     },
+    "drawBubbles": {
+      "type": "boolean"
+    },
     "movementType": {
       "type": "integer",
       "minimum": 0,
