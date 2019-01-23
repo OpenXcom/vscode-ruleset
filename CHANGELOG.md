@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.1.1]
+- Fix missing ExtraSounds BATTLE2.CAT.
+- Validate OXCE ExtraSprites typeSingle correctly.
+- Add deprecation messages.
+- Ruleset schemas updated to OXC nightly 2019_01_15_0434 and OXCE 5.2 v2019-01-15.
+
 ## [0.1.0]
 - Support for OpenXcom Extended via configurable option.
 - Validate enums and required fields.
