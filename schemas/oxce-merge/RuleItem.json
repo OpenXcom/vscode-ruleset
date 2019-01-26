@@ -33,6 +33,15 @@
           },
           "type": "object"
         },
+        "recoveryTransformations": {
+          "additionalProperties": {
+            "items": {
+              "type": "integer"
+            },
+            "type": "array"
+          },
+          "type": "object"
+        },
         "categories": {
           "items": {
             "type": "string"
