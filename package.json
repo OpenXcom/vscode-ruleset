@@ -11,7 +11,7 @@
     },
     "icon": "images/icon.png",
     "engines": {
-        "vscode": "^1.26.0"
+        "vscode": "^1.31.0"
     },
     "license": "MIT",
     "categories": [
@@ -82,7 +82,7 @@
         "redhat.vscode-yaml"
     ],
     "scripts": {
-        "prepublish": "node ./build/index.js",
+        "prepublishOnly": "node ./build/index.js",
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
         "watch": "tsc -watch -p ./",
@@ -91,10 +91,10 @@
     },
     "devDependencies": {
         "@types/mocha": "^2.2.42",
-        "@types/node": "^8.10.25",
-        "json-merger": "^1.0.1",
-        "tslint": "^5.8.0",
-        "typescript": "^2.6.1",
-        "vscode": "^1.1.21"
+        "@types/node": "^10.12.21",
+        "json-merger": "^1.1.0",
+        "tslint": "^5.12.1",
+        "typescript": "^3.3.1",
+        "vscode": "^1.1.28"
     }
 }

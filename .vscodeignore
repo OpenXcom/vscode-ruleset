@@ -2,11 +2,12 @@
 .vscode-test/**
 build/**
 out/test/**
-out/**/*.map
 src/**
 schemas/oxce-merge/**
 .gitattributes
 .gitignore
-tsconfig.json
 vsc-extension-quickstart.md
-tslint.json
+**/tsconfig.json
+**/tslint.json
+**/*.map
+**/*.ts
