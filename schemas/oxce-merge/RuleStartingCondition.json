@@ -91,6 +91,9 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
+        "globalChance": {
+          "type": "integer"
+        },
         "chancePerTurn": {
           "type": "integer"
         },

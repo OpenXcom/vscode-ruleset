@@ -75,6 +75,42 @@
         "rankTinySprite": {
           "type": "integer"
         },
+        "panicMale": {
+          "items": {
+            "type": "integer"
+          },
+          "type": [
+            "integer",
+            "array"
+          ]
+        },
+        "panicFemale": {
+          "items": {
+            "type": "integer"
+          },
+          "type": [
+            "integer",
+            "array"
+          ]
+        },
+        "berserkMale": {
+          "items": {
+            "type": "integer"
+          },
+          "type": [
+            "integer",
+            "array"
+          ]
+        },
+        "berserkFemale": {
+          "items": {
+            "type": "integer"
+          },
+          "type": [
+            "integer",
+            "array"
+          ]
+        },
         "listOrder": {
           "type": "integer"
         },

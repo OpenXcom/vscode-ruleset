@@ -27,6 +27,27 @@
         "autoSurrender": {
           "type": "boolean"
         },
+        "panicSound": {
+          "items": {
+            "type": "integer"
+          },
+          "type": [
+            "integer",
+            "array"
+          ]
+        },
+        "berserkSound": {
+          "items": {
+            "type": "integer"
+          },
+          "type": [
+            "integer",
+            "array"
+          ]
+        },
+        "pickUpWeaponsMoreActively": {
+          "type": "integer"
+        },
         "isLeeroyJenkins": {
           "type": "boolean"
         },

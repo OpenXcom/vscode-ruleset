@@ -112,6 +112,9 @@
         "allowCountriesToCancelAlienPact": {
           "type": "boolean"
         },
+        "buildInfiltrationBaseCloseToTheCountry": {
+          "type": "boolean"
+        },
         "kneelBonusGlobal": {
           "type": "integer"
         },
@@ -191,6 +194,9 @@
         "soldiersPerCommander": {
           "type": "integer"
         },
+        "drawEnemyRadarCircles": {
+          "type": "integer"
+        },
         "pilotAccuracyZeroPoint": {
           "type": "integer"
         },
@@ -232,6 +238,9 @@
           "type": "boolean"
         },
         "giveScoreAlsoForResearchedArtifacts": {
+          "type": "boolean"
+        },
+        "statisticalBulletConservation": {
           "type": "boolean"
         },
         "theMostUselessOptionEver": {
@@ -351,6 +360,9 @@
               "type": "boolean"
             },
             "respectMaxRange": {
+              "type": "boolean"
+            },
+            "pickUpWeaponsMoreActively": {
               "type": "boolean"
             },
             "destroyBaseFacilities": {

@@ -456,6 +456,9 @@
         "psiRequired": {
           "type": "boolean"
         },
+        "hidePower": {
+          "type": "boolean"
+        },
         "tags": {
           "type": "object"
         },

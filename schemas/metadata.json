@@ -28,6 +28,9 @@
     "reservedSpace": {
       "type": "integer"
     },
+    "requiredExtendedVersion": {
+      "type": "string"
+    },
     "loadResources": {
       "type": "array",
       "items": {
