@@ -15,11 +15,32 @@
         "refund": {
           "type": "boolean"
         },
+        "randomProducedItems": {
+          "items": {
+            "$ref": "#/definitions/RandomProductionItem"
+          },
+          "type": "array"
+        },
         "spawnedPersonType": {
           "type": "string"
         },
         "spawnedPersonName": {
           "type": "string"
+        }
+      },
+      "definitions": {
+        "RandomProductionItem": {
+          "items": [
+            {
+              "type": "integer"
+            },
+            {
+              "$ref": "WeightedOptions.json"
+            }
+          ],
+          "minItems": 2,
+          "maxItems": 2,
+          "type": "array"
         }
       }
     }
