@@ -1,0 +1,35 @@
+{
+  "$merge": {
+    "source": {
+      "$import": "../oxc/ArticleDefinition.json"
+    },
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/ArticleDefinition.json",
+      "properties": {
+        "pages": {
+          "items": {
+            "$ref": "#/definitions/ArticlePage"
+          },
+          "type": "array"
+        }
+      },
+      "definitions": {
+        "ArticlePage": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            },
+            "ammoSlot": {
+              "type": "integer"
+            }
+          }
+        }
+      }
+    }
+  }
+}
