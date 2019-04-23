@@ -63,6 +63,18 @@
         "alienBaseUpgrades": {
           "$ref": "WeightedOptions.json#/definitions/Map"
         }
+      },
+      "definitions": {
+        "DeploymentData": {
+          "properties": {
+            "extraRandomItems": {
+              "items": {
+                "$ref": "#/definitions/ItemSet"
+              },
+              "type": "array"
+            }
+          }
+        }
       }
     }
   }
