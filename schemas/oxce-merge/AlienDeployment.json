@@ -51,6 +51,12 @@
         "huntMissionMaxFrequency": {
           "type": "integer"
         },
+        "randomRace": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
         "huntMissionWeights": {
           "$ref": "WeightedOptions.json#/definitions/Map"
         },

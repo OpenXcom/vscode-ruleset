@@ -58,6 +58,9 @@
         "shieldRechargedAtBase": {
           "type": "integer"
         },
+        "forceShowInMonthlyCosts": {
+          "type": "boolean"
+        },
         "mapVisible": {
           "type": "boolean"
         }

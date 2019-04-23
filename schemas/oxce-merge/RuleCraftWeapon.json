@@ -15,6 +15,9 @@
         "weaponType": {
           "type": "integer"
         },
+        "hidePediaInfo": {
+          "type": "boolean"
+        },
         "tractorBeamPower": {
           "type": "integer"
         }

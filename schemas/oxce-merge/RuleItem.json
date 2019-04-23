@@ -382,6 +382,9 @@
         "ignoreInBaseDefense": {
           "type": "boolean"
         },
+        "ignoreInCraftEquip": {
+          "type": "boolean"
+        },
         "prisonType": {
           "type": "integer"
         },
