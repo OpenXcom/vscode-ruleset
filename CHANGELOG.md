@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.1.2]
+- Ruleset schemas updated to OXC nightly 2019_03_04_0513 and OXCE 5.4.
+
 ## [0.1.1]
 - Fix missing ExtraSounds BATTLE2.CAT.
 - Validate OXCE ExtraSprites typeSingle correctly.
