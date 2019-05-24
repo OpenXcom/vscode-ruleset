@@ -30,6 +30,9 @@
         "refundValue": {
           "type": "integer"
         },
+        "mindPower": {
+          "type": "integer"
+        },
         "trainingRooms": {
           "type": "integer"
         },
