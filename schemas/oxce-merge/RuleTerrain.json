@@ -9,7 +9,7 @@
         "addOnly": {
           "type": "boolean"
         },
-        "startingCondition": {
+        "enviroEffects": {
           "type": "string"
         }
       }

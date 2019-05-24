@@ -57,6 +57,19 @@
             ]
           }
         },
+        "enviroEffects": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/delete"
+              },
+              {
+                "$ref": "RuleEnviroEffects.json"
+              }
+            ]
+          }
+        },
         "soldierTransformation": {
           "type": "array",
           "items": {
@@ -242,12 +255,6 @@
         },
         "statisticalBulletConservation": {
           "type": "boolean"
-        },
-        "theMostUselessOptionEver": {
-          "type": "integer"
-        },
-        "theBiggestRipOffEver": {
-          "type": "integer"
         },
         "shortRadarRange": {
           "type": "integer"

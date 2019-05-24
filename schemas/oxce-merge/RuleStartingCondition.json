@@ -10,24 +10,6 @@
     "type": {
       "type": "string"
     },
-    "paletteTransformations": {
-      "additionalProperties": {
-        "type": "string"
-      },
-      "type": "object"
-    },
-    "environmentalConditions": {
-      "additionalProperties": {
-        "$ref": "#/definitions/EnvironmentalCondition"
-      },
-      "type": "object"
-    },
-    "armorTransformations": {
-      "additionalProperties": {
-        "type": "string"
-      },
-      "type": "object"
-    },
     "defaultArmor": {
       "additionalProperties": {
         "additionalProperties": {
@@ -43,7 +25,19 @@
       },
       "type": "array"
     },
+    "forbiddenArmors": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
     "allowedVehicles": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "forbiddenVehicles": {
       "items": {
         "type": "string"
       },
@@ -55,13 +49,31 @@
       },
       "type": "array"
     },
+    "forbiddenItems": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
     "allowedItemCategories": {
       "items": {
         "type": "string"
       },
       "type": "array"
     },
+    "forbiddenItemCategories": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
     "allowedCraft": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "forbiddenCraft": {
       "items": {
         "type": "string"
       },
@@ -75,50 +87,6 @@
     },
     "destroyRequiredItems": {
       "type": "boolean"
-    },
-    "mapBackgroundColor": {
-      "type": "integer"
-    },
-    "inventoryShockIndicator": {
-      "type": "string"
-    },
-    "mapShockIndicator": {
-      "type": "string"
-    }
-  },
-  "definitions": {
-    "EnvironmentalCondition": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "globalChance": {
-          "type": "integer"
-        },
-        "chancePerTurn": {
-          "type": "integer"
-        },
-        "firstTurn": {
-          "type": "integer"
-        },
-        "lastTurn": {
-          "type": "integer"
-        },
-        "message": {
-          "type": "string"
-        },
-        "color": {
-          "type": "integer"
-        },
-        "weaponOrAmmo": {
-          "type": "string"
-        },
-        "side": {
-          "type": "integer"
-        },
-        "bodyPart": {
-          "type": "integer"
-        }
-      }
     }
   }
 }

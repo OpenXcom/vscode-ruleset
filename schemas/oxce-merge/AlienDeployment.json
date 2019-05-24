@@ -9,6 +9,9 @@
         "startingCondition": {
           "type": "string"
         },
+        "enviroEffects": {
+          "type": "string"
+        },
         "unlockedResearch": {
           "type": "string"
         },
