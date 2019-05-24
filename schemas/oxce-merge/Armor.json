@@ -33,6 +33,9 @@
           },
           "type": "object"
         },
+        "requires": {
+          "type": "string"
+        },
         "leftArmorDiff": {
           "type": "integer"
         },
