@@ -79,6 +79,18 @@
       },
       "type": "array"
     },
+    "allowedSoldierTypes": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "forbiddenSoldierTypes": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
     "requiredItems": {
       "additionalProperties": {
         "type": "integer"
