@@ -44,6 +44,19 @@
             ]
           }
         },
+        "arcScripts": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/delete"
+              },
+              {
+                "$ref": "RuleArcScript.json"
+              }
+            ]
+          }
+        },
         "startingConditions": {
           "type": "array",
           "items": {

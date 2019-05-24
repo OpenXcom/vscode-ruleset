@@ -1,0 +1,47 @@
+{
+  "$id": "https://openxcom.org/schemas/oxc/RuleArcScript.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ],
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "sequentialArcs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "randomArcs": {
+      "$ref": "WeightedOptions.json"
+    },
+    "firstMonth": {
+      "type": "integer"
+    },
+    "lastMonth": {
+      "type": "integer"
+    },
+    "executionOdds": {
+      "type": "integer"
+    },
+    "maxArcs": {
+      "type": "integer"
+    },
+    "minDifficulty": {
+      "type": "integer"
+    },
+    "maxDifficulty": {
+      "type": "integer"
+    },
+    "researchTriggers": {
+      "additionalProperties": {
+        "type": "boolean"
+      },
+      "type": "object"
+    }
+  }
+}
