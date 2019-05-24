@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.1.3]
+- Ruleset schemas updated to OXCE 5.5.
+
 ## [0.1.2]
 - Ruleset schemas updated to OXC nightly 2019_03_04_0513 and OXCE 5.4.
 
