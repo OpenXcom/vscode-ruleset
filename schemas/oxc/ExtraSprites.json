@@ -16,7 +16,7 @@
     },
     "files": {
       "patternProperties": {
-        "^-?\\d+$": {
+        "^\\d+$": {
           "type": "string"
         }
       },
