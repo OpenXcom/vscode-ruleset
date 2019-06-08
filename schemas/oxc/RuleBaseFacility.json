@@ -17,10 +17,10 @@
       "type": "array"
     },
     "spriteShape": {
-      "type": "integer"
+      "$ref": "ModOffset.json"
     },
     "spriteFacility": {
-      "type": "integer"
+      "$ref": "ModOffset.json"
     },
     "lift": {
       "type": "boolean"
@@ -80,10 +80,10 @@
       "type": "integer"
     },
     "fireSound": {
-      "type": "integer"
+      "$ref": "ModOffset.json"
     },
     "hitSound": {
-      "type": "integer"
+      "$ref": "ModOffset.json"
     },
     "mapName": {
       "type": "string"

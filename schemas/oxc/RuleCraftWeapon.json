@@ -14,7 +14,7 @@
       "type": "integer"
     },
     "sound": {
-      "type": "integer"
+      "$ref": "ModOffset.json"
     },
     "damage": {
       "type": "integer"

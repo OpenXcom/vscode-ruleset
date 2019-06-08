@@ -59,22 +59,10 @@
       "type": "array"
     },
     "deathMale": {
-      "items": {
-        "type": "integer"
-      },
-      "type": [
-        "integer",
-        "array"
-      ]
+      "$ref": "ModOffset.json#/definitions/List"
     },
     "deathFemale": {
-      "items": {
-        "type": "integer"
-      },
-      "type": [
-        "integer",
-        "array"
-      ]
+      "$ref": "ModOffset.json#/definitions/List"
     }
   }
 }

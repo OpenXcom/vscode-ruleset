@@ -35,34 +35,34 @@
       "type": "integer"
     },
     "bigSprite": {
-      "type": "integer"
+      "$ref": "ModOffset.json"
     },
     "floorSprite": {
-      "type": "integer"
+      "$ref": "ModOffset.json"
     },
     "handSprite": {
-      "type": "integer"
+      "$ref": "ModOffset.json"
     },
     "bulletSprite": {
-      "type": "integer"
+      "$ref": "ModOffset.json"
     },
     "fireSound": {
-      "type": "integer"
+      "$ref": "ModOffset.json"
     },
     "hitSound": {
-      "type": "integer"
+      "$ref": "ModOffset.json"
     },
     "meleeSound": {
-      "type": "integer"
+      "$ref": "ModOffset.json"
     },
     "hitAnimation": {
-      "type": "integer"
+      "$ref": "ModOffset.json"
     },
     "meleeAnimation": {
-      "type": "integer"
+      "$ref": "ModOffset.json"
     },
     "meleeHitSound": {
-      "type": "integer"
+      "$ref": "ModOffset.json"
     },
     "power": {
       "type": "integer"
@@ -157,6 +157,9 @@
       "type": "integer"
     },
     "recover": {
+      "type": "boolean"
+    },
+    "ignoreInBaseDefense": {
       "type": "boolean"
     },
     "liveAlien": {

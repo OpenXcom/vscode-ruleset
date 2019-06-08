@@ -49,109 +49,49 @@
           "type": "array"
         },
         "specialIconSprite": {
-          "type": "integer"
+          "$ref": "ModOffset.json"
         },
         "reloadSound": {
-          "type": [
-            "integer",
-            "array"
-          ],
-          "items": {
-            "type": "integer"
-          }
+          "$ref": "ModOffset.json#/definitions/List"
         },
         "fireSound": {
-          "type": [
-            "integer",
-            "array"
-          ],
-          "items": {
-            "type": "integer"
-          }
+          "$ref": "ModOffset.json#/definitions/List"
         },
         "hitSound": {
-          "type": [
-            "integer",
-            "array"
-          ],
-          "items": {
-            "type": "integer"
-          }
+          "$ref": "ModOffset.json#/definitions/List"
         },
         "hitMissSound": {
-          "type": [
-            "integer",
-            "array"
-          ],
-          "items": {
-            "type": "integer"
-          }
+          "$ref": "ModOffset.json#/definitions/List"
         },
         "meleeSound": {
-          "type": [
-            "integer",
-            "array"
-          ],
-          "items": {
-            "type": "integer"
-          }
+          "$ref": "ModOffset.json#/definitions/List"
         },
         "meleeMissSound": {
-          "type": [
-            "integer",
-            "array"
-          ],
-          "items": {
-            "type": "integer"
-          }
+          "$ref": "ModOffset.json#/definitions/List"
         },
         "psiSound": {
-          "type": [
-            "integer",
-            "array"
-          ],
-          "items": {
-            "type": "integer"
-          }
+          "$ref": "ModOffset.json#/definitions/List"
         },
         "psiMissSound": {
-          "type": [
-            "integer",
-            "array"
-          ],
-          "items": {
-            "type": "integer"
-          }
+          "$ref": "ModOffset.json#/definitions/List"
         },
         "hitMissAnimation": {
-          "type": "integer"
+          "$ref": "ModOffset.json"
         },
         "meleeMissAnimation": {
-          "type": "integer"
+          "$ref": "ModOffset.json"
         },
         "psiAnimation": {
-          "type": "integer"
+          "$ref": "ModOffset.json"
         },
         "psiMissAnimation": {
-          "type": "integer"
+          "$ref": "ModOffset.json"
         },
         "meleeHitSound": {
-          "type": [
-            "integer",
-            "array"
-          ],
-          "items": {
-            "type": "integer"
-          }
+          "$ref": "ModOffset.json#/definitions/List"
         },
         "explosionHitSound": {
-          "type": [
-            "integer",
-            "array"
-          ],
-          "items": {
-            "type": "integer"
-          }
+          "$ref": "ModOffset.json#/definitions/List"
         },
         "damageAlter": {
           "$ref": "RuleDamageType.json"
@@ -379,9 +319,6 @@
         "recoverCorpse": {
           "type": "boolean"
         },
-        "ignoreInBaseDefense": {
-          "type": "boolean"
-        },
         "ignoreInCraftEquip": {
           "type": "boolean"
         },
@@ -409,13 +346,7 @@
           "type": "integer"
         },
         "customItemPreviewIndex": {
-          "type": [
-            "array",
-            "integer"
-          ],
-          "items": {
-            "type": "integer"
-          }
+          "$ref": "ModOffset.json#/definitions/List"
         },
         "kneelBonus": {
           "type": "integer"

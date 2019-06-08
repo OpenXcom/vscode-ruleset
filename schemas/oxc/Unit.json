@@ -76,19 +76,13 @@
       "type": "array"
     },
     "deathSound": {
-      "items": {
-        "type": "integer"
-      },
-      "type": [
-        "integer",
-        "array"
-      ]
+      "$ref": "ModOffset.json#/definitions/List"
     },
     "aggroSound": {
-      "type": "integer"
+      "$ref": "ModOffset.json"
     },
     "moveSound": {
-      "type": "integer"
+      "$ref": "ModOffset.json"
     }
   }
 }

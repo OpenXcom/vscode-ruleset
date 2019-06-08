@@ -1,0 +1,36 @@
+{
+  "$id": "https://openxcom.org/schemas/oxc/ModOffset.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "required": [
+    "mod",
+    "index"
+  ],
+  "properties": {
+    "mod": {
+      "type": "string"
+    },
+    "index": {
+      "type": "integer"
+    }
+  },
+  "type": [
+    "integer",
+    "object"
+  ],
+  "definitions": {
+    "List": {
+      "oneOf": [
+        {
+          "items": {
+            "$ref": "#"
+          },
+          "type": "array"
+        },
+        {
+          "$ref": "#"
+        }
+      ]
+    }
+  }
+}

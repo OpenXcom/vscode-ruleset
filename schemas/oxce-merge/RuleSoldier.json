@@ -67,49 +67,25 @@
           "type": "array"
         },
         "rankSprite": {
-          "type": "integer"
+          "$ref": "ModOffset.json"
         },
         "rankBattleSprite": {
-          "type": "integer"
+          "$ref": "ModOffset.json"
         },
         "rankTinySprite": {
-          "type": "integer"
+          "$ref": "ModOffset.json"
         },
         "panicMale": {
-          "items": {
-            "type": "integer"
-          },
-          "type": [
-            "integer",
-            "array"
-          ]
+          "$ref": "ModOffset.json#/definitions/List"
         },
         "panicFemale": {
-          "items": {
-            "type": "integer"
-          },
-          "type": [
-            "integer",
-            "array"
-          ]
+          "$ref": "ModOffset.json#/definitions/List"
         },
         "berserkMale": {
-          "items": {
-            "type": "integer"
-          },
-          "type": [
-            "integer",
-            "array"
-          ]
+          "$ref": "ModOffset.json#/definitions/List"
         },
         "berserkFemale": {
-          "items": {
-            "type": "integer"
-          },
-          "type": [
-            "integer",
-            "array"
-          ]
+          "$ref": "ModOffset.json#/definitions/List"
         },
         "listOrder": {
           "type": "integer"

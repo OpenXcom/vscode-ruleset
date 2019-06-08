@@ -31,6 +31,9 @@
     "requiredExtendedVersion": {
       "type": "string"
     },
+    "resourceConfig": {
+      "type": "string"
+    },
     "loadResources": {
       "type": "array",
       "items": {

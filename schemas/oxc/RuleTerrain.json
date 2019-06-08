@@ -43,7 +43,7 @@
       "type": "array"
     },
     "ambience": {
-      "type": "integer"
+      "$ref": "ModOffset.json"
     },
     "ambientVolume": {
       "type": "number"

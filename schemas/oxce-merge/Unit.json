@@ -28,22 +28,10 @@
           "type": "boolean"
         },
         "panicSound": {
-          "items": {
-            "type": "integer"
-          },
-          "type": [
-            "integer",
-            "array"
-          ]
+          "$ref": "ModOffset.json#/definitions/List"
         },
         "berserkSound": {
-          "items": {
-            "type": "integer"
-          },
-          "type": [
-            "integer",
-            "array"
-          ]
+          "$ref": "ModOffset.json#/definitions/List"
         },
         "pickUpWeaponsMoreActively": {
           "type": "integer"
