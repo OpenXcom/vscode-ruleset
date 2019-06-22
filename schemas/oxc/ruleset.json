@@ -339,10 +339,7 @@
       "$ref": "RuleGlobe.json"
     },
     "constants": {
-      "type": "array",
-      "items": {
-        "$ref": "#/definitions/constants"
-      }
+      "$ref": "#/definitions/constants"
     },
     "transparencyLUTs": {
       "type": "array"
