@@ -45,6 +45,9 @@
         "genMissionLimit": {
           "type": "integer"
         },
+        "baseSelfDestructCode": {
+          "type": "string"
+        },
         "baseDetectionRange": {
           "type": "integer"
         },

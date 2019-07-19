@@ -12,6 +12,9 @@
         "despawnEvenIfTargeted": {
           "type": "boolean"
         },
+        "interruptResearch": {
+          "type": "string"
+        },
         "operationType": {
           "type": "integer",
           "minimum": 0,
