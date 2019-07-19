@@ -117,6 +117,9 @@
             },
             "stun": {
               "$ref": "RuleStatBonus.json"
+            },
+            "mana": {
+              "$ref": "RuleStatBonus.json"
             }
           }
         },

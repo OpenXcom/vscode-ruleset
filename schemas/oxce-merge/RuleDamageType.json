@@ -51,6 +51,9 @@
     "ToHealth": {
       "type": "number"
     },
+    "ToMana": {
+      "type": "number"
+    },
     "ToArmor": {
       "type": "number"
     },
@@ -79,6 +82,9 @@
       "type": "number"
     },
     "RandomHealth": {
+      "type": "boolean"
+    },
+    "RandomMana": {
       "type": "boolean"
     },
     "RandomArmor": {

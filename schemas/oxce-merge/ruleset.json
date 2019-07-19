@@ -120,6 +120,9 @@
         "ai": {
           "$ref": "#/definitions/ai"
         },
+        "mana": {
+          "$ref": "#/definitions/mana"
+        },
         "maxLookVariant": {
           "type": "integer"
         },
@@ -351,6 +354,30 @@
         }
       },
       "definitions": {
+        "mana": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "battleUI": {
+              "type": "boolean"
+            },
+            "trainingPrimary": {
+              "type": "boolean"
+            },
+            "trainingSecondary": {
+              "type": "boolean"
+            },
+            "replenishAfterMission": {
+              "type": "boolean"
+            },
+            "unlockResearch": {
+              "type": "string"
+            }
+          }
+        },
         "ai": {
           "type": "object",
           "additionalProperties": false,

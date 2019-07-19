@@ -19,6 +19,9 @@
     "health": {
       "$ref": "#/definitions/RuleStatBonusData"
     },
+    "mana": {
+      "$ref": "#/definitions/RuleStatBonusData"
+    },
     "bravery": {
       "$ref": "#/definitions/RuleStatBonusData"
     },
@@ -64,6 +67,9 @@
     "healthCurrent": {
       "$ref": "#/definitions/RuleStatBonusData"
     },
+    "manaCurrent": {
+      "$ref": "#/definitions/RuleStatBonusData"
+    },
     "tuCurrent": {
       "$ref": "#/definitions/RuleStatBonusData"
     },
@@ -77,6 +83,9 @@
       "$ref": "#/definitions/RuleStatBonusData"
     },
     "healthNormalized": {
+      "$ref": "#/definitions/RuleStatBonusData"
+    },
+    "manaNormalized": {
       "$ref": "#/definitions/RuleStatBonusData"
     },
     "tuNormalized": {

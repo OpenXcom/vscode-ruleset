@@ -330,6 +330,9 @@
           "minimum": 0,
           "maximum": 32
         },
+        "manaExperience": {
+          "type": "integer"
+        },
         "shotgunBehavior": {
           "type": "integer"
         },
@@ -390,6 +393,9 @@
         "psiRequired": {
           "type": "boolean"
         },
+        "manaRequired": {
+          "type": "boolean"
+        },
         "hidePower": {
           "type": "boolean"
         },
@@ -440,6 +446,9 @@
             },
             "stun": {
               "type": "integer"
+            },
+            "mana": {
+              "type": "integer"
             }
           }
         },
@@ -463,6 +472,9 @@
               "type": "boolean"
             },
             "stun": {
+              "type": "boolean"
+            },
+            "mana": {
               "type": "boolean"
             }
           }

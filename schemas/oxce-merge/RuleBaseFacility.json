@@ -39,6 +39,9 @@
         "maxAllowedPerBase": {
           "type": "integer"
         },
+        "manaRecoveryPerDay": {
+          "type": "integer"
+        },
         "sickBayAbsoluteBonus": {
           "type": "number"
         },
