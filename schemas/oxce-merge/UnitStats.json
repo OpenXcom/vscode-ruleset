@@ -1,0 +1,15 @@
+{
+  "$merge": {
+    "source": {
+      "$import": "../oxc/UnitStats.json"
+    },
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/UnitStats.json",
+      "properties": {
+        "mana": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}
