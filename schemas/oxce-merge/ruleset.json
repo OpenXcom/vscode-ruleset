@@ -138,6 +138,9 @@
         "chanceToStopRetaliation": {
           "type": "integer"
         },
+        "lessAliensDuringBaseDefense": {
+          "type": "boolean"
+        },
         "allowCountriesToCancelAlienPact": {
           "type": "boolean"
         },
