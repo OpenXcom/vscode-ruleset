@@ -6,6 +6,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/RuleBaseFacility.json",
       "properties": {
+        "fakeUnderwater": {
+          "type": "integer"
+        },
         "requiresBaseFunc": {
           "items": {
             "type": "string"
