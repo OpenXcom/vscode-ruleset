@@ -1,0 +1,38 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/RuleEventScript.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ],
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "eventWeights": {
+      "$ref": "WeightedOptions.json#/definitions/Map"
+    },
+    "firstMonth": {
+      "type": "integer"
+    },
+    "lastMonth": {
+      "type": "integer"
+    },
+    "executionOdds": {
+      "type": "integer"
+    },
+    "minDifficulty": {
+      "type": "integer"
+    },
+    "maxDifficulty": {
+      "type": "integer"
+    },
+    "researchTriggers": {
+      "additionalProperties": {
+        "type": "boolean"
+      },
+      "type": "object"
+    }
+  }
+}

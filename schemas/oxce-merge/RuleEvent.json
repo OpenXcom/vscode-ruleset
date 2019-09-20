@@ -1,0 +1,56 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/RuleEvent.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "background": {
+      "type": "string"
+    },
+    "regionList": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "city": {
+      "type": "boolean"
+    },
+    "points": {
+      "type": "integer"
+    },
+    "funds": {
+      "type": "integer"
+    },
+    "itemList": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "researchList": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "interruptResearch": {
+      "type": "string"
+    },
+    "timer": {
+      "type": "integer"
+    },
+    "timerRandom": {
+      "type": "integer"
+    }
+  }
+}

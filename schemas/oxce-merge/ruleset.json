@@ -44,6 +44,32 @@
             ]
           }
         },
+        "events": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/delete"
+              },
+              {
+                "$ref": "RuleEvent.json"
+              }
+            ]
+          }
+        },
+        "eventScripts": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/delete"
+              },
+              {
+                "$ref": "RuleEventScript.json"
+              }
+            ]
+          }
+        },
         "arcScripts": {
           "type": "array",
           "items": {
