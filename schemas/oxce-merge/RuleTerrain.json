@@ -6,6 +6,17 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/RuleTerrain.json",
       "properties": {
+        "ambienceRandom": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
+        "ambienceRandomDelay": {
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "type": "array"
+        },
         "addOnly": {
           "type": "boolean"
         },
