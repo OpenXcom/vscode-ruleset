@@ -162,6 +162,12 @@
         "mana": {
           "$ref": "#/definitions/mana"
         },
+        "unitResponseSounds": {
+          "items": {
+            "$ref": "#/definitions/customUnitResponseSounds"
+          },
+          "type": "array"
+        },
         "maxLookVariant": {
           "type": "integer"
         },
@@ -436,6 +442,27 @@
         }
       },
       "definitions": {
+        "customUnitResponseSounds": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "selectUnitSound": {
+              "$ref": "ModOffset.json#/definitions/List"
+            },
+            "startMovingSound": {
+              "$ref": "ModOffset.json#/definitions/List"
+            },
+            "selectWeaponSound": {
+              "$ref": "ModOffset.json#/definitions/List"
+            },
+            "annoyedSound": {
+              "$ref": "ModOffset.json#/definitions/List"
+            }
+          }
+        },
         "mana": {
           "type": "object",
           "additionalProperties": false,
