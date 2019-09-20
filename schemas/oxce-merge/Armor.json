@@ -42,6 +42,12 @@
         "moveSound": {
           "type": "integer"
         },
+        "deathMale": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
+        "deathFemale": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
         "selectUnitMale": {
           "$ref": "ModOffset.json#/definitions/List"
         },
