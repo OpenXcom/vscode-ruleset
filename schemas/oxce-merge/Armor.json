@@ -42,6 +42,30 @@
         "moveSound": {
           "type": "integer"
         },
+        "selectUnitMale": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
+        "selectUnitFemale": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
+        "startMovingMale": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
+        "startMovingFemale": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
+        "selectWeaponMale": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
+        "selectWeaponFemale": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
+        "annoyedMale": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
+        "annoyedFemale": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
         "visibilityAtDark": {
           "type": "integer"
         },

@@ -33,6 +33,18 @@
         "berserkSound": {
           "$ref": "ModOffset.json#/definitions/List"
         },
+        "selectUnitSound": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
+        "startMovingSound": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
+        "selectWeaponSound": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
+        "annoyedSound": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
         "pickUpWeaponsMoreActively": {
           "type": "integer"
         },

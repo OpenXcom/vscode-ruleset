@@ -314,6 +314,9 @@
         "disableUnderwaterSounds": {
           "type": "boolean"
         },
+        "enableUnitResponseSounds": {
+          "type": "boolean"
+        },
         "flagByKills": {
           "items": {
             "type": "integer"
@@ -326,6 +329,13 @@
           },
           "type": "array",
           "maxItems": 5
+        },
+        "unitResponseSoundsFrequency": {
+          "items": {
+            "type": "integer"
+          },
+          "type": "array",
+          "maxItems": 4
         },
         "customPalettes": {
           "type": "array",
