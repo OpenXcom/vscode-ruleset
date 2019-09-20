@@ -6,6 +6,18 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/RuleMissionScript.json",
       "properties": {
+        "minScore": {
+          "type": "integer"
+        },
+        "maxScore": {
+          "type": "integer"
+        },
+        "itemTriggers": {
+          "additionalProperties": {
+            "type": "boolean"
+          },
+          "type": "object"
+        },
         "randomDelay": {
           "type": "integer"
         }

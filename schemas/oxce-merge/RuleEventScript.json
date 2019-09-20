@@ -28,6 +28,18 @@
     "maxDifficulty": {
       "type": "integer"
     },
+    "minScore": {
+      "type": "integer"
+    },
+    "maxScore": {
+      "type": "integer"
+    },
+    "itemTriggers": {
+      "additionalProperties": {
+        "type": "boolean"
+      },
+      "type": "object"
+    },
     "researchTriggers": {
       "additionalProperties": {
         "type": "boolean"
