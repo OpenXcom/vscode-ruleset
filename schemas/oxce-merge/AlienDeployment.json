@@ -6,6 +6,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/AlienDeployment.json",
       "properties": {
+        "abortPenalty": {
+          "type": "integer"
+        },
         "startingCondition": {
           "type": "string"
         },
