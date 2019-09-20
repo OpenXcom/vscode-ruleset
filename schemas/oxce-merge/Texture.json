@@ -6,6 +6,12 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/Texture.json",
       "properties": {
+        "fakeUnderwater": {
+          "type": "boolean"
+        },
+        "startingCondition": {
+          "type": "string"
+        },
         "baseTerrain": {
           "items": {
             "$ref": "Texture.json#/definitions/TerrainCriteria"
