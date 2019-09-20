@@ -105,6 +105,12 @@
     },
     "upperBoundAtStatCaps": {
       "type": "boolean"
+    },
+    "reset": {
+      "type": "boolean"
+    },
+    "soldierBonusType": {
+      "type": "string"
     }
   }
 }

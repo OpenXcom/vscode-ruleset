@@ -109,6 +109,19 @@
             ]
           }
         },
+        "soldierBonuses": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/delete"
+              },
+              {
+                "$ref": "RuleSoldierBonus.json"
+              }
+            ]
+          }
+        },
         "soldierTransformation": {
           "type": "array",
           "items": {

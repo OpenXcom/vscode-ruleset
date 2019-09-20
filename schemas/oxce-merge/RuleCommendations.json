@@ -1,0 +1,18 @@
+{
+  "$merge": {
+    "source": {
+      "$import": "../oxc/RuleCommendations.json"
+    },
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/RuleCommendations.json",
+      "properties": {
+        "soldierBonusTypes": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      }
+    }
+  }
+}
