@@ -6,6 +6,24 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/RuleItem.json",
       "properties": {
+        "zombieUnitByType": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "type": "object"
+        },
+        "zombieUnitByArmorMale": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "type": "object"
+        },
+        "zombieUnitByArmorFemale": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "type": "object"
+        },
         "nameAsAmmo": {
           "type": "string"
         },
