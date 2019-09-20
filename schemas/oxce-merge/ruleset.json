@@ -337,6 +337,36 @@
           },
           "type": "array"
         },
+        "baseNamesFirst": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "baseNamesMiddle": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "baseNamesLast": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "operationNamesFirst": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "operationNamesLast": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
         "disableUnderwaterSounds": {
           "type": "boolean"
         },
