@@ -1,0 +1,15 @@
+{
+  "$merge": {
+    "source": {
+      "$import": "../oxc/StatString.json"
+    },
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/StatString.json",
+      "properties": {
+        "manaPool": {
+          "$ref": "#/definitions/StatStringCondition"
+        }
+      }
+    }
+  }
+}
