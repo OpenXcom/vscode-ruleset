@@ -70,6 +70,9 @@
     "requiredMinStats": {
       "$ref": "UnitStats.json"
     },
+    "minRank": {
+      "type": "integer"
+    },
     "requiredItems": {
       "additionalProperties": {
         "type": "integer"
