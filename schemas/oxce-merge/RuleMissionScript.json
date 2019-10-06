@@ -12,6 +12,12 @@
         "maxScore": {
           "type": "integer"
         },
+        "minFunds": {
+          "type": "integer"
+        },
+        "maxFunds": {
+          "type": "integer"
+        },
         "itemTriggers": {
           "additionalProperties": {
             "type": "boolean"
