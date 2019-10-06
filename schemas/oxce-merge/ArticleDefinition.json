@@ -6,6 +6,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/ArticleDefinition.json",
       "properties": {
+        "hiddenCommendation": {
+          "type": "boolean"
+        },
         "pages": {
           "items": {
             "$ref": "#/definitions/ArticlePage"

@@ -311,14 +311,17 @@
         "extraNerdyPediaInfo": {
           "type": "boolean"
         },
-        "showAllCommendations": {
-          "type": "boolean"
-        },
         "giveScoreAlsoForResearchedArtifacts": {
           "type": "boolean"
         },
         "statisticalBulletConservation": {
           "type": "boolean"
+        },
+        "stunningImprovesMorale": {
+          "type": "boolean"
+        },
+        "tuRecoveryWakeUpNewTurn": {
+          "type": "integer"
         },
         "shortRadarRange": {
           "type": "integer"
