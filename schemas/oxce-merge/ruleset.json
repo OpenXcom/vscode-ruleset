@@ -159,6 +159,9 @@
         "ai": {
           "$ref": "#/definitions/ai"
         },
+        "gameOver": {
+          "$ref": "#/definitions/gameOver"
+        },
         "mana": {
           "$ref": "#/definitions/mana"
         },
@@ -463,6 +466,21 @@
             },
             "annoyedSound": {
               "$ref": "ModOffset.json#/definitions/List"
+            }
+          }
+        },
+        "gameOver": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "loseMoney": {
+              "type": "string"
+            },
+            "loseRating": {
+              "type": "string"
+            },
+            "loseDefeat": {
+              "type": "string"
             }
           }
         },

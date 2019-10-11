@@ -1,0 +1,18 @@
+{
+  "$merge": {
+    "source": {
+      "$import": "../oxc/RuleVideo.json"
+    },
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/RuleVideo.json",
+      "properties": {
+        "winGame": {
+          "type": "boolean"
+        },
+        "loseGame": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
