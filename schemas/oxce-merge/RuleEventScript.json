@@ -10,6 +10,15 @@
     "type": {
       "type": "string"
     },
+    "oneTimeSequentialEvents": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "oneTimeRandomEvents": {
+      "$ref": "WeightedOptions.json"
+    },
     "eventWeights": {
       "$ref": "WeightedOptions.json#/definitions/Map"
     },
