@@ -25,6 +25,9 @@
       },
       "type": "array"
     },
+    "producedItem": {
+      "type": "string"
+    },
     "producedSoldierType": {
       "type": "string"
     },
@@ -79,6 +82,12 @@
       },
       "type": "object"
     },
+    "requiredCommendations": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "type": "object"
+    },
     "cost": {
       "type": "integer"
     },
@@ -91,14 +100,35 @@
     "flatOverallStatChange": {
       "$ref": "UnitStats.json"
     },
+    "flatMin": {
+      "$ref": "UnitStats.json"
+    },
+    "flatMax": {
+      "$ref": "UnitStats.json"
+    },
     "percentOverallStatChange": {
+      "$ref": "UnitStats.json"
+    },
+    "percentMin": {
+      "$ref": "UnitStats.json"
+    },
+    "percentMax": {
       "$ref": "UnitStats.json"
     },
     "percentGainedStatChange": {
       "$ref": "UnitStats.json"
     },
-    "useRandomStats": {
+    "percentGainedMin": {
+      "$ref": "UnitStats.json"
+    },
+    "percentGainedMax": {
+      "$ref": "UnitStats.json"
+    },
+    "showMinMax": {
       "type": "boolean"
+    },
+    "rerollStats": {
+      "$ref": "UnitStats.json"
     },
     "lowerBoundAtMinStats": {
       "type": "boolean"
