@@ -16,6 +16,9 @@
     "background": {
       "type": "string"
     },
+    "music": {
+      "type": "string"
+    },
     "regionList": {
       "items": {
         "type": "string"
@@ -32,13 +35,25 @@
       "type": "integer"
     },
     "randomItem": {
-      "type": "boolean"
+      "deprecationMessage": "Deprecated: use \"everyItemList\" or \"randomItemList\" instead"
     },
     "itemList": {
+      "deprecationMessage": "Deprecated: use \"everyItemList\" or \"randomItemList\" instead"
+    },
+    "everyItemList": {
       "items": {
         "type": "string"
       },
       "type": "array"
+    },
+    "randomItemList": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "weightedItemList": {
+      "$ref": "WeightedOptions.json"
     },
     "researchList": {
       "items": {
