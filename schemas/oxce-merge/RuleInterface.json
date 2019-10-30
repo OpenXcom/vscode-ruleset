@@ -12,6 +12,15 @@
         "sound": {
           "type": "integer"
         }
+      },
+      "definitions": {
+        "Element": {
+          "properties": {
+            "custom": {
+              "type": "integer"
+            }
+          }
+        }
       }
     }
   }
