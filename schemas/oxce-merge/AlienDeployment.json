@@ -24,6 +24,9 @@
         "bughuntMinTurn": {
           "type": "integer"
         },
+        "civilianSpawnNodeRank": {
+          "type": "integer"
+        },
         "civiliansByType": {
           "additionalProperties": {
             "type": "integer"
