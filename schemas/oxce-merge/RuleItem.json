@@ -287,6 +287,12 @@
         "defaultInventorySlot": {
           "type": "string"
         },
+        "defaultInvSlotX": {
+          "type": "integer"
+        },
+        "defaultInvSlotY": {
+          "type": "integer"
+        },
         "supportedInventorySections": {
           "items": {
             "type": "string"
