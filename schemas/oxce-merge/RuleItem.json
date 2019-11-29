@@ -300,7 +300,16 @@
           "type": "array"
         },
         "allowSelfHeal": {
+          "deprecationMessage": "Deprecated: use \"medikitTargetSelf\" instead"
+        },
+        "medikitTargetSelf": {
           "type": "boolean"
+        },
+        "medikitTargetImmune": {
+          "type": "boolean"
+        },
+        "medikitTargetMatrix": {
+          "type": "integer"
         },
         "isConsumable": {
           "type": "boolean"
