@@ -40,6 +40,12 @@
     "itemList": {
       "deprecationMessage": "Deprecated: use \"everyItemList\" or \"randomItemList\" instead"
     },
+    "everyMultiItemList": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "type": "object"
+    },
     "everyItemList": {
       "items": {
         "type": "string"

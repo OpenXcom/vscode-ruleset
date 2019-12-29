@@ -6,8 +6,14 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/AlienDeployment.json",
       "properties": {
+        "isHidden": {
+          "type": "boolean"
+        },
         "abortPenalty": {
           "type": "integer"
+        },
+        "customUfo": {
+          "type": "string"
         },
         "startingCondition": {
           "type": "string"

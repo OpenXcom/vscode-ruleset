@@ -39,6 +39,15 @@
         },
         "alertSound": {
           "$ref": "ModOffset.json"
+        },
+        "huntAlertSound": {
+          "$ref": "ModOffset.json"
+        },
+        "tags": {
+          "type": "object"
+        },
+        "scripts": {
+          "type": "object"
         }
       }
     }

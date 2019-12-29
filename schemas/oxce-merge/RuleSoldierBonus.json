@@ -39,6 +39,12 @@
           "$ref": "RuleStatBonus.json"
         }
       }
+    },
+    "tags": {
+      "type": "object"
+    },
+    "scripts": {
+      "type": "object"
     }
   }
 }

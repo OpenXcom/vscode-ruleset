@@ -120,6 +120,9 @@
         "meleeAlter": {
           "$ref": "RuleDamageType.json"
         },
+        "medikitActionName": {
+          "type": "string"
+        },
         "psiAttackName": {
           "type": "string"
         },

@@ -138,6 +138,21 @@
         "startingDifficulty": {
           "type": "integer"
         },
+        "startingBaseBeginner": {
+          "type": "object"
+        },
+        "startingBaseExperienced": {
+          "type": "object"
+        },
+        "startingBaseVeteran": {
+          "type": "object"
+        },
+        "startingBaseGenius": {
+          "type": "object"
+        },
+        "startingBaseSuperhuman": {
+          "type": "object"
+        },
         "maxViewDistance": {
           "type": "integer"
         },
@@ -306,6 +321,9 @@
           "type": "integer"
         },
         "useCustomCategories": {
+          "type": "boolean"
+        },
+        "shareAmmoCategories": {
           "type": "boolean"
         },
         "showDogfightDistanceInKm": {
