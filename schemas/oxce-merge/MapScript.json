@@ -8,6 +8,15 @@
       "definitions": {
         "MapScript": {
           "properties": {
+            "verticalGroup": {
+              "type": "integer"
+            },
+            "horizontalGroup": {
+              "type": "integer"
+            },
+            "crossingGroup": {
+              "type": "integer"
+            },
             "canBeSkipped": {
               "type": "boolean"
             },
@@ -16,6 +25,12 @@
             },
             "terrain": {
               "type": "string"
+            },
+            "randomTerrain": {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
             },
             "verticalLevels": {
               "items": {

@@ -109,6 +109,19 @@
             ]
           }
         },
+        "skills": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/delete"
+              },
+              {
+                "$ref": "RuleSkill.json"
+              }
+            ]
+          }
+        },
         "soldierBonuses": {
           "type": "array",
           "items": {
@@ -131,6 +144,19 @@
               },
               {
                 "$ref": "RuleSoldierTransformation.json"
+              }
+            ]
+          }
+        },
+        "manufactureShortcut": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/delete"
+              },
+              {
+                "$ref": "RuleManufactureShortcut.json"
               }
             ]
           }
@@ -476,6 +502,9 @@
           "type": "object",
           "additionalProperties": false,
           "properties": {
+            "extendedHwpLoadOrder": {
+              "type": "boolean"
+            },
             "extendedItemReloadCost": {
               "type": "boolean"
             },

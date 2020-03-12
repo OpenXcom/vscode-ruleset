@@ -1,0 +1,29 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/RuleManufactureShortcut.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "startFrom": {
+      "type": "string"
+    },
+    "breakDownItems": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "breakDownRequires": {
+      "type": "boolean"
+    },
+    "breakDownRequiresBaseFunc": {
+      "type": "boolean"
+    }
+  }
+}

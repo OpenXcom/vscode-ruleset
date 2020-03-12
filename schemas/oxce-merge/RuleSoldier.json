@@ -18,6 +18,9 @@
         "dogfightExperience": {
           "$ref": "UnitStats.json"
         },
+        "specialWeapon": {
+          "type": "string"
+        },
         "armorForAvatar": {
           "type": "string"
         },
@@ -54,6 +57,9 @@
         "moraleLossWhenKilled": {
           "type": "integer"
         },
+        "showTypeInInventory": {
+          "type": "boolean"
+        },
         "statStrings": {
           "items": {
             "$ref": "StatString.json"
@@ -74,6 +80,15 @@
         },
         "rankTinySprite": {
           "$ref": "ModOffset.json"
+        },
+        "skillIconSprite": {
+          "$ref": "ModOffset.json"
+        },
+        "skills": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
         },
         "panicMale": {
           "$ref": "ModOffset.json#/definitions/List"

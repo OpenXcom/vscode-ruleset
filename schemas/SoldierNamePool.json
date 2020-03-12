@@ -28,6 +28,18 @@
         "type": "string"
       }
     },
+    "maleCallsign": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "femaleCallsign": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "lookWeights": {
       "type": "array",
       "items": {

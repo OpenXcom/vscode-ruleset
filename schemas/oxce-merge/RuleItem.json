@@ -314,6 +314,9 @@
         "medikitTargetMatrix": {
           "type": "integer"
         },
+        "psiTargetMatrix": {
+          "type": "integer"
+        },
         "isConsumable": {
           "type": "boolean"
         },

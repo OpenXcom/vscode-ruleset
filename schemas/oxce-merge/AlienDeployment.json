@@ -9,6 +9,9 @@
         "isHidden": {
           "type": "boolean"
         },
+        "allowObjectiveRecovery": {
+          "type": "boolean"
+        },
         "abortPenalty": {
           "type": "integer"
         },

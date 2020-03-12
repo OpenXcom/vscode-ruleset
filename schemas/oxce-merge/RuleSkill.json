@@ -1,0 +1,50 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/RuleSkill.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ],
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "targetMode": {
+      "type": "integer"
+    },
+    "battleType": {
+      "type": "integer"
+    },
+    "isPsiRequired": {
+      "type": "boolean"
+    },
+    "checkHandsOnly": {
+      "type": "boolean"
+    },
+    "costUse": {
+      "$ref": "RuleItem.json#/definitions/RuleItemCost"
+    },
+    "flatUse": {
+      "$ref": "RuleItem.json#/definitions/RuleItemPercent"
+    },
+    "compatibleWeapons": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "requiredBonuses": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "tags": {
+      "type": "object"
+    },
+    "scripts": {
+      "type": "object"
+    }
+  }
+}
