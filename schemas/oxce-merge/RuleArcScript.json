@@ -55,6 +55,12 @@
       },
       "type": "object"
     },
+    "facilityTriggers": {
+      "additionalProperties": {
+        "type": "boolean"
+      },
+      "type": "object"
+    },
     "researchTriggers": {
       "additionalProperties": {
         "type": "boolean"

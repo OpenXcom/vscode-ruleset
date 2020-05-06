@@ -194,6 +194,9 @@
         "psiUnlockResearch": {
           "type": "string"
         },
+        "fakeUnderwaterBaseUnlockResearch": {
+          "type": "string"
+        },
         "destroyedFacility": {
           "type": "string"
         },
@@ -205,6 +208,9 @@
         },
         "mana": {
           "$ref": "#/definitions/mana"
+        },
+        "health": {
+          "$ref": "#/definitions/health"
         },
         "unitResponseSounds": {
           "items": {
@@ -240,6 +246,9 @@
           "type": "boolean"
         },
         "buildInfiltrationBaseCloseToTheCountry": {
+          "type": "boolean"
+        },
+        "allowAlienBasesOnWrongTextures": {
           "type": "boolean"
         },
         "kneelBonusGlobal": {
@@ -377,6 +386,9 @@
           "type": "integer"
         },
         "shortRadarRange": {
+          "type": "integer"
+        },
+        "buildTimeReductionScaling": {
           "type": "integer"
         },
         "baseDefenseMapFromLocation": {
@@ -565,11 +577,26 @@
             "trainingSecondary": {
               "type": "boolean"
             },
+            "woundThreshold": {
+              "type": "boolean"
+            },
             "replenishAfterMission": {
               "type": "boolean"
             },
             "unlockResearch": {
               "type": "string"
+            }
+          }
+        },
+        "health": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "woundThreshold": {
+              "type": "boolean"
+            },
+            "replenishAfterMission": {
+              "type": "boolean"
             }
           }
         },

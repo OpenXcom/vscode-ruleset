@@ -390,6 +390,15 @@
         "spawnUnitFaction": {
           "type": "integer"
         },
+        "vaporColorSurface": {
+          "type": "integer"
+        },
+        "vaporDensitySurface": {
+          "type": "integer"
+        },
+        "vaporProbabilitySurface": {
+          "type": "integer"
+        },
         "customItemPreviewIndex": {
           "$ref": "ModOffset.json#/definitions/List"
         },
@@ -527,6 +536,9 @@
           "properties": {
             "shots": {
               "type": "integer"
+            },
+            "followProjectiles": {
+              "type": "boolean"
             },
             "name": {
               "type": "string"

@@ -24,6 +24,12 @@
           },
           "type": "object"
         },
+        "facilityTriggers": {
+          "additionalProperties": {
+            "type": "boolean"
+          },
+          "type": "object"
+        },
         "randomDelay": {
           "type": "integer"
         }

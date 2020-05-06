@@ -9,6 +9,9 @@
         "isHidden": {
           "type": "boolean"
         },
+        "fakeUnderwaterSpawnChance": {
+          "type": "integer"
+        },
         "allowObjectiveRecovery": {
           "type": "boolean"
         },

@@ -36,6 +36,12 @@
         "mindPower": {
           "type": "integer"
         },
+        "sightRange": {
+          "type": "integer"
+        },
+        "sightChance": {
+          "type": "integer"
+        },
         "trainingRooms": {
           "type": "integer"
         },
@@ -43,6 +49,9 @@
           "type": "integer"
         },
         "manaRecoveryPerDay": {
+          "type": "integer"
+        },
+        "healthRecoveryPerDay": {
           "type": "integer"
         },
         "sickBayAbsoluteBonus": {

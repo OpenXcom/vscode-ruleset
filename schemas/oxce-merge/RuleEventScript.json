@@ -49,7 +49,16 @@
     "maxFunds": {
       "type": "integer"
     },
+    "affectsGameProgression": {
+      "type": "boolean"
+    },
     "itemTriggers": {
+      "additionalProperties": {
+        "type": "boolean"
+      },
+      "type": "object"
+    },
+    "facilityTriggers": {
       "additionalProperties": {
         "type": "boolean"
       },

@@ -16,6 +16,9 @@
     "stats": {
       "$ref": "UnitStats.json"
     },
+    "listOrder": {
+      "type": "integer"
+    },
     "recovery": {
       "type": "object",
       "additionalProperties": false,

@@ -28,6 +28,15 @@
         "missilePower": {
           "type": "integer"
         },
+        "unmanned": {
+          "type": "boolean"
+        },
+        "splashdownSurvivalChance": {
+          "type": "integer"
+        },
+        "fakeWaterLandingChance": {
+          "type": "integer"
+        },
         "raceBonus": {
           "additionalProperties": {
             "$ref": "RuleUfoStats.json"
