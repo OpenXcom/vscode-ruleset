@@ -578,7 +578,7 @@
               "type": "boolean"
             },
             "woundThreshold": {
-              "type": "boolean"
+              "type": "integer"
             },
             "replenishAfterMission": {
               "type": "boolean"
@@ -593,7 +593,7 @@
           "additionalProperties": false,
           "properties": {
             "woundThreshold": {
-              "type": "boolean"
+              "type": "integer"
             },
             "replenishAfterMission": {
               "type": "boolean"
