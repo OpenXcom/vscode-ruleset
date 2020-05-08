@@ -514,6 +514,9 @@
           "type": "object",
           "additionalProperties": false,
           "properties": {
+            "extendedMeleeReactions": {
+              "type": "integer"
+            },
             "extendedHwpLoadOrder": {
               "type": "boolean"
             },
