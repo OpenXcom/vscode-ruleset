@@ -70,6 +70,9 @@
       },
       "type": "array"
     },
+    "includeBonusesForMinStats": {
+      "type": "boolean"
+    },
     "requiredMinStats": {
       "$ref": "UnitStats.json"
     },

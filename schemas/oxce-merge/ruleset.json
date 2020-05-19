@@ -415,6 +415,9 @@
           "additionalProperties": false,
           "type": "object"
         },
+        "recommendedUserOptions": {
+          "type": "object"
+        },
         "fixedUserOptions": {
           "type": "object"
         },
@@ -635,6 +638,9 @@
               "type": "boolean"
             },
             "pickUpWeaponsMoreActively": {
+              "type": "boolean"
+            },
+            "pickUpWeaponsMoreActivelyCiv": {
               "type": "boolean"
             },
             "destroyBaseFacilities": {
