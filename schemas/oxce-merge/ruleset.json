@@ -83,6 +83,32 @@
             ]
           }
         },
+        "diplomacyFactions": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/delete"
+              },
+              {
+                "$ref": "RuleDiplomacyFaction.json"
+              }
+            ]
+          }
+        },
+        "covertOperations": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/delete"
+              },
+              {
+                "$ref": "RuleCovertOperation.json"
+              }
+            ]
+          }
+        },
         "startingConditions": {
           "type": "array",
           "items": {

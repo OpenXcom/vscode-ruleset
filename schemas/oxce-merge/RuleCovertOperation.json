@@ -1,0 +1,191 @@
+{
+    "$id": "https://openxcom.org/schemas/oxc/RuleCovertOperation.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "name"
+    ],
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "successBackground": {
+        "type": "string"
+      },
+      "failureBackground": {
+        "type": "string"
+      },
+      "successDescription": {
+        "type": "string"
+      },
+      "failureDescription": {
+        "type": "string"
+      },
+      "successMusic": {
+        "type": "string"
+      },
+      "failureMusic": {
+        "type": "string"
+      },
+      "successEvent": {
+        "type": "string"
+      },
+      "failureEvent": {
+        "type": "string"
+      },
+      "progressEvent": {
+        "type": "string"
+      },
+      "requires": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "soldierSlots": {
+        "type": "integer"
+      },
+      "optionalSoldierSlots": {
+        "type": "integer"
+      },
+      "scientistSlots": {
+        "type": "integer"
+      },
+      "engineerSlots": {
+        "type": "integer"
+      },
+      "optionalSoldierEffect": {
+        "type": "integer"
+      },
+      "scientistEffect": {
+        "type": "integer"
+      },
+      "engineerEffect": {
+        "type": "integer"
+      },
+      "baseChances": {
+        "type": "integer"
+      },
+      "costs": {
+        "type": "integer"
+      },
+      "_progressEventChance": {
+        "type": "integer"
+      },
+      "trapChance": {
+        "type": "integer"
+      },
+      "danger": {
+        "type": "integer"
+      },
+      "successScore": {
+        "type": "integer"
+      },
+      "failureScore": {
+        "type": "integer"
+      },
+      "successFunds": {
+        "type": "integer"
+      },
+      "failureFunds": {
+        "type": "integer"
+      },
+      "successEveryItemList": {
+        "additionalProperties": {
+          "type": "integer"
+        },
+        "type": "object"
+      },
+      "failureEveryItemList": {
+        "additionalProperties": {
+          "type": "integer"
+        },
+        "type": "object"
+      },
+      "successWeightedItemList": {
+        "$ref": "WeightedOptions.json"
+      },
+      "failureWeightedItemList": {
+        "$ref": "WeightedOptions.json"
+      },
+      "successResearchList": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "failureResearchList": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "successMissions": {
+        "$ref": "WeightedOptions.json"
+      },
+      "failureMissions": {
+        "$ref": "WeightedOptions.json"
+      },
+      "instantTrapDeployment": {
+        "$ref": "WeightedOptions.json"
+      },
+      "instantSuccessDeployment": {
+        "$ref": "WeightedOptions.json"
+      },
+      "requiredReputationLvl": {
+        "additionalProperties": {
+          "type": "integer"
+        },
+        "type": "object"
+      },
+      "successReputationScore": {
+        "additionalProperties": {
+          "type": "integer"
+        },
+        "type": "object"
+      },
+      "failureReputationScore": {
+        "additionalProperties": {
+          "type": "integer"
+        },
+        "type": "object"
+      },
+      "itemSpaceLimit": {
+        "type": "number"
+      },
+      "itemSpaceEffect": {
+        "type": "number"
+      },
+      "requiredItems": {
+        "additionalProperties": {
+          "type": "integer"
+        },
+        "type": "object"
+      },
+      "allowedArmor": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "armorEffect": {
+        "type": "integer"
+      },
+      "soldierTypeEffectiveness": {
+        "additionalProperties": {
+          "type": "integer"
+        },
+        "type": "object"
+      },
+      "specialRule": {
+        "type": "string"
+      },
+      "sellingSet": {
+        "type": "integer"
+      }
+    }
+  }

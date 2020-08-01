@@ -1,0 +1,44 @@
+{
+    "$id": "https://openxcom.org/schemas/oxc/RuleDiplomacyFaction.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "name"
+    ],
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "background": {
+        "type": "string"
+      },
+      "cardBackground": {
+        "type": "string"
+      },
+      "discoverResearch": {
+        "type": "string"
+      },
+      "discoverEvent": {
+        "type": "string"
+      },
+      "startingReputation": {
+        "type": "integer"
+      },
+      "helpTreatyMissions": {
+        "additionalProperties": {
+          "type": "integer"
+        },
+        "type": "object"
+      },
+      "sellingSet": {
+        "additionalProperties": {
+          "type": "integer"
+        },
+        "type": "object"
+      }
+    }
+  }

@@ -21,6 +21,12 @@
         "abortPenalty": {
           "type": "integer"
         },
+        "alternativeDeployment": {
+          "type": "string"
+        },
+        "alternativeDeploymentResearch": {
+          "type": "string"
+        },
         "customUfo": {
           "type": "string"
         },
