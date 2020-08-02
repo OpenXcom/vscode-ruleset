@@ -40,6 +40,9 @@
       "progressEvent": {
         "type": "string"
       },
+      "repeatProgressEvent": {
+        "type": "boolean"
+      },
       "requires": {
         "items": {
           "type": "string"
