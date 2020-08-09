@@ -1,13 +1,13 @@
 {
-    "name": "ruleset-tools",
-    "displayName": "OpenXcom Ruleset Tools",
-    "description": "Validates YAML ruleset files for OpenXcom mods",
-    "version": "0.9.10",
+    "name": "ruleset-tools-fta",
+    "displayName": "OpenXcom FTA Ruleset Tools",
+    "description": "Validates YAML ruleset files for OpenXcom FTA",
+    "version": "0.9.7",
     "publisher": "openxcom",
-    "bugs": "https://github.com/OpenXcom/vscode-ruleset/issues",
+    "bugs": "https://github.com/723Studio/vscode-ruleset/issues",
     "repository": {
         "type": "git",
-        "url": "https://github.com/OpenXcom/vscode-ruleset"
+        "url": "https://github.com/723Studio/vscode-ruleset"
     },
     "icon": "images/icon.png",
     "engines": {
