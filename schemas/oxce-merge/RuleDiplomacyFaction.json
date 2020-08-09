@@ -28,7 +28,19 @@
       "startingReputation": {
         "type": "integer"
       },
+      "genMissionFreq": {
+        "type": "integer"
+      },
       "helpTreatyMissions": {
+        "additionalProperties": {
+          "type": "integer"
+        },
+        "type": "object"
+      },
+      "genEventFreq": {
+        "type": "integer"
+      },
+      "helpTreatyEvents": {
         "additionalProperties": {
           "type": "integer"
         },
