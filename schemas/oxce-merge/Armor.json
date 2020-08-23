@@ -39,6 +39,12 @@
         "leftArmorDiff": {
           "type": "integer"
         },
+        "turnBeforeFirstStep": {
+          "type": "boolean"
+        },
+        "turnCost": {
+          "type": "integer"
+        },
         "moveSound": {
           "type": "integer"
         },

@@ -469,13 +469,6 @@
           },
           "type": "array"
         },
-        "difficultyBasedRetaliationDelay": {
-          "items": {
-            "type": "integer"
-          },
-          "type": "array",
-          "maxItems": 5
-        },
         "unitResponseSoundsFrequency": {
           "items": {
             "type": "integer"
