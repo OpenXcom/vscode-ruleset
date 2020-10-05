@@ -49,6 +49,12 @@
         },
         "type": "array"
       },
+      "requiresBuyBaseFunc": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
       "soldierSlots": {
         "type": "integer"
       },

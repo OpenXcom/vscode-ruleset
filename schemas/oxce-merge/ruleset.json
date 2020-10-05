@@ -254,6 +254,9 @@
         "health": {
           "$ref": "#/definitions/health"
         },
+        "loyaltySettings": {
+          "$ref": "#/definitions/loyaltySettings"
+        },
         "unitResponseSounds": {
           "items": {
             "$ref": "#/definitions/customUnitResponseSounds"
@@ -280,6 +283,18 @@
         },
         "chanceToStopRetaliation": {
           "type": "integer"
+        },
+        "ftaGame": {
+          "type": "boolean"
+        },
+        "researchTreeDisabled": {
+          "type": "boolean"
+        },
+        "ufopaediaUnlockResearch": {
+          "type": "string"
+        },
+        "baseConstructionUnlockResearch": {
+          "type": "string"
         },
         "lessAliensDuringBaseDefense": {
           "type": "boolean"
@@ -647,6 +662,33 @@
             },
             "replenishAfterMission": {
               "type": "boolean"
+            }
+          }
+        },
+        "loyaltySettings": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "coefBattlescape": {
+              "type": "integer"
+            },
+            "coefGeoscape": {
+              "type": "integer"
+            },
+            "coefDogfight": {
+              "type": "integer"
+            },
+            "coefResearch": {
+              "type": "integer"
+            },
+            "coefAlienMission": {
+              "type": "integer"
+            },
+            "coefUfo": {
+              "type": "integer"
+            },
+            "coefAlienBase": {
+              "type": "integer"
             }
           }
         },

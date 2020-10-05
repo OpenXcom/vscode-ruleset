@@ -148,6 +148,12 @@
         },
         "hiddenOnMinimap": {
           "type": "boolean"
+        }, 
+        "alienArtifact": {
+          "type": "boolean"
+        },
+        "missionObjective": {
+          "type": "boolean"
         },
         "fuseTriggerEvents": {
           "$ref": "#/definitions/RuleItemFuseTrigger"

@@ -66,6 +66,9 @@
         "packSize": {
           "type": "integer"
         },
+        "randomPackSize": {
+          "type": "boolean"
+        },
         "unitSide": {
           "type": "integer"
         },
@@ -88,15 +91,3 @@
     }
   }
 }
-
-- type: spawnUnit
-executions: 2
-startTurn: 4
-endTurn: 6
-packSize: 3
-scriptUnitSpawnSound: 70
-minDifficulty: 1
-maxDifficulty: 3
-rects:
-  - [0, 0, 4, 1]
-unitSet: [STR_XCOM_EX_COMMANDER]
