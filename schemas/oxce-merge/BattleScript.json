@@ -1,0 +1,102 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/BattleScript.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ],
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "commands": {
+      "items": {
+        "$ref": "#/definitions/BattleScript"
+      },
+      "type": "array"
+    }
+  },
+  "definitions": {
+    "BattleScript": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "spawnUnit"
+          ]
+        },
+        "rects": {
+          "items": {
+            "items": {
+              "type": "integer"
+            },
+            "minItems": 4,
+            "maxItems": 4,
+            "type": "array"
+          },
+          "type": "array"
+        },
+        "conditionals": {
+          "items": {
+            "type": "integer"
+          },
+          "type": [
+            "integer",
+            "array"
+          ]
+        },
+        "executionChances": {
+          "type": "integer"
+        },
+        "executions": {
+          "type": "integer"
+        },
+        "startTurn": {
+          "type": "integer"
+        },
+        "endTurn": {
+          "type": "integer"
+        },
+        "packSize": {
+          "type": "integer"
+        },
+        "unitSide": {
+          "type": "integer"
+        },
+        "unitSet": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "minDifficulty": {
+          "type": "integer"
+        },
+        "maxDifficulty": {
+          "type": "integer"
+        },
+        "label": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}
+
+- type: spawnUnit
+executions: 2
+startTurn: 4
+endTurn: 6
+packSize: 3
+scriptUnitSpawnSound: 70
+minDifficulty: 1
+maxDifficulty: 3
+rects:
+  - [0, 0, 4, 1]
+unitSet: [STR_XCOM_EX_COMMANDER]
