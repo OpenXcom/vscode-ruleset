@@ -33,6 +33,9 @@
           },
           "type": "object"
         },
+        "allowedProcessor": {
+          "type": "integer"
+        },
         "randomDelay": {
           "type": "integer"
         }
