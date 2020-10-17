@@ -55,6 +55,9 @@
             "type": "string"
           }
         },
+        "maxStorageSpace": {
+          "type": "number"
+        },
         "shieldRechargedAtBase": {
           "type": "integer"
         },

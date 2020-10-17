@@ -21,6 +21,9 @@
           },
           "type": "array"
         },
+        "spawnedSoldier": {
+          "type": "object"
+        },
         "spawnedPersonType": {
           "type": "string"
         },

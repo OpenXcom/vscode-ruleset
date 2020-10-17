@@ -105,6 +105,9 @@
         "psiVision": {
           "type": "integer"
         },
+        "psiCamouflage": {
+          "type": "integer"
+        },
         "fearImmune": {
           "type": "boolean"
         },

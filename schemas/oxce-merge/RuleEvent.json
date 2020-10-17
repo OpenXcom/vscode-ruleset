@@ -34,6 +34,18 @@
     "funds": {
       "type": "integer"
     },
+    "spawnedPersons": {
+      "type": "integer"
+    },
+    "spawnedSoldier": {
+      "type": "object"
+    },
+    "spawnedPersonType": {
+      "type": "string"
+    },
+    "spawnedPersonName": {
+      "type": "string"
+    },
     "randomItem": {
       "deprecationMessage": "Deprecated: use \"everyItemList\" or \"randomItemList\" instead"
     },

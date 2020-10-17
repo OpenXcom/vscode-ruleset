@@ -197,6 +197,9 @@
         "fakeUnderwaterBaseUnlockResearch": {
           "type": "string"
         },
+        "newBaseUnlockResearch": {
+          "type": "string"
+        },
         "destroyedFacility": {
           "type": "string"
         },
@@ -355,8 +358,11 @@
         "performanceBonusFactor": {
           "type": "integer"
         },
-        "useCustomCategories": {
+        "enableNewResearchSorting": {
           "type": "boolean"
+        },
+        "displayCustomCategories": {
+          "type": "integer"
         },
         "shareAmmoCategories": {
           "type": "boolean"
@@ -510,6 +516,12 @@
           "type": "object",
           "additionalProperties": false,
           "properties": {
+            "extendedUnderwaterThrowFactor": {
+              "type": "integer"
+            },
+            "extendedTerrainMelee": {
+              "type": "integer"
+            },
             "extendedMeleeReactions": {
               "type": "integer"
             },

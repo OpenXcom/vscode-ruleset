@@ -9,6 +9,9 @@
         "spawnedItem": {
           "type": "string"
         },
+        "spawnedEvent": {
+          "type": "string"
+        },
         "disables": {
           "items": {
             "type": "string"
