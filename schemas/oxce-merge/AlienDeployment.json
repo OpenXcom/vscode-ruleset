@@ -6,6 +6,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/AlienDeployment.json",
       "properties": {
+        "refNode": {
+          "$ref": "AlienDeployment.json"
+        },
         "isHidden": {
           "type": "boolean"
         },

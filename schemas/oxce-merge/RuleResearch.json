@@ -6,6 +6,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/RuleResearch.json",
       "properties": {
+        "refNode": {
+          "$ref": "RuleResearch.json"
+        },
         "spawnedItem": {
           "type": "string"
         },

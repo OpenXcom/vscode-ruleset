@@ -6,6 +6,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/RuleBaseFacility.json",
       "properties": {
+        "refNode": {
+          "$ref": "RuleBaseFacility.json"
+        },
         "fakeUnderwater": {
           "type": "integer"
         },

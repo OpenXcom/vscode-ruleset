@@ -6,6 +6,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/RuleCountry.json",
       "properties": {
+        "refNode": {
+          "$ref": "RuleCountry.json"
+        },
         "labelColor": {
           "type": "integer"
         },

@@ -13,6 +13,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/RuleUfo.json",
       "properties": {
+        "refNode": {
+          "$ref": "RuleUfo.json"
+        },
         "hunterKillerPercentage": {
           "type": "integer"
         },

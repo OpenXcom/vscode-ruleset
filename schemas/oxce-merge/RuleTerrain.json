@@ -6,6 +6,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/RuleTerrain.json",
       "properties": {
+        "refNode": {
+          "$ref": "RuleTerrain.json"
+        },
         "ambienceRandom": {
           "$ref": "ModOffset.json#/definitions/List"
         },

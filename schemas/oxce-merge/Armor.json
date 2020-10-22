@@ -6,6 +6,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/Armor.json",
       "properties": {
+        "refNode": {
+          "$ref": "Armor.json"
+        },
         "builtInWeapons": {
           "items": {
             "type": "string"

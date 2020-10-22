@@ -6,6 +6,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/RuleMissionScript.json",
       "properties": {
+        "refNode": {
+          "$ref": "RuleMissionScript.json"
+        },
         "minScore": {
           "type": "integer"
         },

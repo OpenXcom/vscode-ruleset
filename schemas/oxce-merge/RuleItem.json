@@ -6,6 +6,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/RuleItem.json",
       "properties": {
+        "refNode": {
+          "$ref": "RuleItem.json"
+        },
         "zombieUnitByType": {
           "additionalProperties": {
             "type": "string"

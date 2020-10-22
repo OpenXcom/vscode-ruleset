@@ -6,6 +6,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/RuleManufacture.json",
       "properties": {
+        "refNode": {
+          "$ref": "RuleManufacture.json"
+        },
         "requiresBaseFunc": {
           "items": {
             "type": "string"

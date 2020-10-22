@@ -7,6 +7,9 @@
     "type"
   ],
   "properties": {
+    "refNode": {
+      "$ref": "RuleEnviroEffects.json"
+    },
     "type": {
       "type": "string"
     },

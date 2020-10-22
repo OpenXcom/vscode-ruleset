@@ -7,6 +7,9 @@
     "type"
   ],
   "properties": {
+    "refNode": {
+      "$ref": "RuleSkill.json"
+    },
     "type": {
       "type": "string"
     },

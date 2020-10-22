@@ -13,6 +13,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/RuleCraft.json",
       "properties": {
+        "refNode": {
+          "$ref": "RuleCraft.json"
+        },
         "requiresBuyBaseFunc": {
           "items": {
             "type": "string"

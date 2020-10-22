@@ -7,6 +7,9 @@
     "type"
   ],
   "properties": {
+    "refNode": {
+      "$ref": "RuleItemCategory.json"
+    },
     "type": {
       "type": "string"
     },

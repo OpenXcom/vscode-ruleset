@@ -1,0 +1,15 @@
+{
+  "$merge": {
+    "source": {
+      "$import": "../oxc/RuleInventory.json"
+    },
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/RuleInventory.json",
+      "properties": {
+        "refNode": {
+          "$ref": "RuleInventory.json"
+        }
+      }
+    }
+  }
+}

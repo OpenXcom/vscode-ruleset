@@ -6,6 +6,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/RuleInterface.json",
       "properties": {
+        "refNode": {
+          "$ref": "RuleInterface.json"
+        },
         "backgroundImage": {
           "type": "string"
         },

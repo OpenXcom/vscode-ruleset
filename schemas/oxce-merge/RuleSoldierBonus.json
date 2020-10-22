@@ -7,6 +7,9 @@
     "name"
   ],
   "properties": {
+    "refNode": {
+      "$ref": "RuleSoldierBonus.json"
+    },
     "name": {
       "type": "string"
     },

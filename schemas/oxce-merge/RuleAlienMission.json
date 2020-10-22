@@ -6,6 +6,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/RuleAlienMission.json",
       "properties": {
+        "refNode": {
+          "$ref": "RuleAlienMission.json"
+        },
         "endlessInfiltration": {
           "type": "boolean"
         },

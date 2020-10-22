@@ -1,0 +1,15 @@
+{
+  "$merge": {
+    "source": {
+      "$import": "../oxc/RuleRegion.json"
+    },
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/RuleRegion.json",
+      "properties": {
+        "refNode": {
+          "$ref": "RuleRegion.json"
+        }
+      }
+    }
+  }
+}

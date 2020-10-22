@@ -7,6 +7,9 @@
     "name"
   ],
   "properties": {
+    "refNode": {
+      "$ref": "RuleEvent.json"
+    },
     "name": {
       "type": "string"
     },

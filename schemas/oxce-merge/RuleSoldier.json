@@ -6,6 +6,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/RuleSoldier.json",
       "properties": {
+        "refNode": {
+          "$ref": "RuleSoldier.json"
+        },
         "requiresBuyBaseFunc": {
           "items": {
             "type": "string"

@@ -1,0 +1,15 @@
+{
+  "$merge": {
+    "source": {
+      "$import": "../oxc/UfoTrajectory.json"
+    },
+    "with": {
+      "$id": "https://openxcom.org/schemas/oxce/UfoTrajectory.json",
+      "properties": {
+        "refNode": {
+          "$ref": "UfoTrajectory.json"
+        }
+      }
+    }
+  }
+}

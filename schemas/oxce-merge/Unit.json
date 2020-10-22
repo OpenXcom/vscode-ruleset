@@ -6,6 +6,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/Unit.json",
       "properties": {
+        "refNode": {
+          "$ref": "Unit.json"
+        },
         "civilianRecoveryType": {
           "type": "string"
         },

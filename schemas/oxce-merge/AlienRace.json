@@ -6,6 +6,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/AlienRace.json",
       "properties": {
+        "refNode": {
+          "$ref": "AlienRace.json"
+        },
         "baseCustomDeploy": {
           "type": "string"
         },

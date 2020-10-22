@@ -6,6 +6,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/RuleCraftWeapon.json",
       "properties": {
+        "refNode": {
+          "$ref": "RuleCraftWeapon.json"
+        },
         "stats": {
           "$ref": "RuleCraftStats.json"
         },
