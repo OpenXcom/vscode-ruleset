@@ -318,6 +318,9 @@
           "type": "integer"
         },
         "psiTargetMatrix": {
+          "deprecationMessage": "Deprecated: use \"targetMatrix\" instead"
+        },
+        "targetMatrix": {
           "type": "integer"
         },
         "isConsumable": {
