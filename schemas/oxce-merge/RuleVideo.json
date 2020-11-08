@@ -9,6 +9,9 @@
         "winGame": {
           "type": "boolean"
         },
+        "customCutscene": {
+          "type": "boolean"
+        },
         "loseGame": {
           "type": "boolean"
         }

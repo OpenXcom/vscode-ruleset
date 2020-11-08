@@ -31,17 +31,6 @@
             "spawnUnit"
           ]
         },
-        "rects": {
-          "items": {
-            "items": {
-              "type": "integer"
-            },
-            "minItems": 4,
-            "maxItems": 4,
-            "type": "array"
-          },
-          "type": "array"
-        },
         "conditionals": {
           "items": {
             "type": "integer"
@@ -78,6 +67,18 @@
           },
           "type": "array"
         },
+        "spawnBlocks": {
+					"items": {
+						"type": "string"
+					},
+					"type": "array"
+				},
+				"groups": {
+					"items": {
+						"type": "string"
+					},
+					"type": "integer"
+				},
         "minDifficulty": {
           "type": "integer"
         },
