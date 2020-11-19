@@ -21,6 +21,18 @@
         "abortPenalty": {
           "type": "integer"
         },
+        "vipSurvivalPercentage": {
+          "type": "integer"
+        },
+        "markCiviliansAsVIP": {
+          "type": "boolean"
+        },
+        "missionCompleteText": {
+          "type": "string"
+        },
+        "missionFailedText": {
+          "type": "string"
+        },
         "customUfo": {
           "type": "string"
         },
@@ -84,6 +96,12 @@
           },
           "type": "array"
         },
+        "reinforcements": {
+          "items": {
+            "$ref": "#/definitions/Reinforcements"
+          },
+          "type": "array"
+        },
         "huntMissionWeights": {
           "$ref": "WeightedOptions.json#/definitions/Map"
         },
@@ -94,9 +112,116 @@
       "definitions": {
         "DeploymentData": {
           "properties": {
+            "customUnitType": {
+              "type": "string"
+            },
             "extraRandomItems": {
               "items": {
                 "$ref": "#/definitions/ItemSet"
+              },
+              "type": "array"
+            }
+          }
+        },
+        "Reinforcements": {
+          "properties": {
+            "type": {
+              "type": "string"
+            },
+            "briefing": {
+              "$ref": "#/definitions/BriefingData"
+            },
+            "minDifficulty": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "maxDifficulty": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "objectiveDestroyed": {
+              "type": "boolean"
+            },
+            "turns": {
+              "items": {
+                "type": "integer"
+              },
+              "type": "array"
+            },
+            "minTurn": {
+              "type": "integer"
+            },
+            "maxTurn": {
+              "type": "integer"
+            },
+            "executionOdds": {
+              "type": "integer"
+            },
+            "maxRuns": {
+              "type": "integer"
+            },
+            "useSpawnNodes": {
+              "type": "boolean"
+            },
+            "mapBlockFilterType": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "spawnBlocks": {
+              "items": {
+                "type": "string",
+                "enum": [
+                  "EDGES",
+                  "NORTH",
+                  "WEST",
+                  "SOUTH",
+                  "EAST",
+                  "NW",
+                  "NE",
+                  "SW",
+                  "SE"
+                ]
+              },
+              "type": "array"
+            },
+            "spawnBlockGroups": {
+              "items": {
+                "type": "integer"
+              },
+              "type": "array"
+            },
+            "spawnNodeRanks": {
+              "items": {
+                "type": "integer"
+              },
+              "type": "array"
+            },
+            "spawnZLevels": {
+              "items": {
+                "type": "integer"
+              },
+              "type": "array"
+            },
+            "randomizeZLevels": {
+              "type": "boolean"
+            },
+            "minDistanceFromXcomUnits": {
+              "type": "integer"
+            },
+            "maxDistanceFromBorders": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 9
+            },
+            "forceSpawnNearFriend": {
+              "type": "boolean"
+            },
+            "data": {
+              "items": {
+                "$ref": "#/definitions/DeploymentData"
               },
               "type": "array"
             }

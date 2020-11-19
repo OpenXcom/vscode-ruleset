@@ -20,6 +20,9 @@
             "canBeSkipped": {
               "type": "boolean"
             },
+            "markAsReinforcementsBlock": {
+              "type": "boolean"
+            },
             "craftName": {
               "type": "string"
             },

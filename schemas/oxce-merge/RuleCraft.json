@@ -25,6 +25,15 @@
         "pilots": {
           "type": "integer"
         },
+        "maxSkinIndex": {
+          "type": "integer"
+        },
+        "skinSprites": {
+          "items": {
+            "type": "integer"
+          },
+          "type": "array"
+        },
         "craftInventoryTile": {
           "$ref": "Position.json"
         },
@@ -35,6 +44,9 @@
           "type": "boolean"
         },
         "notifyWhenRefueled": {
+          "type": "boolean"
+        },
+        "undetectable": {
           "type": "boolean"
         },
         "autoPatrol": {

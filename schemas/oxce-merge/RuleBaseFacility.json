@@ -9,6 +9,9 @@
         "refNode": {
           "$ref": "RuleBaseFacility.json"
         },
+        "connectorsDisabled": {
+          "type": "boolean"
+        },
         "fakeUnderwater": {
           "type": "integer"
         },
@@ -47,6 +50,12 @@
         },
         "trainingRooms": {
           "type": "integer"
+        },
+        "ammoNeeded": {
+          "type": "integer"
+        },
+        "ammoItem": {
+          "type": "string"
         },
         "maxAllowedPerBase": {
           "type": "integer"

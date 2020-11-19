@@ -12,6 +12,12 @@
         "civilianRecoveryType": {
           "type": "string"
         },
+        "spawnedPersonName": {
+          "type": "string"
+        },
+        "spawnedSoldier": {
+          "type": "object"
+        },
         "showFullNameInAlienInventory": {
           "type": "integer"
         },
@@ -52,6 +58,9 @@
           "type": "integer"
         },
         "isLeeroyJenkins": {
+          "type": "boolean"
+        },
+        "vip": {
           "type": "boolean"
         },
         "waitIfOutsideWeaponRange": {
