@@ -40,6 +40,9 @@
         "autoPatrol": {
           "type": "boolean"
         },
+        "costDispose": {
+          "type": "integer"
+        },
         "weaponTypes": {
           "type": "array",
           "items": {

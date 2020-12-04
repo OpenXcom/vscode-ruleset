@@ -474,6 +474,24 @@
           },
           "additionalProperties": false,
           "type": "object"
+        }, 
+        "loyaltyRatings": {
+          "patternProperties": {
+            "^-?\\d+$": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "type": "object"
+        },
+        "reputationLevels": {
+          "patternProperties": {
+            "^-?\\d+$": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "type": "object"
         },
         "recommendedUserOptions": {
           "type": "object"
@@ -688,6 +706,18 @@
               "type": "integer"
             },
             "coefAlienBase": {
+              "type": "integer"
+            },
+            "noFundsPenalty": {
+              "type": "integer"
+            },
+            "noFundsValue": {
+              "type": "integer"
+            },
+            "performanceCap": {
+              "type": "integer"
+            },
+            "performanceFactor": {
               "type": "integer"
             }
           }

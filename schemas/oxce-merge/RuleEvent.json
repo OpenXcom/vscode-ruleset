@@ -76,6 +76,12 @@
     "weightedItemList": {
       "$ref": "WeightedOptions.json"
     },
+    "reputationScore": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "type": "object"
+    },
     "researchList": {
       "items": {
         "type": "string"

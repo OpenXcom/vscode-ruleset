@@ -305,6 +305,9 @@
         "defaultInvSlotY": {
           "type": "integer"
         },
+        "costDispose": {
+          "type": "integer"
+        },
         "supportedInventorySections": {
           "items": {
             "type": "string"

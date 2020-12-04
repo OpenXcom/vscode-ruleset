@@ -48,6 +48,12 @@
         "missionBountyItem": {
           "type": "string"
         },
+        "successEvents": {
+          "$ref": "WeightedOptions.json"
+        },
+        "failureEvents": {
+          "$ref": "WeightedOptions.json"
+        },
         "bughuntMinTurn": {
           "type": "integer"
         },
