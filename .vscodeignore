@@ -6,8 +6,9 @@ src/**
 schemas/oxce-merge/**
 .gitattributes
 .gitignore
+.yarnrc
 vsc-extension-quickstart.md
 **/tsconfig.json
-**/tslint.json
+**/.eslintrc.json
 **/*.map
 **/*.ts
