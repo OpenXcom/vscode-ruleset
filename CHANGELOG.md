@@ -1,4 +1,7 @@
 # Change Log
+## [1.0.3]
+- Support of OXC FtA engine 0.1.6 ruleset schemas.
+- Updated to OXC Ruleset tools 0.9.11 schemas.
 ## [1.0.2]
 - Support of OXC FtA engine 0.1.4 ruleset schemas.
 - Rebased on the most recent OXC Ruleset Tools version

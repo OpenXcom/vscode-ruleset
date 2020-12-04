@@ -21,16 +21,6 @@
         "abortPenalty": {
           "type": "integer"
         },
-        "alternativeDeployment": {
-          "type": "string"
-        },
-        "battleScript": {
-          "type": "string"
-        },
-        "extendedObjectiveType": {
-          "type": "string"
-        },
-        "alternativeDeploymentResearch": {
         "vipSurvivalPercentage": {
           "type": "integer"
         },
@@ -66,6 +56,18 @@
         },
         "bughuntMinTurn": {
           "type": "integer"
+        },
+        "alternativeDeployment": {
+          "type": "string"
+        },
+        "battleScript": {
+          "type": "string"
+        },
+        "extendedObjectiveType": {
+          "type": "string"
+        },
+        "alternativeDeploymentResearch": {
+          "type": "string"
         },
         "civilianSpawnNodeRank": {
           "type": "integer"
