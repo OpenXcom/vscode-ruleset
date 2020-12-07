@@ -73,12 +73,15 @@
 					},
 					"type": "array"
 				},
-				"groups": {
-					"items": {
-						"type": "string"
-					},
-					"type": "integer"
-				},
+        "groups": {
+          "items": {
+            "type": "integer"
+          },
+          "type": [
+            "integer",
+            "array"
+          ]
+        },
         "minDifficulty": {
           "type": "integer"
         },
