@@ -12,6 +12,9 @@
         "backgroundImage": {
           "type": "string"
         },
+        "altBackgroundImage": {
+          "type": "string"
+        },
         "sound": {
           "type": "integer"
         }

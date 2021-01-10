@@ -108,6 +108,24 @@
         "psiMissAnimation": {
           "$ref": "ModOffset.json"
         },
+        "hitAnimFrames": {
+          "type": "integer"
+        },
+        "hitMissAnimFrames": {
+          "type": "integer"
+        },
+        "meleeAnimFrames": {
+          "type": "integer"
+        },
+        "meleeMissAnimFrames": {
+          "type": "integer"
+        },
+        "psiAnimFrames": {
+          "type": "integer"
+        },
+        "psiMissAnimFrames": {
+          "type": "integer"
+        },
         "meleeHitSound": {
           "$ref": "ModOffset.json#/definitions/List"
         },

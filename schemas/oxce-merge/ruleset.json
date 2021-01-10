@@ -272,6 +272,9 @@
         "closeQuartersEnergyCostGlobal": {
           "type": "integer"
         },
+        "closeQuartersSneakUpGlobal": {
+          "type": "integer"
+        },
         "noLOSAccuracyPenaltyGlobal": {
           "type": "integer"
         },
