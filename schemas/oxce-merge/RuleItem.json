@@ -63,6 +63,15 @@
           },
           "type": "object"
         },
+        "reputationRequirements": {
+          "additionalProperties": {
+            "items": {
+              "type": "integer"
+            },
+            "type": "array"
+          },
+          "type": "object"
+        },
         "categories": {
           "items": {
             "type": "string"
@@ -470,6 +479,9 @@
         },
         "hidePower": {
           "type": "boolean"
+        },
+        "coneSize": {
+          "type": "integer"
         },
         "tags": {
           "type": "object"

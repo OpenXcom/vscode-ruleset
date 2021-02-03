@@ -96,6 +96,19 @@
             ]
           }
         },
+        "diplomacyFactionEvents": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/delete"
+              },
+              {
+                "$ref": "RuleDiplomacyFactionEvent.json"
+              }
+            ]
+          }
+        },
         "covertOperations": {
           "type": "array",
           "items": {
@@ -286,6 +299,9 @@
         },
         "ftaGame": {
           "type": "boolean"
+        },
+        "defaultFactionPowerCost": {
+          "type": "integer"
         },
         "researchTreeDisabled": {
           "type": "boolean"

@@ -38,6 +38,12 @@
         },
         "randomDelay": {
           "type": "integer"
+        },
+        "spawnGap": {
+          "type": "integer"
+        },
+        "randomSpawnGap": {
+          "type": "integer"
         }
       }
     }

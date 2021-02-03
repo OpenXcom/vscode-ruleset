@@ -1,5 +1,7 @@
 # Change Log
 ## [1.0.4]
+- Support of OXC FtA engine 0.1.7 ruleset schemas.
+## [1.0.4]
 - Bugfixes.
 ## [1.0.3]
 - Support of OXC FtA engine 0.1.6 ruleset schemas.

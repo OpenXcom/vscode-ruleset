@@ -28,7 +28,7 @@
         "type": {
           "type": "string",
           "enum": [
-            "spawnUnit"
+            "spawnUnit", "showMessage"
           ]
         },
         "conditionals": {
@@ -88,8 +88,38 @@
         "maxDifficulty": {
           "type": "integer"
         },
+        "minAlarmLevel": {
+          "type": "integer"
+        },
+        "maxAlarmLevel": {
+          "type": "integer"
+        },
         "label": {
           "type": "integer"
+        },
+        "messages": {
+          "patternProperties": {
+            "^\\d+$": {
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "content": {
+                  "type": "string"
+                },
+                "answer": {
+                  "type": "string"
+                },
+                "background": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false,
+              "type": "object"
+            }
+          },
+          "additionalProperties": false,
+          "type": "object"
         }
       }
     }

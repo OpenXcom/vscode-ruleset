@@ -25,32 +25,98 @@
       "discoverEvent": {
         "type": "string"
       },
-      "startingReputation": {
-        "type": "integer"
+      "helpTreatyMissions": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "helpTreatyEvents": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
       },
       "genMissionFreq": {
         "type": "integer"
       },
-      "helpTreatyMissions": {
-        "additionalProperties": {
-          "type": "integer"
-        },
-        "type": "object"
-      },
       "genEventFreq": {
         "type": "integer"
       },
-      "helpTreatyEvents": {
+      "happyEvents": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "angryEvents": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "factionalEvents": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "sellPriceFactor": {
+        "type": "integer"
+      },
+      "buyPriceFactor": {
+        "type": "integer"
+      },
+      "repPriceFactor": {
+        "type": "integer"
+      },
+      "stockMod": {
+        "type": "integer"
+      },
+      "wishList": {
+        "additionalProperties": {
+          "type": "number"
+        },
+        "type": "object"
+      },
+      "staffWeights": {
         "additionalProperties": {
           "type": "integer"
         },
         "type": "object"
       },
-      "sellingSet": {
+      "powerHungry": {
+        "type": "integer"
+      },
+      "scienceBaseCost": {
+        "type": "integer"
+      },
+      "startingReputation": {
+        "type": "integer"
+      },
+      "startingFunds": {
+        "type": "integer"
+      },
+      "startingPower": {
+        "type": "integer"
+      },
+      "startingItems": {
         "additionalProperties": {
           "type": "integer"
         },
         "type": "object"
+      },
+      "startingStaff": {
+        "additionalProperties": {
+          "type": "integer"
+        },
+        "type": "object"
+      },
+      "startingResearches": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
       }
     }
   }

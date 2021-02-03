@@ -96,6 +96,30 @@
     },
     "timerRandom": {
       "type": "integer"
+    },
+    "customAnswers": {
+      "patternProperties": {
+        "^\\d+$": {
+          "properties": {
+            "spawnEvent": {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "type": "object"
     }
   }
 }

@@ -1,0 +1,89 @@
+{
+    "$id": "https://openxcom.org/schemas/oxce/RuleDiplomacyFactionEvent.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "type"
+    ],
+    "properties": {
+      "refNode": {
+        "$ref": "RuleDiplomacyFactionEvent.json"
+      },
+      "type": {
+        "type": "string"
+      },
+      "firstMonth": {
+        "type": "integer"
+      },
+      "lastMonth": {
+        "type": "integer"
+      },
+      "executionOdds": {
+        "type": "integer"
+      },
+      "minDifficulty": {
+        "type": "integer"
+      },
+      "maxDifficulty": {
+        "type": "integer"
+      },
+      "minPlayerScore": {
+        "type": "integer"
+      },
+      "maxPlayerScore": {
+        "type": "integer"
+      },
+      "minPower": {
+        "type": "integer"
+      },
+      "maxPower": {
+        "type": "integer"
+      },
+      "powerChange": {
+        "type": "integer"
+      },
+      "vigilanceChange": {
+        "type": "integer"
+      },
+      "minFunds": {
+        "type": "integer"
+      },
+      "maxFunds": {
+        "type": "integer"
+      },
+      "fundsChange": {
+        "type": "integer"
+      },
+      "playerResearchTriggers": {
+        "additionalProperties": {
+          "type": "boolean"
+        },
+        "type": "object"
+      },
+      "factionResearchTriggers": {
+        "additionalProperties": {
+          "type": "boolean"
+        },
+        "type": "object"
+      },
+      "itemTriggers": {
+        "additionalProperties": {
+          "type": "boolean"
+        },
+        "type": "object"
+      },
+      "itemsToAdd": {
+        "additionalProperties": {
+          "type": "integer"
+        },
+        "type": "object"
+      },
+      "discoveredResearches": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      }
+    }
+  }

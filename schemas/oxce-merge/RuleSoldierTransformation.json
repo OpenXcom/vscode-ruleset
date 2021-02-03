@@ -103,6 +103,9 @@
     "recoveryTime": {
       "type": "integer"
     },
+    "transformationTime": {
+      "type": "integer"
+    },
     "flatOverallStatChange": {
       "$ref": "UnitStats.json"
     },
