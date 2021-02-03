@@ -9,6 +9,12 @@
         "refNode": {
           "$ref": "RuleCountry.json"
         },
+        "signedPactEvent": {
+          "type": "string"
+        },
+        "rejoinedXcomEvent": {
+          "type": "string"
+        },
         "labelColor": {
           "type": "integer"
         },

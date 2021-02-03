@@ -21,6 +21,12 @@
           },
           "type": "array"
         },
+        "reenables": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
         "requiresBaseFunc": {
           "items": {
             "type": "string"
