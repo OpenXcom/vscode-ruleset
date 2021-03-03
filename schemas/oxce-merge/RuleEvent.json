@@ -37,6 +37,9 @@
     "funds": {
       "type": "integer"
     },
+    "loyalty": {
+      "type": "integer"
+    },
     "spawnedPersons": {
       "type": "integer"
     },

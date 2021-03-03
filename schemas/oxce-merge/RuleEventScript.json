@@ -58,6 +58,9 @@
     "randomSpawnGap": {
       "type": "integer"
     },
+    "allowedProcessor": {
+      "type": "integer"
+    },
     "affectsGameProgression": {
       "type": "boolean"
     },
