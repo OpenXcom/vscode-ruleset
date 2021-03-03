@@ -173,6 +173,9 @@
           "minimum": -3,
           "maximum": 24
         },
+        "stackSize": {
+          "type": "integer"
+        },
         "hiddenOnMinimap": {
           "type": "boolean"
         }, 

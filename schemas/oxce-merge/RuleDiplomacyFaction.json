@@ -31,7 +31,13 @@
         },
         "type": "array"
       },
-      "helpTreatyEvents": {
+      "helpTreatyEventScripts": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "usualEventsScripts": {
         "items": {
           "type": "string"
         },

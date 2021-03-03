@@ -52,6 +52,12 @@
     "maxFunds": {
       "type": "integer"
     },
+    "spawnGap": {
+      "type": "integer"
+    },
+    "randomSpawnGap": {
+      "type": "integer"
+    },
     "affectsGameProgression": {
       "type": "boolean"
     },

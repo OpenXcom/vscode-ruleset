@@ -15,6 +15,9 @@
         "spawnedEvent": {
           "type": "string"
         },
+        "hidden": {
+          "type": "boolean"
+        },
         "disables": {
           "items": {
             "type": "string"

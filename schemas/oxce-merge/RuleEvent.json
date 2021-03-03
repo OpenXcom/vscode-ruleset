@@ -97,6 +97,12 @@
     "timerRandom": {
       "type": "integer"
     },
+    "removedCovertOperationsList": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
     "customAnswers": {
       "patternProperties": {
         "^\\d+$": {
