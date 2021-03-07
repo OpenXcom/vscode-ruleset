@@ -63,6 +63,15 @@
         "vip": {
           "type": "boolean"
         },
+        "canPanic": {
+          "type": "boolean"
+        },
+        "canBeMindControlled": {
+          "type": "boolean"
+        },
+        "berserkChance": {
+          "type": "integer"
+        },
         "waitIfOutsideWeaponRange": {
           "type": "boolean"
         }

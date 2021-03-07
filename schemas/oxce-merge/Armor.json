@@ -189,6 +189,9 @@
         "allowsMoving": {
           "type": "boolean"
         },
+        "isPilotArmor": {
+          "type": "boolean"
+        },
         "allowTwoMainWeapons": {
           "type": "boolean"
         },
