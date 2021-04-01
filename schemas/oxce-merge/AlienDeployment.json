@@ -54,6 +54,9 @@
         "failureEvents": {
           "$ref": "WeightedOptions.json"
         },
+        "despawnEvents": {
+          "$ref": "WeightedOptions.json"
+        },
         "bughuntMinTurn": {
           "type": "integer"
         },
