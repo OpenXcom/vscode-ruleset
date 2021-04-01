@@ -34,6 +34,9 @@
     "mapBackgroundColor": {
       "type": "integer"
     },
+    "ignoreAutoNightVisionUserSetting": {
+      "type": "boolean"
+    },
     "inventoryShockIndicator": {
       "type": "string"
     },

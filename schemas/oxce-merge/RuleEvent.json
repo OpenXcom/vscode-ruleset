@@ -52,12 +52,6 @@
     "spawnedPersonName": {
       "type": "string"
     },
-    "randomItem": {
-      "deprecationMessage": "Deprecated: use \"everyItemList\" or \"randomItemList\" instead"
-    },
-    "itemList": {
-      "deprecationMessage": "Deprecated: use \"everyItemList\" or \"randomItemList\" instead"
-    },
     "everyMultiItemList": {
       "additionalProperties": {
         "type": "integer"

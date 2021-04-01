@@ -73,6 +73,12 @@
             "type": "string"
           }
         },
+        "fixedWeapons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
         "maxStorageSpace": {
           "type": "number"
         },

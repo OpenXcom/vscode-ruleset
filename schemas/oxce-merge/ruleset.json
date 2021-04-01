@@ -252,6 +252,12 @@
         "newBaseUnlockResearch": {
           "type": "string"
         },
+        "hireScientistsUnlockResearch": {
+          "type": "string"
+        },
+        "hireEngineersUnlockResearch": {
+          "type": "string"
+        },
         "destroyedFacility": {
           "type": "string"
         },
@@ -565,6 +571,20 @@
             "type": "integer"
           },
           "type": "array"
+        },
+        "sellPriceCoefficient": {
+          "items": {
+            "type": "integer"
+          },
+          "type": "array",
+          "maxItems": 5
+        },
+        "difficultyBasedRetaliationDelay": {
+          "items": {
+            "type": "integer"
+          },
+          "type": "array",
+          "maxItems": 5
         },
         "unitResponseSoundsFrequency": {
           "items": {

@@ -344,9 +344,6 @@
           },
           "type": "array"
         },
-        "allowSelfHeal": {
-          "deprecationMessage": "Deprecated: use \"medikitTargetSelf\" instead"
-        },
         "medikitTargetSelf": {
           "type": "boolean"
         },
@@ -589,6 +586,9 @@
           "additionalProperties": false,
           "properties": {
             "shots": {
+              "type": "integer"
+            },
+            "spendPerShot": {
               "type": "integer"
             },
             "followProjectiles": {

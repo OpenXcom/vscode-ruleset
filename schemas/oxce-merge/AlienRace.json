@@ -15,6 +15,9 @@
         "baseCustomMission": {
           "type": "string"
         },
+        "retaliationMissionWeights": {
+          "$ref": "WeightedOptions.json#/definitions/Map"
+        },
         "retaliationMission": {
           "type": "string"
         },
