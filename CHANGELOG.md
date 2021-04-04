@@ -1,4 +1,6 @@
 # Change Log
+## [1.0.9]
+- Support of OXC FtA 0.2.0 new ruleset schemas.
 ## [1.0.8]
 - Support of OXC FtA new ruleset schemas, added in minor release.
 - Merged with OXCE 7.0 schemas.

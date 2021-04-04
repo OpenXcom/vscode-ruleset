@@ -46,6 +46,12 @@
         "executions": {
           "type": "integer"
         },
+        "maxRuns": {
+          "type": "integer"
+        },
+        "variable": {
+          "type": "string"
+        },
         "startTurn": {
           "type": "integer"
         },
