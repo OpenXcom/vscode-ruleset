@@ -79,6 +79,12 @@
         },
         "type": "object"
       },
+      "staffToAdd": {
+        "additionalProperties": {
+          "type": "integer"
+        },
+        "type": "object"
+      },
       "discoveredResearches": {
         "items": {
           "type": "string"
