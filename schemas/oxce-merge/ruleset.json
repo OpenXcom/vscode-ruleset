@@ -306,6 +306,9 @@
         "ftaGame": {
           "type": "boolean"
         },
+		"ironManEnabled": {
+		  "type": "boolean"
+		},
         "defaultFactionPowerCost": {
           "type": "integer"
         },
