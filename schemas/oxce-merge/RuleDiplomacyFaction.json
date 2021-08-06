@@ -46,6 +46,9 @@
       "genMissionFreq": {
         "type": "integer"
       },
+      "helpTreatyGap": {
+        "type": "integer"
+      },
       "genEventFreq": {
         "type": "integer"
       },

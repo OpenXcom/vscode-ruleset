@@ -437,6 +437,9 @@
           "type": "array",
           "maxItems": 3
         },
+        "reputationBreakthroughValue": {
+          "type": "integer"
+        },
         "performanceBonusFactor": {
           "type": "integer"
         },
