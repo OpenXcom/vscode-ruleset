@@ -114,6 +114,9 @@
         "psiCamouflage": {
           "type": "integer"
         },
+        "alwaysVisible": {
+          "type": "boolean"
+        },
         "fearImmune": {
           "type": "boolean"
         },

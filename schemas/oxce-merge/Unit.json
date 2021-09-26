@@ -9,6 +9,9 @@
         "refNode": {
           "$ref": "Unit.json"
         },
+        "liveAlien": {
+          "type": "string"
+        },
         "civilianRecoveryType": {
           "type": "string"
         },
