@@ -64,6 +64,12 @@
     "affectsGameProgression": {
       "type": "boolean"
     },
+    "requiredReputation": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "type": "object"
+    },
     "itemTriggers": {
       "additionalProperties": {
         "type": "boolean"

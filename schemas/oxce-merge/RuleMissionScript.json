@@ -21,6 +21,12 @@
         "maxFunds": {
           "type": "integer"
         },
+        "requiredReputation": {
+          "additionalProperties": {
+            "type": "integer"
+          },
+          "type": "object"
+        },
         "itemTriggers": {
           "additionalProperties": {
             "type": "boolean"
