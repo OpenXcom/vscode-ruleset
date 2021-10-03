@@ -306,6 +306,9 @@
         "ftaGame": {
           "type": "boolean"
         },
+        "ftaGameLength": {
+          "type": "integer"
+        },
 		"ironManEnabled": {
 		  "type": "boolean"
 		},
