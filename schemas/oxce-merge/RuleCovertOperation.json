@@ -175,7 +175,13 @@
         },
         "type": "object"
       },
-      "requiredItemsEffect": {
+      "bonusItems": {
+        "additionalProperties": {
+          "type": "integer"
+        },
+        "type": "object"
+      },
+      "bonusItemsEffect": {
         "type": "integer"
       },
       "allowAllEquipment": {
