@@ -67,6 +67,18 @@
       },
       "type": "object"
     },
+    "xcomBaseInRegionTriggers": {
+      "additionalProperties": {
+        "type": "boolean"
+      },
+      "type": "object"
+    },
+    "xcomBaseInCountryTriggers": {
+      "additionalProperties": {
+        "type": "boolean"
+      },
+      "type": "object"
+    },
     "researchTriggers": {
       "additionalProperties": {
         "type": "boolean"

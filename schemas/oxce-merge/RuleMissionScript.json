@@ -33,6 +33,18 @@
           },
           "type": "object"
         },
+        "xcomBaseInRegionTriggers": {
+          "additionalProperties": {
+            "type": "boolean"
+          },
+          "type": "object"
+        },
+        "xcomBaseInCountryTriggers": {
+          "additionalProperties": {
+            "type": "boolean"
+          },
+          "type": "object"
+        },
         "randomDelay": {
           "type": "integer"
         }

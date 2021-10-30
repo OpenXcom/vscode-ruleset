@@ -16,6 +16,21 @@
     "visibilityAtDark": {
       "type": "integer"
     },
+    "frontArmor": {
+      "type": "integer"
+    },
+    "sideArmor": {
+      "type": "integer"
+    },
+    "leftArmorDiff": {
+      "type": "integer"
+    },
+    "rearArmor": {
+      "type": "integer"
+    },
+    "underArmor": {
+      "type": "integer"
+    },
     "stats": {
       "$ref": "UnitStats.json"
     },
