@@ -182,6 +182,9 @@
         "alienArtifact": {
           "type": "boolean"
         },
+        "noiseValue": {
+          "type": "integer"
+        },
         "missionObjective": {
           "type": "boolean"
         },

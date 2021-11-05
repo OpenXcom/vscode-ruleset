@@ -94,6 +94,12 @@
         "maxDifficulty": {
           "type": "integer"
         },
+        "minLevel": {
+          "type": "integer"
+        },
+        "maxLevel": {
+          "type": "integer"
+        },
         "minAlarmLevel": {
           "type": "integer"
         },
