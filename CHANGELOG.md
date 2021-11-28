@@ -1,4 +1,6 @@
 # Change Log
+## [1.0.18]
+- Support of OXC FtA 0.3.18 new ruleset schemas.
 ## [1.0.17]
 - Support of OXC FtA 0.3.15 new ruleset schemas.
 ## [1.0.16]

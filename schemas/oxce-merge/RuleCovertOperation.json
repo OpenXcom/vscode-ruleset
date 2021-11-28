@@ -186,6 +186,12 @@
       },
       "allowAllEquipment": {
         "type": "boolean"
+      },
+      "removeRequiredItemsOnSuccess": {
+        "type": "boolean"
+      }, 
+      "removeRequiredItemsOnFailure": {
+        "type": "boolean"
       }, 
       "concealedItemsBonus": {
         "type": "integer"
