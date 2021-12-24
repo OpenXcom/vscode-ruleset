@@ -9,6 +9,9 @@
         "hiddenCommendation": {
           "type": "boolean"
         },
+        "align_bottom": {
+          "type": "boolean"
+        },
         "pages": {
           "items": {
             "$ref": "#/definitions/ArticlePage"

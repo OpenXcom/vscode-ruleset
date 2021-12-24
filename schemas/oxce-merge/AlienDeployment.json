@@ -48,6 +48,9 @@
         "missionBountyItem": {
           "type": "string"
         },
+        "missionBountyItemCount": {
+          "type": "integer"
+        },
         "bughuntMinTurn": {
           "type": "integer"
         },
@@ -104,6 +107,9 @@
         },
         "huntMissionWeights": {
           "$ref": "WeightedOptions.json#/definitions/Map"
+        },
+        "resetAlienBaseAgeAfterUpgrade": {
+          "type": "boolean"
         },
         "alienBaseUpgrades": {
           "$ref": "WeightedOptions.json#/definitions/Map"

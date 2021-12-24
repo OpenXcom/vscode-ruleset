@@ -15,6 +15,9 @@
         "despawnEvenIfTargeted": {
           "type": "boolean"
         },
+        "showAlienBase": {
+          "type": "boolean"
+        },
         "interruptResearch": {
           "type": "string"
         },

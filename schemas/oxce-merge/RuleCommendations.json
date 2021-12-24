@@ -6,6 +6,18 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/RuleCommendations.json",
       "properties": {
+        "missionMarkerFilter": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "missionTypeFilter": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
         "soldierBonusTypes": {
           "items": {
             "type": "string"

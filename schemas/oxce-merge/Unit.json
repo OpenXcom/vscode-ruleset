@@ -45,6 +45,9 @@
         "berserkSound": {
           "$ref": "ModOffset.json#/definitions/List"
         },
+        "aggroSound": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
         "selectUnitSound": {
           "$ref": "ModOffset.json#/definitions/List"
         },
