@@ -52,6 +52,15 @@
     "maxFunds": {
       "type": "integer"
     },
+    "missionVarName": {
+      "type": "string"
+    },
+    "missionMinRuns": {
+      "type": "integer"
+    },
+    "missionMaxRuns": {
+      "type": "integer"
+    },
     "affectsGameProgression": {
       "type": "boolean"
     },

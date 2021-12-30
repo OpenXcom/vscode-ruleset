@@ -111,6 +111,9 @@
         "resetAlienBaseAgeAfterUpgrade": {
           "type": "boolean"
         },
+        "resetAlienBaseAge": {
+          "type": "boolean"
+        },
         "alienBaseUpgrades": {
           "$ref": "WeightedOptions.json#/definitions/Map"
         }

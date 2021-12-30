@@ -42,6 +42,9 @@
       "definitions": {
         "MissionWave": {
           "properties": {
+            "objectiveOnTheLandingSite": {
+              "type": "boolean"
+            },
             "hunterKillerPercentage": {
               "type": "integer"
             },
