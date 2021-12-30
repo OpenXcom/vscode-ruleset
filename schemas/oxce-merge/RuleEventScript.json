@@ -59,7 +59,7 @@
       "type": "integer"
     },
     "allowedProcessor": {
-      "type": "string"
+      "type": "integer"
     },
     "missionVarName": {
       "type": "string"

@@ -94,9 +94,6 @@
     "timerRandom": {
       "type": "integer"
     },
-    "allowedProcessor": {
-      "type": "integer"
-    },
     "removedCovertOperationsList": {
       "items": {
         "type": "string"
