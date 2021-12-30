@@ -42,6 +42,18 @@
         "allowedProcessor": {
           "type": "integer"
         },
+        "xcomBaseInRegionTriggers": {
+          "additionalProperties": {
+            "type": "boolean"
+          },
+          "type": "object"
+        },
+        "xcomBaseInCountryTriggers": {
+          "additionalProperties": {
+            "type": "boolean"
+          },
+          "type": "object"
+        },
         "randomDelay": {
           "type": "integer"
         },

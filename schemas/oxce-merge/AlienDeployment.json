@@ -57,6 +57,9 @@
         "despawnEvents": {
           "$ref": "WeightedOptions.json"
         },
+        "missionBountyItemCount": {
+          "type": "integer"
+        },
         "bughuntMinTurn": {
           "type": "integer"
         },
@@ -125,6 +128,12 @@
         },
         "huntMissionWeights": {
           "$ref": "WeightedOptions.json#/definitions/Map"
+        },
+        "resetAlienBaseAgeAfterUpgrade": {
+          "type": "boolean"
+        },
+        "resetAlienBaseAge": {
+          "type": "boolean"
         },
         "alienBaseUpgrades": {
           "$ref": "WeightedOptions.json#/definitions/Map"

@@ -8,6 +8,9 @@
       "properties": {
         "refNode": {
           "$ref": "RuleRegion.json"
+        },
+        "deleteOldAreas": {
+          "type": "boolean"
         }
       }
     }

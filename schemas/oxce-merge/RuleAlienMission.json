@@ -15,6 +15,9 @@
         "despawnEvenIfTargeted": {
           "type": "boolean"
         },
+        "showAlienBase": {
+          "type": "boolean"
+        },
         "interruptResearch": {
           "type": "string"
         },
@@ -39,6 +42,9 @@
       "definitions": {
         "MissionWave": {
           "properties": {
+            "objectiveOnTheLandingSite": {
+              "type": "boolean"
+            },
             "hunterKillerPercentage": {
               "type": "integer"
             },

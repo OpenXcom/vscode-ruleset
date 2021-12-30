@@ -12,6 +12,15 @@
         "spawnedItem": {
           "type": "string"
         },
+        "spawnedItemCount": {
+          "type": "integer"
+        },
+        "spawnedItemList": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
         "spawnedEvent": {
           "type": "string"
         },
