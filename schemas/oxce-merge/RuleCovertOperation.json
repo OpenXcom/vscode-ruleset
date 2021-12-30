@@ -97,6 +97,12 @@
       "failureScore": {
         "type": "integer"
       },
+      "successLoyalty": {
+        "type": "integer"
+      },
+      "failureLoyalty": {
+        "type": "integer"
+      },
       "successFunds": {
         "type": "integer"
       },
