@@ -45,11 +45,38 @@
         "unlockedResearch": {
           "type": "string"
         },
+        "unlockedResearchOnFailure": {
+          "type": "string"
+        },
+        "unlockedResearchOnDespawn": {
+          "type": "string"
+        },
+        "counterSuccess": {
+          "type": "string"
+        },
+        "counterFailure": {
+          "type": "string"
+        },
+        "counterDespawn": {
+          "type": "string"
+        },
+        "counterAll": {
+          "type": "string"
+        },
         "missionBountyItem": {
           "type": "string"
         },
         "missionBountyItemCount": {
           "type": "integer"
+        },
+        "successEvents": {
+          "$ref": "WeightedOptions.json"
+        },
+        "despawnEvents": {
+          "$ref": "WeightedOptions.json"
+        },
+        "failureEvents": {
+          "$ref": "WeightedOptions.json"
         },
         "bughuntMinTurn": {
           "type": "integer"
@@ -68,6 +95,12 @@
         },
         "maxShade": {
           "type": "integer"
+        },
+        "mapScripts": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
         },
         "alertDescription": {
           "type": "string"
@@ -121,6 +154,9 @@
       "definitions": {
         "DeploymentData": {
           "properties": {
+            "medQty": {
+              "type": "integer"
+            },
             "customUnitType": {
               "type": "string"
             },

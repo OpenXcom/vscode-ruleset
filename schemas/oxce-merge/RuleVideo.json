@@ -12,6 +12,17 @@
         "loseGame": {
           "type": "boolean"
         }
+      },
+      "definitions": {
+        "SlideshowSlide": {
+          "properties": {
+            "captionVerticalAlign": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 2
+            }
+          }
+        }
       }
     }
   }

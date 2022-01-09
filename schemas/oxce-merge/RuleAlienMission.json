@@ -12,6 +12,9 @@
         "endlessInfiltration": {
           "type": "boolean"
         },
+        "multiUfoRetaliation": {
+          "type": "boolean"
+        },
         "despawnEvenIfTargeted": {
           "type": "boolean"
         },

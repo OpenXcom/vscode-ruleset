@@ -28,6 +28,9 @@
         "huntBehavior": {
           "type": "integer"
         },
+        "softlockThreshold": {
+          "type": "integer"
+        },
         "missilePower": {
           "type": "integer"
         },

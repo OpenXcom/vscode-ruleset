@@ -227,6 +227,12 @@
           },
           "type": "array"
         },
+        "selectBaseSound": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
+        "startDogfightSound": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
         "maxLookVariant": {
           "type": "integer"
         },

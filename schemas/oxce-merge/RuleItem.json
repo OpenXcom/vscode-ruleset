@@ -75,6 +75,12 @@
         "reloadSound": {
           "$ref": "ModOffset.json#/definitions/List"
         },
+        "primeSound": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
+        "unprimeSound": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
         "fireSound": {
           "$ref": "ModOffset.json#/definitions/List"
         },
@@ -350,6 +356,9 @@
         "specialUseEmptyHand": {
           "type": "boolean"
         },
+        "specialUseEmptyHandShow": {
+          "type": "boolean"
+        },
         "manaRecovery": {
           "type": "integer"
         },
@@ -473,6 +482,9 @@
         },
         "manaRequired": {
           "type": "boolean"
+        },
+        "powerForAnimation": {
+          "type": "integer"
         },
         "hidePower": {
           "type": "boolean"

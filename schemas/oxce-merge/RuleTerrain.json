@@ -9,6 +9,12 @@
         "refNode": {
           "$ref": "RuleTerrain.json"
         },
+        "mapScripts": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
         "ambienceRandom": {
           "$ref": "ModOffset.json#/definitions/List"
         },
