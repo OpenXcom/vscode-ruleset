@@ -27,6 +27,18 @@
           },
           "type": "object"
         },
+        "missionVarName": {
+          "type": "string"
+        },
+        "missionMarkerName": {
+          "type": "string"
+        },
+        "counterMin": {
+          "type": "integer"
+        },
+        "counterMax": {
+          "type": "integer"
+        },
         "itemTriggers": {
           "additionalProperties": {
             "type": "boolean"

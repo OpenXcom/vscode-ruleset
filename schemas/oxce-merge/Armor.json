@@ -45,6 +45,11 @@
         "leftArmorDiff": {
           "type": "integer"
         },
+        "specab": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
         "turnBeforeFirstStep": {
           "type": "boolean"
         },

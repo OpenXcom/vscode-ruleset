@@ -61,14 +61,23 @@
     "allowedProcessor": {
       "type": "integer"
     },
+    "missionMarkerName": {
+      "type": "string"
+    },
     "missionVarName": {
       "type": "string"
     },
-    "missionMinRuns": {
+    "counterMin": {
       "type": "integer"
     },
-    "missionMaxRuns": {
+    "counterMax": {
       "type": "integer"
+    },
+    "missionMinRuns": {
+      "deprecationMessage": "Deprecated: use \"counterMin\" instead"
+    },
+    "missionMaxRuns": {
+      "deprecationMessage": "Deprecated: use \"counterMax\" instead"
     },
     "affectsGameProgression": {
       "type": "boolean"

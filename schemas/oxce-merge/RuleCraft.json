@@ -25,6 +25,30 @@
         "pilots": {
           "type": "integer"
         },
+        "maxSmallSoldiers": {
+          "type": "integer"
+        },
+        "maxLargeSoldiers": {
+          "type": "integer"
+        },
+        "maxSmallVehicles": {
+          "type": "integer"
+        },
+        "maxLargeVehicles": {
+          "type": "integer"
+        },
+        "maxSmallUnits": {
+          "type": "integer"
+        },
+        "maxLargeUnits": {
+          "type": "integer"
+        },
+        "maxSoldiers": {
+          "type": "integer"
+        },
+        "maxVehicles": {
+          "type": "integer"
+        },
         "maxSkinIndex": {
           "type": "integer"
         },
@@ -87,6 +111,12 @@
         },
         "forceShowInMonthlyCosts": {
           "type": "boolean"
+        },
+        "selectSound": {
+          "$ref": "ModOffset.json#/definitions/List"
+        },
+        "takeoffSound": {
+          "$ref": "ModOffset.json#/definitions/List"
         },
         "mapVisible": {
           "type": "boolean"
