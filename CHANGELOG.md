@@ -1,4 +1,6 @@
 # Change Log
+## [1.0.22]
+- Support of OXCE 7.4 new ruleset schemas.
 ## [1.0.21]
 - Hotfix.
 ## [1.0.20]
