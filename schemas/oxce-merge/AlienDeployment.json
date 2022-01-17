@@ -63,6 +63,18 @@
         "counterAll": {
           "type": "string"
         },
+        "decreaseCounterSuccess": {
+          "type": "string"
+        },
+        "decreaseCounterFailure": {
+          "type": "string"
+        },
+        "decreaseCounterDespawn": {
+          "type": "string"
+        },
+        "decreaseCounterAll": {
+          "type": "string"
+        },
         "missionBountyItem": {
           "type": "string"
         },
