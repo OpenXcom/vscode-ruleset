@@ -126,6 +126,9 @@
         "genMissionLimit": {
           "type": "integer"
         },
+        "genMissionRaceFromAlienBase": {
+          "type": "boolean"
+        },
         "baseSelfDestructCode": {
           "type": "string"
         },
@@ -137,6 +140,9 @@
         },
         "huntMissionMaxFrequency": {
           "type": "integer"
+        },
+        "huntMissionRaceFromAlienBase": {
+          "type": "boolean"
         },
         "randomRace": {
           "items": {
@@ -158,6 +164,9 @@
         },
         "resetAlienBaseAge": {
           "type": "boolean"
+        },
+        "upgradeRace": {
+          "type": "string"
         },
         "alienBaseUpgrades": {
           "$ref": "WeightedOptions.json#/definitions/Map"
