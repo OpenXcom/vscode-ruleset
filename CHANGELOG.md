@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.9.20]
+- Ruleset schemas updated to OXCE 7.4.4
+
 ## [0.9.19]
 - Ruleset schemas updated to OXCE 7.4.1
 
