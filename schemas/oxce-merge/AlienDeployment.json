@@ -12,6 +12,9 @@
         "isHidden": {
           "type": "boolean"
         },
+        "isHiddenAlienBase": {
+          "type": "boolean"
+        },
         "fakeUnderwaterSpawnChance": {
           "type": "integer"
         },
@@ -65,15 +68,6 @@
         },
         "missionBountyItem": {
           "type": "string"
-        },
-        "successEvents": {
-          "$ref": "WeightedOptions.json"
-        },
-        "failureEvents": {
-          "$ref": "WeightedOptions.json"
-        },
-        "despawnEvents": {
-          "$ref": "WeightedOptions.json"
         },
         "missionBountyItemCount": {
           "type": "integer"

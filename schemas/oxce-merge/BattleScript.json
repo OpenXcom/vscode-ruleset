@@ -109,6 +109,12 @@
         "label": {
           "type": "integer"
         },
+        "spawnNodeRanks": {
+          "items": {
+            "type": "integer"
+          },
+          "type": "array"
+        },
         "messages": {
           "patternProperties": {
             "^\\d+$": {
