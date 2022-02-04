@@ -109,6 +109,12 @@
         "forceShowInMonthlyCosts": {
           "type": "boolean"
         },
+        "useAllStartTiles": {
+          "type": "boolean"
+        },
+        "customPreview": {
+          "type": "string"
+        },
         "selectSound": {
           "$ref": "ModOffset.json#/definitions/List"
         },
