@@ -11,7 +11,14 @@
       "type": "string"
     },
     "size": {
-      "type": "string"
+      "type": "string",
+      "enum": [
+        "STR_VERY_SMALL",
+        "STR_SMALL",
+        "STR_MEDIUM_UC",
+        "STR_LARGE",
+        "STR_VERY_LARGE"
+      ]
     },
     "sprite": {
       "type": "integer"
