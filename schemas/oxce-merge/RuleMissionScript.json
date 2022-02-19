@@ -15,6 +15,12 @@
         "maxScore": {
           "type": "integer"
         },
+        "minLoyalty": {
+          "type": "integer"
+        },
+        "maxLoyalty": {
+          "type": "integer"
+        },
         "minFunds": {
           "type": "integer"
         },
