@@ -78,7 +78,13 @@
         "vip": {
           "type": "boolean"
         },
-        "canPanic": {
+        "cosmetic": {
+          "type": "boolean"
+        },
+        "ignoredByAI": {
+          "type": "boolean"
+        },
+       "canPanic": {
           "type": "boolean"
         },
         "canBeMindControlled": {

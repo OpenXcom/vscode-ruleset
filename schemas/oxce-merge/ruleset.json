@@ -261,6 +261,9 @@
         "destroyedFacility": {
           "type": "string"
         },
+        "difficultyCoefficientOverrides": {
+          "$ref": "#/definitions/difficultyCoefficientOverrides"
+        },
         "ai": {
           "$ref": "#/definitions/ai"
         },
@@ -773,6 +776,54 @@
             },
             "performanceFactor": {
               "type": "integer"
+            }
+          }
+        },
+        "difficultyCoefficientOverrides": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "monthlyRatingThresholds": {
+              "items": {
+                "type": "integer"
+              },
+              "type": "array",
+              "maxItems": 5
+            },
+            "ufoFiringRateCoefficients": {
+              "items": {
+                "type": "integer"
+              },
+              "type": "array",
+              "maxItems": 5
+            },
+            "ufoEscapeCountdownCoefficients": {
+              "items": {
+                "type": "integer"
+              },
+              "type": "array",
+              "maxItems": 5
+            },
+            "retaliationTriggerOdds": {
+              "items": {
+                "type": "integer"
+              },
+              "type": "array",
+              "maxItems": 5
+            },
+            "retaliationBaseRegionOdds": {
+              "items": {
+                "type": "integer"
+              },
+              "type": "array",
+              "maxItems": 5
+            },
+            "aliensFacingCraftOdds": {
+              "items": {
+                "type": "integer"
+              },
+              "type": "array",
+              "maxItems": 5
             }
           }
         },

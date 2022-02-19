@@ -66,6 +66,18 @@
         "counterAll": {
           "type": "string"
         },
+        "decreaseCounterSuccess": {
+          "type": "string"
+        },
+        "decreaseCounterFailure": {
+          "type": "string"
+        },
+        "decreaseCounterDespawn": {
+          "type": "string"
+        },
+        "decreaseCounterAll": {
+          "type": "string"
+        },
         "missionBountyItem": {
           "type": "string"
         },
@@ -129,6 +141,9 @@
         "genMissionLimit": {
           "type": "integer"
         },
+        "genMissionRaceFromAlienBase": {
+          "type": "boolean"
+        },
         "baseSelfDestructCode": {
           "type": "string"
         },
@@ -140,6 +155,9 @@
         },
         "huntMissionMaxFrequency": {
           "type": "integer"
+        },
+        "huntMissionRaceFromAlienBase": {
+          "type": "boolean"
         },
         "randomRace": {
           "items": {
@@ -161,6 +179,9 @@
         },
         "resetAlienBaseAge": {
           "type": "boolean"
+        },
+        "upgradeRace": {
+          "type": "string"
         },
         "alienBaseUpgrades": {
           "$ref": "WeightedOptions.json#/definitions/Map"

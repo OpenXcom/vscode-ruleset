@@ -612,6 +612,9 @@
             "name": {
               "type": "string"
             },
+            "shortName": {
+              "type": "string"
+            },
             "ammoSlot": {
               "type": "integer"
             },

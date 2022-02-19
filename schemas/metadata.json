@@ -31,6 +31,9 @@
     "requiredExtendedVersion": {
       "type": "string"
     },
+    "enforcedExtendedVersion": {
+      "type": "string"
+    },
     "resourceConfig": {
       "type": "string"
     },
