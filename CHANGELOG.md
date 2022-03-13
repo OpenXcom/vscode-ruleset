@@ -1,4 +1,6 @@
 # Change Log
+## [1.0.26]
+- Support of FTA 0.6.1 new ruleset schemas.
 ## [1.0.25]
 - Fix missing min-max loyalty for geoscape scripts.
 ## [1.0.24]

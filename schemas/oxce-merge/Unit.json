@@ -84,6 +84,9 @@
         "ignoredByAI": {
           "type": "boolean"
         },
+        "treatedByAI": {
+          "type": "boolean"
+        },
        "canPanic": {
           "type": "boolean"
         },
