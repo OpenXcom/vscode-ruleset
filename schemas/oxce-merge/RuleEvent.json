@@ -104,11 +104,14 @@
       "patternProperties": {
         "^\\d+$": {
           "properties": {
-            "spawnEvent": {
+            "spawnEvents": {
               "items": {
                 "type": "string"
               },
               "type": "array"
+            },
+            "weightedEvents": {
+              "$ref": "WeightedOptions.json"
             },
             "title": {
               "type": "string"

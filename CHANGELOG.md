@@ -1,4 +1,6 @@
 # Change Log
+## [1.0.28]
+- Support of FTA 0.7.3 new ruleset schemas.
 ## [1.0.27]
 - Fix release build problems
 ## [1.0.26]
