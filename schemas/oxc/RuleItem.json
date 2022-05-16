@@ -198,6 +198,9 @@
     "dropoff": {
       "type": "integer"
     },
+    "extendedItemReloadCostLocal": {
+      "type": "integer"
+    },
     "bulletSpeed": {
       "type": "integer"
     },
