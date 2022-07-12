@@ -173,6 +173,9 @@
         "hiddenOnMinimap": {
           "type": "boolean"
         },
+        "inventoryMoveCost": {
+          "$ref": "#/definitions/RuleInventoryMoveCost"
+        },
         "fuseTriggerEvents": {
           "$ref": "#/definitions/RuleItemFuseTrigger"
         },
@@ -497,6 +500,15 @@
         }
       },
       "definitions": {
+        "RuleInventoryMoveCost": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "basePercent": {
+              "type": "integer"
+            }
+          }
+        },
         "RuleItemFuseTrigger": {
           "type": "object",
           "additionalProperties": false,

@@ -56,6 +56,9 @@
         "turnCost": {
           "type": "integer"
         },
+        "moveCost": {
+          "$ref": "#/definitions/RuleMoveCost"
+        },
         "moveSound": {
           "type": "integer"
         },
@@ -191,6 +194,9 @@
         "allowsStrafing": {
           "type": "boolean"
         },
+        "allowsSneaking": {
+          "type": "boolean"
+        },
         "allowsKneeling": {
           "type": "boolean"
         },
@@ -220,6 +226,118 @@
         },
         "scripts": {
           "type": "object"
+        }
+      },
+      "definitions": {
+        "RuleMoveCost": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "basePercent": {
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "type": "array"
+            },
+            "baseNormalPercent": {
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "type": "array"
+            },
+            "baseFlyPercent": {
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "type": "array"
+            },
+            "walkPercent": {
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "type": "array"
+            },
+            "runPercent": {
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "type": "array"
+            },
+            "strafePercent": {
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "type": "array"
+            },
+            "sneakPercent": {
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "type": "array"
+            },
+            "flyWalkPercent": {
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "type": "array"
+            },
+            "flyRunPercent": {
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "type": "array"
+            },
+            "flyStrafePercent": {
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "type": "array"
+            },
+            "flyUpPercent": {
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "type": "array"
+            },
+            "flyDownPercent": {
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "type": "array"
+            },
+            "gravLiftPercent": {
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "type": "array"
+            }
+          }
         }
       }
     }
