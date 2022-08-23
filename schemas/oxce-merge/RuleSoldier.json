@@ -42,6 +42,9 @@
         "allowPiloting": {
           "type": "boolean"
         },
+        "monthlyBuyLimit": {
+          "type": "integer"
+        },
         "costSalarySquaddie": {
           "type": "integer"
         },

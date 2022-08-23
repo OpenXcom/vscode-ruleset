@@ -179,6 +179,20 @@
         "startingBaseSuperhuman": {
           "type": "object"
         },
+        "aimMultipliers": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "maxItems": 5
+        },
+        "armorMultipliers": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "maxItems": 5
+        },
         "maxViewDistance": {
           "type": "integer"
         },
@@ -394,8 +408,8 @@
         "hidePediaInfoButton": {
           "type": "boolean"
         },
-        "extraNerdyPediaInfo": {
-          "type": "boolean"
+        "extraNerdyPediaInfoType": {
+          "type": "integer"
         },
         "giveScoreAlsoForResearchedArtifacts": {
           "type": "boolean"

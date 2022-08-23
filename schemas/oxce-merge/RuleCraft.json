@@ -109,6 +109,9 @@
         "forceShowInMonthlyCosts": {
           "type": "boolean"
         },
+        "monthlyBuyLimit": {
+          "type": "integer"
+        },
         "useAllStartTiles": {
           "type": "boolean"
         },

@@ -21,6 +21,9 @@
         "hidePediaInfo": {
           "type": "boolean"
         },
+        "bulletSaving": {
+          "type": "boolean"
+        },
         "tractorBeamPower": {
           "type": "integer"
         }

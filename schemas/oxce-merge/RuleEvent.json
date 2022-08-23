@@ -61,6 +61,12 @@
       },
       "type": "array"
     },
+    "randomMultiItemList": {
+      "items": {
+        "$ref": "WeightedOptions.json"
+      },
+      "type": "array"
+    },
     "randomItemList": {
       "items": {
         "type": "string"

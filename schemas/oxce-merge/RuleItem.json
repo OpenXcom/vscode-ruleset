@@ -42,6 +42,9 @@
           },
           "type": "array"
         },
+        "requiresBuyCountry": {
+          "type": "string"
+        },
         "requiresBuyBaseFunc": {
           "items": {
             "type": "string"
@@ -439,6 +442,9 @@
           "type": "integer"
         },
         "oneHandedPenalty": {
+          "type": "integer"
+        },
+        "monthlyBuyLimit": {
           "type": "integer"
         },
         "monthlySalary": {

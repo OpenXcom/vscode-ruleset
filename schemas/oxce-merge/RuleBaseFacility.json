@@ -9,6 +9,9 @@
         "refNode": {
           "$ref": "RuleBaseFacility.json"
         },
+        "placeSound": {
+          "$ref": "ModOffset.json"
+        },
         "connectorsDisabled": {
           "type": "boolean"
         },
