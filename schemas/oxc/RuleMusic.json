@@ -10,6 +10,9 @@
     "type": {
       "type": "string"
     },
+    "name": {
+      "type": "string"
+    },
     "catPos": {
       "type": "integer"
     },
