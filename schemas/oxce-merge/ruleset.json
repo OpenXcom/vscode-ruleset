@@ -220,6 +220,18 @@
         "hireEngineersUnlockResearch": {
           "type": "string"
         },
+        "hireScientistsRequiresBaseFunc": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "hireEngineersRequiresBaseFunc": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
         "destroyedFacility": {
           "type": "string"
         },
