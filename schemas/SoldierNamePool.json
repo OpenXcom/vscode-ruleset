@@ -46,6 +46,15 @@
         "type": "integer"
       }
     },
+    "globalWeight": {
+      "type": "integer"
+    },
+    "country": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
     "femaleFrequency": {
       "type": "integer"
     }

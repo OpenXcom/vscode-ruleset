@@ -9,10 +9,18 @@
         "refNode": {
           "$ref": "RuleAlienMission.json"
         },
+        "objective": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 6
+        },
         "endlessInfiltration": {
           "type": "boolean"
         },
         "multiUfoRetaliation": {
+          "type": "boolean"
+        },
+        "ignoreBaseDefenses": {
           "type": "boolean"
         },
         "despawnEvenIfTargeted": {
@@ -46,6 +54,9 @@
         "MissionWave": {
           "properties": {
             "objectiveOnTheLandingSite": {
+              "type": "boolean"
+            },
+            "objectiveOnXcomBase": {
               "type": "boolean"
             },
             "hunterKillerPercentage": {

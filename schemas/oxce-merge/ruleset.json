@@ -199,6 +199,12 @@
         "maxDarknessToSeeUnits": {
           "type": "integer"
         },
+        "hireByCountryOdds": {
+          "type": "integer"
+        },
+        "hireByRegionOdds": {
+          "type": "integer"
+        },
         "costHireEngineer": {
           "type": "integer"
         },
