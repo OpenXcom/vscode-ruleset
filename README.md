@@ -1,4 +1,6 @@
-[![Marketplace Version](https://vsmarketplacebadge.apphb.com/version/openxcom.ruleset-tools.svg "Current Release")](https://marketplace.visualstudio.com/items?itemName=openxcom.ruleset-tools)
+[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/openxcom.ruleset-tools?style=for-the-badge&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=openxcom.ruleset-tools)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/openxcom.ruleset-tools?style=for-the-badge&logo=microsoft)](https://marketplace.visualstudio.com/items?itemName=openxcom.ruleset-tools)
+[![License](https://img.shields.io/github/license/OpenXcom/vscode-ruleset?style=for-the-badge)](https://github.com/OpenXcom/vscode-ruleset/blob/master/LICENSE)
 
 # Ruleset Tools for Visual Studio Code
 
