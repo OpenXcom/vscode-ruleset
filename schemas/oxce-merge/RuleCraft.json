@@ -16,6 +16,9 @@
         "refNode": {
           "$ref": "RuleCraft.json"
         },
+        "requiresBuyCountry": {
+          "type": "string"
+        },
         "requiresBuyBaseFunc": {
           "items": {
             "type": "string"

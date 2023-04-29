@@ -13,6 +13,9 @@
     "version": {
       "type": "string"
     },
+    "versionDisplay": {
+      "type": "string"
+    },
     "author": {
       "type": "string"
     },
@@ -23,6 +26,9 @@
       "type": "boolean"
     },
     "master": {
+      "type": "string"
+    },
+    "requiredMasterModVersion": {
       "type": "string"
     },
     "reservedSpace": {

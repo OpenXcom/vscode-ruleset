@@ -15,6 +15,9 @@
           },
           "type": "array"
         },
+        "points": {
+          "type": "integer"
+        },
         "refund": {
           "type": "boolean"
         },

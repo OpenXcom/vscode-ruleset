@@ -9,23 +9,8 @@
         "refNode": {
           "$ref": "RuleItem.json"
         },
-        "zombieUnitByType": {
-          "additionalProperties": {
-            "type": "string"
-          },
-          "type": "object"
-        },
-        "zombieUnitByArmorMale": {
-          "additionalProperties": {
-            "type": "string"
-          },
-          "type": "object"
-        },
-        "zombieUnitByArmorFemale": {
-          "additionalProperties": {
-            "type": "string"
-          },
-          "type": "object"
+        "ufopediaType": {
+          "type": "string"
         },
         "nameAsAmmo": {
           "type": "string"
@@ -311,9 +296,6 @@
           "additionalProperties": false,
           "type": "object"
         },
-        "specialChance": {
-          "type": "integer"
-        },
         "blockBothHands": {
           "type": "boolean"
         },
@@ -420,10 +402,46 @@
         "shotgunChoke": {
           "type": "integer"
         },
+        "zombieUnitByArmorMale": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "type": "object"
+        },
+        "zombieUnitByArmorFemale": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "type": "object"
+        },
+        "zombieUnitByType": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "type": "object"
+        },
         "spawnUnit": {
           "type": "string"
         },
+        "spawnItem": {
+          "type": "string"
+        },
         "spawnUnitFaction": {
+          "type": "integer"
+        },
+        "zombieUnitFaction": {
+          "type": "integer"
+        },
+        "spawnUnitChance": {
+          "type": "integer"
+        },
+        "zombieUnitChance": {
+          "type": "integer"
+        },
+        "spawnItemChance": {
+          "type": "integer"
+        },
+        "specialChance": {
           "type": "integer"
         },
         "vaporColorSurface": {

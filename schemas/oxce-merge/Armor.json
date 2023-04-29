@@ -257,6 +257,14 @@
               "maxItems": 2,
               "type": "array"
             },
+            "baseClimbPercent": {
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "type": "array"
+            },
             "walkPercent": {
               "items": {
                 "type": "integer"
@@ -322,6 +330,22 @@
               "type": "array"
             },
             "flyDownPercent": {
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "type": "array"
+            },
+            "climbUpPercent": {
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "type": "array"
+            },
+            "climbDownPercent": {
               "items": {
                 "type": "integer"
               },

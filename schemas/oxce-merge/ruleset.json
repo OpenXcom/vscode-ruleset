@@ -10,6 +10,9 @@
           "type": "object",
           "additionalProperties": false,
           "properties": {
+            "tagsFile": {
+              "type": "string"
+            },
             "tags": {
               "type": "object"
             },
@@ -580,6 +583,9 @@
           "type": "object",
           "additionalProperties": false,
           "properties": {
+            "extendedExperienceAwardSystem": {
+              "type": "boolean"
+            },
             "extendedUnderwaterThrowFactor": {
               "type": "integer"
             },
