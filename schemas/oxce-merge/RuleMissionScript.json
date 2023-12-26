@@ -9,6 +9,9 @@
         "refNode": {
           "$ref": "RuleMissionScript.json"
         },
+        "maxDifficulty": {
+          "type": "integer"
+        },
         "minScore": {
           "type": "integer"
         },

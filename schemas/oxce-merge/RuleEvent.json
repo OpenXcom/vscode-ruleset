@@ -16,6 +16,9 @@
     "description": {
       "type": "string"
     },
+    "alignBottom": {
+      "type": "boolean"
+    },
     "background": {
       "type": "string"
     },

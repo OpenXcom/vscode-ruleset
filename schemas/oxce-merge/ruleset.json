@@ -182,6 +182,9 @@
         "startingBaseSuperhuman": {
           "type": "object"
         },
+    		"statGrowthMultipliersAbs": {
+	    		"$ref": "UnitStats.json"
+	    	},
         "aimMultipliers": {
           "type": "array",
           "items": {
@@ -190,6 +193,13 @@
           "maxItems": 5
         },
         "armorMultipliers": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "maxItems": 5
+        },
+        "armorMultipliersAbs": {
           "type": "array",
           "items": {
             "type": "number"

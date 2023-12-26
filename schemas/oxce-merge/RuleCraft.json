@@ -52,6 +52,9 @@
         "maxVehicles": {
           "type": "integer"
         },
+        "maxUnitsLimit": {
+          "type": "integer"
+        },
         "maxSkinIndex": {
           "type": "integer"
         },

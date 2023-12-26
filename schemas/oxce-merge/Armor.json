@@ -45,6 +45,9 @@
         "leftArmorDiff": {
           "type": "integer"
         },
+        "selfDestructItem": {
+          "type": "string"
+        },
         "specab": {
           "type": "integer",
           "minimum": 0,
@@ -99,6 +102,12 @@
           "type": "integer"
         },
         "personalLight": {
+          "type": "integer"
+        },
+        "personalLightHostile": {
+          "type": "integer"
+        },
+        "personalLightNeutral": {
           "type": "integer"
         },
         "camouflageAtDay": {

@@ -9,6 +9,9 @@
         "refNode": {
           "$ref": "RuleBaseFacility.json"
         },
+        "spriteEnabled": {
+          "type": "boolean"
+        },
         "placeSound": {
           "$ref": "ModOffset.json"
         },
