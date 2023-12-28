@@ -25,6 +25,12 @@
           },
           "type": "array"
         },
+        "maxUnitsLimit": {
+          "type": "integer"
+        },
+        "maxHWPUnitsLimit": {
+          "type": "integer"
+        },
         "pilots": {
           "type": "integer"
         },
@@ -50,9 +56,6 @@
           "type": "integer"
         },
         "maxVehicles": {
-          "type": "integer"
-        },
-        "maxUnitsLimit": {
           "type": "integer"
         },
         "maxSkinIndex": {
