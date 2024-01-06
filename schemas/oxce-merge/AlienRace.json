@@ -18,9 +18,6 @@
         "retaliationMissionWeights": {
           "$ref": "WeightedOptions.json#/definitions/Map"
         },
-        "retaliationMission": {
-          "type": "string"
-        },
         "membersRandom": {
           "items": {
             "items": {

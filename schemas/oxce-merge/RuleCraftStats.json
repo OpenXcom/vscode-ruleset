@@ -37,6 +37,18 @@
     "armor": {
       "type": "integer"
     },
+    "soldiers": {
+      "type": "integer"
+    },
+    "vehicles": {
+      "type": "integer"
+    },
+    "maxItems": {
+      "type": "integer"
+    },
+    "maxStorageSpace": {
+      "type": "number"
+    },
     "shieldCapacity": {
       "type": "integer"
     },

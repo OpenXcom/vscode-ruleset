@@ -9,6 +9,9 @@
         "refNode": {
           "$ref": "RuleResearch.json"
         },
+        "neededItem": {
+          "type": "string"
+        },
         "spawnedItem": {
           "type": "string"
         },

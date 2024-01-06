@@ -9,6 +9,18 @@
         "refNode": {
           "$ref": "RuleRegion.json"
         },
+        "provideBaseFunc": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "forbiddenBaseFunc": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
         "deleteOldAreas": {
           "type": "boolean"
         }

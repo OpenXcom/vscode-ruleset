@@ -151,6 +151,9 @@
     "reset": {
       "type": "boolean"
     },
+    "resetRank": {
+      "type": "boolean"
+    },
     "soldierBonusType": {
       "type": "string"
     }

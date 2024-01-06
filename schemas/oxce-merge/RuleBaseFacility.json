@@ -9,6 +9,12 @@
         "refNode": {
           "$ref": "RuleBaseFacility.json"
         },
+        "sizeX": {
+          "type": "integer"
+        },
+        "sizeY": {
+          "type": "integer"
+        },
         "spriteEnabled": {
           "type": "boolean"
         },

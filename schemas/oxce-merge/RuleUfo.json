@@ -31,6 +31,9 @@
         "softlockThreshold": {
           "type": "integer"
         },
+        "hitImage": {
+          "type": "string"
+        },
         "missilePower": {
           "type": "integer"
         },
@@ -56,6 +59,9 @@
           "$ref": "ModOffset.json"
         },
         "huntAlertSound": {
+          "$ref": "ModOffset.json"
+        },
+        "hitSound": {
           "$ref": "ModOffset.json"
         },
         "tags": {

@@ -109,9 +109,6 @@
             "type": "string"
           }
         },
-        "maxStorageSpace": {
-          "type": "number"
-        },
         "shieldRechargedAtBase": {
           "type": "integer"
         },
@@ -123,6 +120,9 @@
         },
         "useAllStartTiles": {
           "type": "boolean"
+        },
+        "defaultAltitude": {
+          "type": "string"
         },
         "customPreview": {
           "type": "string"

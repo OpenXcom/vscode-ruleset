@@ -17,7 +17,13 @@
         "endlessInfiltration": {
           "type": "boolean"
         },
+        "skipScoutingPhase": {
+          "type": "boolean"
+        },
         "multiUfoRetaliation": {
+          "type": "boolean"
+        },
+        "multiUfoRetaliationExtra": {
           "type": "boolean"
         },
         "ignoreBaseDefenses": {

@@ -15,6 +15,18 @@
         "rejoinedXcomEvent": {
           "type": "string"
         },
+        "provideBaseFunc": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "forbiddenBaseFunc": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
         "labelColor": {
           "type": "integer"
         },
