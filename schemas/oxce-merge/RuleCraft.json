@@ -61,6 +61,21 @@
         "maxSkinIndex": {
           "type": "integer"
         },
+        "groups": {
+          "items": {
+            "type": "integer"
+          },
+          "type": "array"
+        },
+        "allowedSoldierGroups": {
+          "items": {
+            "type": "integer"
+          },
+          "type": "array"
+        },
+        "onlyOneSoldierGroupAllowed": {
+          "type": "boolean"
+        },
         "skinSprites": {
           "items": {
             "type": "integer"

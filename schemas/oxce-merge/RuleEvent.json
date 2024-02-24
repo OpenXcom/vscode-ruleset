@@ -40,6 +40,9 @@
     "funds": {
       "type": "integer"
     },
+    "spawnedCraftType": {
+      "type": "string"
+    },
     "spawnedPersons": {
       "type": "integer"
     },

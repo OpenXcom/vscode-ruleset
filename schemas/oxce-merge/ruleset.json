@@ -597,6 +597,13 @@
           "type": "object",
           "additionalProperties": false,
           "properties": {
+            "extendedPediaFacilityParams": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              },
+              "maxItems": 4
+            },
             "extendedExperienceAwardSystem": {
               "type": "boolean"
             },
@@ -613,6 +620,9 @@
               "type": "boolean"
             },
             "extendedItemReloadCost": {
+              "type": "boolean"
+            },
+            "extendedInventorySlotSorting": {
               "type": "boolean"
             },
             "extendedRunningCost": {

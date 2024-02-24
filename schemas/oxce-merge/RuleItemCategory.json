@@ -13,6 +13,12 @@
     "type": {
       "type": "string"
     },
+    "invOrder": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
     "replaceBy": {
       "type": "string"
     },

@@ -6,6 +6,12 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/ArticleDefinition.json",
       "properties": {
+        "disabledBy": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
         "hiddenCommendation": {
           "type": "boolean"
         },

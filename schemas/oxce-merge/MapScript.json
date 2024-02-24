@@ -8,6 +8,12 @@
       "definitions": {
         "MapScript": {
           "properties": {
+            "craftGroups": {
+              "items": {
+                "type": "integer"
+              },
+              "type": "array"
+            },
             "verticalGroup": {
               "type": "integer"
             },

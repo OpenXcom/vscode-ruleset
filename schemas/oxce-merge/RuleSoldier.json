@@ -9,6 +9,9 @@
         "refNode": {
           "$ref": "RuleSoldier.json"
         },
+        "group": {
+          "type": "integer"
+        },
         "requiresBuyCountry": {
           "type": "string"
         },

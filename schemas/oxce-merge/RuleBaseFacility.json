@@ -63,6 +63,12 @@
         "trainingRooms": {
           "type": "integer"
         },
+        "ammoMax": {
+          "type": "integer"
+        },
+        "rearmRate": {
+          "type": "integer"
+        },
         "ammoNeeded": {
           "type": "integer"
         },

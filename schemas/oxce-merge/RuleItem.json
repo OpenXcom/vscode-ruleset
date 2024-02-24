@@ -332,6 +332,9 @@
         "targetMatrix": {
           "type": "integer"
         },
+        "convertToCivilian": {
+          "type": "boolean"
+        },
         "isConsumable": {
           "type": "boolean"
         },
