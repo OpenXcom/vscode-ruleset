@@ -549,6 +549,13 @@
           "type": "array",
           "maxItems": 5
         },
+        "buyPriceCoefficient": {
+          "items": {
+            "type": "integer"
+          },
+          "type": "array",
+          "maxItems": 5
+        },
         "difficultyBasedRetaliationDelay": {
           "items": {
             "type": "integer"
@@ -624,6 +631,9 @@
             },
             "extendedInventorySlotSorting": {
               "type": "boolean"
+            },
+            "extendedMovementCostRounding": {
+              "type": "integer"
             },
             "extendedRunningCost": {
               "type": "boolean"

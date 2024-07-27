@@ -16,6 +16,15 @@
     "visibilityAtDark": {
       "type": "integer"
     },
+    "visibilityAtDay": {
+      "type": "integer"
+    },
+    "psiVision": {
+      "type": "integer"
+    },
+    "heatVision": {
+      "type": "integer"
+    },
     "frontArmor": {
       "type": "integer"
     },
