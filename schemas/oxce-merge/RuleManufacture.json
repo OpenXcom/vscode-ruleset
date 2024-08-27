@@ -15,6 +15,14 @@
           },
           "type": "array"
         },
+        "transferTimes": {
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 0,
+          "maxItems": 3,
+          "type": "array"
+        },
         "points": {
           "type": "integer"
         },

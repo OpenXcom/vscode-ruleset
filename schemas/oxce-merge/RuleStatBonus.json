@@ -102,6 +102,54 @@
     },
     "energyRegen": {
       "$ref": "#/definitions/RuleStatBonusData"
+    },
+    "strengthScaled": {
+      "$ref": "#/definitions/RuleStatBonusData"
+    },
+    "psiScaled": {
+      "$ref": "#/definitions/RuleStatBonusData"
+    },
+    "psiSkillScaled": {
+      "$ref": "#/definitions/RuleStatBonusData"
+    },
+    "psiStrengthScaled": {
+      "$ref": "#/definitions/RuleStatBonusData"
+    },
+    "throwingScaled": {
+      "$ref": "#/definitions/RuleStatBonusData"
+    },
+    "braveryScaled": {
+      "$ref": "#/definitions/RuleStatBonusData"
+    },
+    "firingScaled": {
+      "$ref": "#/definitions/RuleStatBonusData"
+    },
+    "healthScaled": {
+      "$ref": "#/definitions/RuleStatBonusData"
+    },
+    "manaScaled": {
+      "$ref": "#/definitions/RuleStatBonusData"
+    },
+    "tuScaled": {
+      "$ref": "#/definitions/RuleStatBonusData"
+    },
+    "reactionsScaled": {
+      "$ref": "#/definitions/RuleStatBonusData"
+    },
+    "staminaScaled": {
+      "$ref": "#/definitions/RuleStatBonusData"
+    },
+    "meleeScaled": {
+      "$ref": "#/definitions/RuleStatBonusData"
+    },
+    "strengthMeleeScaled": {
+      "$ref": "#/definitions/RuleStatBonusData"
+    },
+    "strengthThrowingScaled": {
+      "$ref": "#/definitions/RuleStatBonusData"
+    },
+    "firingReactionsScaled": {
+      "$ref": "#/definitions/RuleStatBonusData"
     }
   },
   "definitions": {

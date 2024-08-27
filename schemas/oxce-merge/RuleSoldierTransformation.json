@@ -76,7 +76,13 @@
     "includeBonusesForMinStats": {
       "type": "boolean"
     },
+    "includeBonusesForMaxStats": {
+      "type": "boolean"
+    },
     "requiredMinStats": {
+      "$ref": "UnitStats.json"
+    },
+    "requiredMaxStats": {
       "$ref": "UnitStats.json"
     },
     "minRank": {

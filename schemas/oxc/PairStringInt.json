@@ -1,0 +1,15 @@
+{
+  "$id": "https://openxcom.org/schemas/oxc/PairStringInt.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "items": [
+    {
+      "type": "string"
+    },
+    {
+      "type": "integer"
+    }
+  ],
+  "minItems": 2,
+  "maxItems": 2,
+  "type": "array"
+}

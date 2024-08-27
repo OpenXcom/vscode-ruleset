@@ -15,6 +15,9 @@
         "nameAsAmmo": {
           "type": "string"
         },
+        "vehicleFixedAmmoSlot": {
+          "type": "integer"
+        },
         "requires": {
           "items": {
             "type": "string"
@@ -151,6 +154,9 @@
           "type": "string"
         },
         "unprimeActionMessage": {
+          "type": "string"
+        },
+        "sellActionMessage": {
           "type": "string"
         },
         "fuseType": {

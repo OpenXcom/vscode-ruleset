@@ -32,6 +32,9 @@
         "despawnEvenIfTargeted": {
           "type": "boolean"
         },
+        "respawnUfoAfterSiteDespawn": {
+          "type": "boolean"
+        },
         "showAlienBase": {
           "type": "boolean"
         },

@@ -25,6 +25,9 @@
     "music": {
       "type": "string"
     },
+    "cutscene": {
+      "type": "string"
+    },
     "regionList": {
       "items": {
         "type": "string"
@@ -54,6 +57,9 @@
     },
     "spawnedPersonName": {
       "type": "string"
+    },
+    "invert": {
+      "type": "boolean"
     },
     "everyMultiItemList": {
       "additionalProperties": {

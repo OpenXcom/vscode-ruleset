@@ -12,6 +12,12 @@
         "isHidden": {
           "type": "boolean"
         },
+        "forcePercentageOutsideUfo": {
+          "type": "boolean"
+        },
+        "noWeaponPile": {
+          "type": "boolean"
+        },
         "fakeUnderwaterSpawnChance": {
           "type": "integer"
         },

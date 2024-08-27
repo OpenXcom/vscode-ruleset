@@ -6,6 +6,12 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/MapBlock.json",
       "properties": {
+        "extendedItems": {
+          "items": {
+            "$ref": "#/definitions/ExtendedItems"
+          },
+          "type": "array"
+        },
         "randomizedItems": {
           "items": {
             "$ref": "#/definitions/RandomizedItems"
@@ -30,6 +36,33 @@
         }
       },
       "definitions": {
+        "ExtendedItems": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "type": "string"
+            },
+            "pos": {
+              "items": {
+                "$ref": "Position.json"
+              },
+              "type": "array"
+            },
+            "fuseTimerMin": {
+              "type": "integer"
+            },
+            "fuseTimerMax": {
+              "type": "integer"
+            },
+            "ammoDef": {
+              "items": {
+                "$ref": "PairStringInt.json"
+              },
+              "type": "array"
+            }
+          }
+        },
         "RandomizedItems": {
           "type": "object",
           "additionalProperties": false,

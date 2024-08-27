@@ -315,6 +315,9 @@
         "buildInfiltrationBaseCloseToTheCountry": {
           "type": "boolean"
         },
+        "infiltrateRandomCountryInTheRegion": {
+          "type": "boolean"
+        },
         "allowAlienBasesOnWrongTextures": {
           "type": "boolean"
         },
@@ -774,6 +777,9 @@
               "type": "integer"
             },
             "useDelayGrenade": {
+              "type": "integer"
+            },
+            "aiUseDelayProxy": {
               "type": "integer"
             },
             "useDelayMelee": {
