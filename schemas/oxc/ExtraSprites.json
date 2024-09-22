@@ -4,11 +4,7 @@
   "type": "object",
   "additionalProperties": false,
   "oneOf": [
-    {
-      "required": [
-        "type"
-      ]
-    }
+    { "required": [ "type" ] }
   ],
   "properties": {
     "type": {

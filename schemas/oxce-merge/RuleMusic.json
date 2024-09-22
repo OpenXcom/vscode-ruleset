@@ -1,10 +1,10 @@
 {
   "$merge": {
     "source": {
-      "$import": "../oxc/RuleInventory.json"
+      "$import": "../oxc/RuleMusic.json"
     },
     "with": {
-      "$id": "https://openxcom.org/schemas/oxce/RuleInventory.json",
+      "$id": "https://openxcom.org/schemas/oxce/RuleMusic.json",
       "oneOf": [
         { "$append": { "required": [ "new" ] } },
         { "$append": { "required": [ "override" ] } },
@@ -15,10 +15,7 @@
         "new": { "type": "string" },
         "override": { "type": "string" },
         "update": { "type": "string" },
-        "ignore": { "type": "string" },
-        "refNode": {
-          "$ref": "RuleInventory.json"
-        }
+        "ignore": { "type": "string" }
       }
     }
   }
