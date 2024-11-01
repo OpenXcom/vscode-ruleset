@@ -33,6 +33,9 @@
     "checkHandsOnly": {
       "type": "boolean"
     },
+    "checkHandsOnly2": {
+      "type": "boolean"
+    },
     "costUse": {
       "$ref": "RuleItem.json#/definitions/RuleItemCost"
     },

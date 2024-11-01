@@ -47,6 +47,19 @@
             ]
           }
         },
+        "weaponSets": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/delete"
+              },
+              {
+                "$ref": "RuleWeaponSet.json"
+              }
+            ]
+          }
+        },
         "events": {
           "type": "array",
           "items": {
@@ -426,7 +439,7 @@
           "maxItems": 3
         },
         "performanceBonusFactor": {
-          "type": "integer"
+          "type": "number"
         },
         "enableNewResearchSorting": {
           "type": "boolean"
@@ -613,6 +626,9 @@
                 "type": "integer"
               },
               "maxItems": 4
+            },
+            "extendedCurrencySymbol": {
+              "type": "string"
             },
             "extendedExperienceAwardSystem": {
               "type": "boolean"

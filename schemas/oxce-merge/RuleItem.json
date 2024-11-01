@@ -535,6 +535,9 @@
         "hidePower": {
           "type": "boolean"
         },
+        "ignoreAmmoPower": {
+          "type": "boolean"
+        },
         "tags": {
           "type": "object"
         },

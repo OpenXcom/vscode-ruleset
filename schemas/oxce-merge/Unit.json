@@ -22,6 +22,12 @@
         "liveAlien": {
           "type": "string"
         },
+        "weightedBuiltInWeaponSets": {
+          "items": {
+            "$ref": "WeightedOptions.json"
+          },
+          "type": "array"
+        },
         "civilianRecoveryType": {
           "type": "string"
         },

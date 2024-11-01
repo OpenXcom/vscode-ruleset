@@ -37,6 +37,9 @@
           },
           "type": "array"
         },
+        "listOrder": {
+          "type": "integer"
+        },
         "retaliationAggression": {
           "type": "integer"
         }
