@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.9.35]
+- Ruleset schemas updated to OXCE 7.15
+
 ## [0.9.34]
 - Support for OXCE main node variants
 
