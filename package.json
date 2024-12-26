@@ -2,7 +2,7 @@
     "name": "ruleset-tools",
     "displayName": "OpenXcom Ruleset Tools",
     "description": "Validates YAML ruleset files for OpenXcom mods",
-    "version": "0.9.35",
+    "version": "0.9.36",
     "publisher": "openxcom",
     "bugs": "https://github.com/OpenXcom/vscode-ruleset/issues",
     "repository": {
