@@ -134,7 +134,7 @@
           "type": "string"
         },
         "alertSound": {
-          "type": "integer"
+          "$ref": "ModOffset.json"
         },
         "keepCraftAfterFailedMission": {
           "type": "boolean"

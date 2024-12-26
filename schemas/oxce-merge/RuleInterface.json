@@ -26,7 +26,7 @@
           "type": "string"
         },
         "sound": {
-          "type": "integer"
+          "$ref": "ModOffset.json"
         }
       },
       "definitions": {

@@ -235,7 +235,7 @@
       "type": "integer"
     },
     "vaporColor": {
-      "type": "integer"
+      "$ref": "ModOffset.json"
     },
     "vaporDensity": {
       "type": "integer"

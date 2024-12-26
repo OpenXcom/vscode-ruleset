@@ -73,7 +73,7 @@
           "$ref": "#/definitions/RuleMoveCost"
         },
         "moveSound": {
-          "type": "integer"
+          "$ref": "ModOffset.json"
         },
         "deathMale": {
           "$ref": "ModOffset.json#/definitions/List"
@@ -199,13 +199,7 @@
           }
         },
         "customArmorPreviewIndex": {
-          "type": [
-            "array",
-            "integer"
-          ],
-          "items": {
-            "type": "integer"
-          }
+          "$ref": "ModOffset.json#/definitions/List"
         },
         "allowsRunning": {
           "type": "boolean"
