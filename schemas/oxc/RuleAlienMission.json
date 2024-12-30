@@ -58,13 +58,15 @@
           "type": "string"
         },
         "count": {
-          "type": "integer"
+          "type": "integer",
+          "minimum": 0
         },
         "trajectory": {
           "type": "string"
         },
         "timer": {
-          "type": "integer"
+          "type": "integer",
+          "minimum": 0
         },
         "objective": {
           "type": "boolean"
