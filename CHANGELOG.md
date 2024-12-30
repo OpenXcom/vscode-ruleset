@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.9.37]
+- Stricter validation
+
 ## [0.9.36]
 - Bugfixes
 
