@@ -6,6 +6,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/Texture.json",
       "properties": {
+        "isOcean": {
+          "type": "boolean"
+        },
         "fakeUnderwater": {
           "type": "boolean"
         },

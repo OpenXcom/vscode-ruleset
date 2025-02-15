@@ -636,6 +636,9 @@
             "extendedUnderwaterThrowFactor": {
               "type": "integer"
             },
+            "extendedSpotOnHitForSniping": {
+              "type": "integer"
+            },
             "extendedTerrainMelee": {
               "type": "integer"
             },

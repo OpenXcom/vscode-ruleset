@@ -61,6 +61,9 @@
     "rank": {
       "$ref": "#/definitions/RuleStatBonusData"
     },
+    "rankUnified": {
+      "$ref": "#/definitions/RuleStatBonusData"
+    },
     "fatalWounds": {
       "$ref": "#/definitions/RuleStatBonusData"
     },

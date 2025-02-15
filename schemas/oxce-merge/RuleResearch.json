@@ -19,6 +19,9 @@
         "refNode": {
           "$ref": "RuleResearch.json"
         },
+        "repeatable": {
+          "type": "boolean"
+        },
         "neededItem": {
           "type": "string"
         },

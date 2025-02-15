@@ -40,6 +40,9 @@
         "specialWeapon": {
           "type": "string"
         },
+        "spawnedSoldier": {
+          "type": "object"
+        },
         "armorForAvatar": {
           "type": "string"
         },

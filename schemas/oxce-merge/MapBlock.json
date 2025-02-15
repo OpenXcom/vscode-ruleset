@@ -73,6 +73,12 @@
             "amount": {
               "type": "integer"
             },
+            "fuseTimerMin": {
+              "type": "integer"
+            },
+            "fuseTimerMax": {
+              "type": "integer"
+            },
             "mixed": {
               "type": "boolean"
             },

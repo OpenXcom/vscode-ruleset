@@ -40,6 +40,9 @@
         "vipSurvivalPercentage": {
           "type": "integer"
         },
+        "ignoreLivingCivilians": {
+          "type": "boolean"
+        },
         "markCiviliansAsVIP": {
           "type": "boolean"
         },

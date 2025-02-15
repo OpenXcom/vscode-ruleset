@@ -140,6 +140,9 @@
         "forceShowInMonthlyCosts": {
           "type": "boolean"
         },
+        "missilePower": {
+          "type": "integer"
+        },
         "monthlyBuyLimit": {
           "type": "integer"
         },

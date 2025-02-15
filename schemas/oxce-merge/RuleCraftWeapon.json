@@ -28,6 +28,9 @@
         "weaponType": {
           "type": "integer"
         },
+        "tooltip": {
+          "type": "string"
+        },
         "hidePediaInfo": {
           "type": "boolean"
         },

@@ -26,6 +26,15 @@
         "refNode": {
           "$ref": "RuleUfo.json"
         },
+        "radius": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "integer"
+        },
+        "blobSize": {
+          "type": "integer"
+        },
         "hunterKillerPercentage": {
           "type": "integer"
         },
