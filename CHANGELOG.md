@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.9.38]
+- Ruleset schemas updated to OXCE 8.1
+
 ## [0.9.37]
 - Stricter validation
 
