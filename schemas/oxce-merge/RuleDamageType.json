@@ -43,10 +43,10 @@
       "type": "number"
     },
     "FireThreshold": {
-      "type": "number"
+      "type": "integer"
     },
     "SmokeThreshold": {
-      "type": "number"
+      "type": "integer"
     },
     "ToHealth": {
       "type": "number"
