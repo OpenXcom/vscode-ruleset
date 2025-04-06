@@ -59,6 +59,9 @@
         "unmanned": {
           "type": "boolean"
         },
+        "instaHyper": {
+          "type": "boolean"
+        },
         "splashdownSurvivalChance": {
           "type": "integer"
         },

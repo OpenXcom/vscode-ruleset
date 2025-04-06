@@ -412,6 +412,9 @@
         "manaExperience": {
           "type": "integer"
         },
+        "loadOrder": {
+          "type": "integer"
+        },
         "shotgunBehavior": {
           "type": "integer"
         },
@@ -647,6 +650,15 @@
               "type": "string"
             },
             "ammoSlot": {
+              "type": "integer"
+            },
+            "ammoZombieUnitChanceOverride": {
+              "type": "integer"
+            },
+            "ammoSpawnUnitChanceOverride": {
+              "type": "integer"
+            },
+            "ammoSpawnItemChanceOverride": {
               "type": "integer"
             },
             "arcing": {

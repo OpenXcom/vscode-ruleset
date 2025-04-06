@@ -404,6 +404,9 @@
         "pilotsEmergencyEvacuationSurvivalChance": {
           "type": "integer"
         },
+        "showUfoPreviewInBaseDefense": {
+          "type": "boolean"
+        },
         "soldiersPerSergeant": {
           "type": "integer"
         },
@@ -629,6 +632,9 @@
             },
             "extendedCurrencySymbol": {
               "type": "string"
+            },
+            "extendedForceSpawn": {
+              "type": "boolean"
             },
             "extendedExperienceAwardSystem": {
               "type": "boolean"
