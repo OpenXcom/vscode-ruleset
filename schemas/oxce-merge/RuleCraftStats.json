@@ -31,6 +31,9 @@
     "avoidBonus": {
       "type": "integer"
     },
+    "avoidBonus2": {
+      "type": "integer"
+    },
     "powerBonus": {
       "type": "integer"
     },

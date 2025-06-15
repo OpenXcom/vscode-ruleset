@@ -63,6 +63,24 @@
           "minimum": 0,
           "maximum": 3
         },
+        "ai": {
+          "properties": {
+            "targetWeightAsHostile": {
+              "type": [ "integer", "null" ]
+            },
+            "targetWeightAsHostileCivilians": {
+              "type": [ "integer", "null" ]
+            },
+            "targetWeightAsFriendly": {
+              "type": [ "integer", "null" ]
+            },
+            "targetWeightAsNeutral": {
+              "type": [ "integer", "null" ]
+            }
+          },
+          "additionalProperties": false,
+          "type": "object"
+        },
         "turnBeforeFirstStep": {
           "type": "boolean"
         },
@@ -133,6 +151,9 @@
           "type": "integer"
         },
         "heatVision": {
+          "type": "integer"
+        },
+        "visibilityThroughFire": {
           "type": "integer"
         },
         "psiVision": {
@@ -235,6 +256,9 @@
           "type": "integer"
         },
         "floatHeight": {
+          "type": "integer"
+        },
+        "group": {
           "type": "integer"
         },
         "listOrder": {

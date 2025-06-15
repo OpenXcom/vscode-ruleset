@@ -33,6 +33,9 @@
     "heatVision": {
       "type": "integer"
     },
+    "visibilityThroughFire": {
+      "type": "integer"
+    },
     "frontArmor": {
       "type": "integer"
     },

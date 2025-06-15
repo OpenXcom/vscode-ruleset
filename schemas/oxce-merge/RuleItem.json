@@ -358,7 +358,12 @@
           "type": "boolean"
         },
         "isExplodingInHands": {
-          "type": "boolean"
+          "deprecationMessage": "Deprecated: use \"explodeInventory\" instead"
+        },
+        "explodeInventory": {
+          "type": "integer",
+          "minimum": -1,
+          "maximum": 2
         },
         "specialUseEmptyHand": {
           "type": "boolean"
@@ -524,6 +529,15 @@
           "type": "integer"
         },
         "underwaterThrowRange": {
+          "type": "integer"
+        },
+        "throwDropoffRange": {
+          "type": "integer"
+        },
+        "underwaterThrowDropoffRange": {
+          "type": "integer"
+        },
+        "throwDropoff": {
           "type": "integer"
         },
         "psiRequired": {

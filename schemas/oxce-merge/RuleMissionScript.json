@@ -19,6 +19,12 @@
         "refNode": {
           "$ref": "RuleMissionScript.json"
         },
+        "adhocMissionScriptTags": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
         "maxDifficulty": {
           "type": "integer"
         },
@@ -53,6 +59,18 @@
           "type": "object"
         },
         "facilityTriggers": {
+          "additionalProperties": {
+            "type": "boolean"
+          },
+          "type": "object"
+        },
+        "soldierTypeTriggers": {
+          "additionalProperties": {
+            "type": "boolean"
+          },
+          "type": "object"
+        },
+        "pactCountryTriggers": {
           "additionalProperties": {
             "type": "boolean"
           },

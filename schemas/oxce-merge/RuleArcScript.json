@@ -84,6 +84,18 @@
       },
       "type": "object"
     },
+    "soldierTypeTriggers": {
+      "additionalProperties": {
+        "type": "boolean"
+      },
+      "type": "object"
+    },
+    "pactCountryTriggers": {
+      "additionalProperties": {
+        "type": "boolean"
+      },
+      "type": "object"
+    },
     "xcomBaseInRegionTriggers": {
       "additionalProperties": {
         "type": "boolean"

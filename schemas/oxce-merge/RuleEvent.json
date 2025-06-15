@@ -18,6 +18,12 @@
     "refNode": {
       "$ref": "RuleEvent.json"
     },
+    "adhocMissionScriptTags": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
     "name": {
       "type": "string"
     },
@@ -75,6 +81,12 @@
       },
       "type": "object"
     },
+    "everyMultiSoldierList": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "type": "object"
+    },
     "everyItemList": {
       "items": {
         "type": "string"
@@ -82,6 +94,12 @@
       "type": "array"
     },
     "randomMultiItemList": {
+      "items": {
+        "$ref": "WeightedOptions.json"
+      },
+      "type": "array"
+    },
+    "randomMultiSoldierList": {
       "items": {
         "$ref": "WeightedOptions.json"
       },

@@ -99,6 +99,19 @@
             ]
           }
         },
+        "adhocScripts": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/delete"
+              },
+              {
+                "$ref": "RuleMissionScript.json"
+              }
+            ]
+          }
+        },
         "startingConditions": {
           "type": "array",
           "items": {
@@ -314,9 +327,12 @@
           "type": "integer"
         },
         "minReactionAccuracy": {
-          "type": "integer"
+          "deprecationMessage": "Deprecated: use \"reactionFireThreshold\" and \"reactionFireThresholdCiv\" instead"
         },
         "chanceToStopRetaliation": {
+          "type": "integer"
+        },
+        "chanceToDetectAlienBaseEachMonth": {
           "type": "integer"
         },
         "lessAliensDuringBaseDefense": {
@@ -356,6 +372,9 @@
           "type": "integer"
         },
         "noLOSAccuracyPenaltyGlobal": {
+          "type": "integer"
+        },
+        "explodeInventoryGlobal": {
           "type": "integer"
         },
         "surrenderMode": {
@@ -813,6 +832,9 @@
             "useDelayPsionic": {
               "type": "integer"
             },
+            "useDelayMedikit": {
+              "type": "integer"
+            },
             "fireChoiceIntelCoeff": {
               "type": "integer"
             },
@@ -830,6 +852,27 @@
             },
             "pickUpWeaponsMoreActivelyCiv": {
               "type": "boolean"
+            },
+            "reactionFireThreshold": {
+              "type": "integer"
+            },
+            "reactionFireThresholdCiv": {
+              "type": "integer"
+            },
+            "targetWeightThreatThreshold": {
+              "type": "integer"
+            },
+            "targetWeightAsHostile": {
+              "type": "integer"
+            },
+            "targetWeightAsHostileCivilians": {
+              "type": "integer"
+            },
+            "targetWeightAsFriendly": {
+              "type": "integer"
+            },
+            "targetWeightAsNeutral": {
+              "type": "integer"
             },
             "destroyBaseFacilities": {
               "type": "boolean"

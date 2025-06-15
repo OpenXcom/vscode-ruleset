@@ -39,6 +39,9 @@
         "ignoreBaseDefenses": {
           "type": "boolean"
         },
+        "instaHyper": {
+          "type": "boolean"
+        },
         "despawnEvenIfTargeted": {
           "type": "boolean"
         },

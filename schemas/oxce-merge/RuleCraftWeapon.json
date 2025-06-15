@@ -22,6 +22,9 @@
         "stats": {
           "$ref": "RuleCraftStats.json"
         },
+        "unifiedDamageFormula": {
+          "type": "boolean"
+        },
         "shieldDamageModifier": {
           "type": "integer"
         },

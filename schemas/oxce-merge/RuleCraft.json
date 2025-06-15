@@ -77,6 +77,12 @@
           },
           "type": "array"
         },
+        "allowedArmorGroups": {
+          "items": {
+            "type": "integer"
+          },
+          "type": "array"
+        },
         "allowedSoldierGroups": {
           "items": {
             "type": "integer"

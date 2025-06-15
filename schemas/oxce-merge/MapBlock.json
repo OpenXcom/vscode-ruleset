@@ -6,6 +6,9 @@
     "with": {
       "$id": "https://openxcom.org/schemas/oxce/MapBlock.json",
       "properties": {
+        "craftInventoryTile": {
+          "$ref": "Position.json"
+        },
         "extendedItems": {
           "items": {
             "$ref": "#/definitions/ExtendedItems"

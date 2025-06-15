@@ -82,6 +82,12 @@
         "ammoNeeded": {
           "type": "integer"
         },
+        "unifiedDamageFormula": {
+          "type": "boolean"
+        },
+        "shieldDamageModifier": {
+          "type": "integer"
+        },
         "ammoItem": {
           "type": "string"
         },
