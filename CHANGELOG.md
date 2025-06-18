@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.9.41]
+- Fixed broken MapBlock validation.
+
 ## [0.9.40]
 - Ruleset schemas updated to OXCE 8.3
 
