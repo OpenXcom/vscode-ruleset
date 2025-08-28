@@ -25,6 +25,17 @@
         "altBackgroundImage": {
           "type": "string"
         },
+        "upgBackgroundImage": {
+          "items": {
+            "items": {
+              "type": "string"
+            },
+            "minItems": 2,
+            "maxItems": 2,
+            "type": "array"
+          },
+          "type": "array"
+        },
         "sound": {
           "$ref": "ModOffset.json"
         }

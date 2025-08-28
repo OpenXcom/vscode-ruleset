@@ -41,6 +41,15 @@
         "maxHWPUnitsLimit": {
           "type": "integer"
         },
+        "pilotMinStatsRequired": {
+          "$ref": "UnitStats.json"
+        },
+        "pilotSoldierBonusesRequired": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
         "pilots": {
           "type": "integer"
         },

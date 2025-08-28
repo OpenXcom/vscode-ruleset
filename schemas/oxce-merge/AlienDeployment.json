@@ -178,6 +178,17 @@
         "huntMissionWeights": {
           "$ref": "WeightedOptions.json#/definitions/Map"
         },
+        "alienRaceEvolution": {
+          "items": {
+            "items": {
+              "type": [ "integer", "string" ]
+            },
+            "minItems": 3,
+            "maxItems": 3,
+            "type": "array"
+          },
+          "type": "array"
+        },
         "resetAlienBaseAgeAfterUpgrade": {
           "type": "boolean"
         },

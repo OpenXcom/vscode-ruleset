@@ -162,6 +162,12 @@
     "upperBoundType": {
       "type": "integer"
     },
+    "removeTransformations": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
     "reset": {
       "type": "boolean"
     },

@@ -52,6 +52,18 @@
         "requires": {
           "type": "string"
         },
+        "requiresAward": {
+          "type": "string"
+        },
+        "requiresBonus": {
+          "type": "string"
+        },
+        "ranks": {
+          "items": {
+            "type": "integer"
+          },
+          "type": "array"
+        },
         "leftArmorDiff": {
           "type": "integer"
         },

@@ -28,6 +28,18 @@
           },
           "type": "array"
         },
+        "requires": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "units": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
         "soldierBonusTypes": {
           "items": {
             "type": "string"
