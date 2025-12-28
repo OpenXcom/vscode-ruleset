@@ -114,6 +114,9 @@
     "RandomMorale": {
       "type": "boolean"
     },
+    "TileDamageLimit": {
+      "type": "integer"
+    },
     "TileDamageMethod": {
       "type": "integer"
     }

@@ -148,6 +148,15 @@
         "meleeAlter": {
           "$ref": "RuleDamageType.json"
         },
+        "painKillerActionName": {
+          "type": "string"
+        },
+        "stimulantActionName": {
+          "type": "string"
+        },
+        "healActionName": {
+          "type": "string"
+        },
         "medikitActionName": {
           "type": "string"
         },
@@ -354,6 +363,9 @@
         "isConsumable": {
           "type": "boolean"
         },
+        "isAmmoRechargeable": {
+          "type": "boolean"
+        },
         "isFireExtinguisher": {
           "type": "boolean"
         },
@@ -491,6 +503,9 @@
         },
         "monthlyBuyLimit": {
           "type": "integer"
+        },
+        "monthlyBuyLimitMessage": {
+          "type": "string"
         },
         "monthlySalary": {
           "type": "integer"

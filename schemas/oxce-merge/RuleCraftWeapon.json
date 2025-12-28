@@ -19,6 +19,9 @@
         "refNode": {
           "$ref": "RuleCraftWeapon.json"
         },
+        "ufopediaType": {
+          "type": "string"
+        },
         "stats": {
           "$ref": "RuleCraftStats.json"
         },

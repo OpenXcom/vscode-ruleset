@@ -9,6 +9,9 @@
         "isOcean": {
           "type": "boolean"
         },
+        "baseGridSprite": {
+          "$ref": "ModOffset.json"
+        },
         "fakeUnderwater": {
           "type": "boolean"
         },

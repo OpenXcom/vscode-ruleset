@@ -667,6 +667,9 @@
             "extendedTerrainMelee": {
               "type": "integer"
             },
+            "extendedBerserkWithAimed": {
+              "type": "integer"
+            },
             "extendedMeleeReactions": {
               "type": "integer"
             },

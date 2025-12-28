@@ -64,6 +64,9 @@
         "monthlyBuyLimit": {
           "type": "integer"
         },
+        "monthlyBuyLimitMessage": {
+          "type": "string"
+        },
         "costSalarySquaddie": {
           "type": "integer"
         },

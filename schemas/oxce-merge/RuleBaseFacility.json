@@ -19,6 +19,9 @@
         "refNode": {
           "$ref": "RuleBaseFacility.json"
         },
+        "ufopediaType": {
+          "type": "string"
+        },
         "sizeX": {
           "type": "integer"
         },

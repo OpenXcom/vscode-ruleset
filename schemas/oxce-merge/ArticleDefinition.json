@@ -18,6 +18,20 @@
         "align_bottom": {
           "type": "boolean"
         },
+        "rect_armor": {
+          "$ref": "#/definitions/ArticleDefinitionRect"
+        },
+        "unit_mode": {
+          "type": "integer"
+        },
+        "psi_skill_mode": {
+          "type": "integer"
+        },
+        "type_id": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 19
+        },
         "pages": {
           "items": {
             "$ref": "#/definitions/ArticlePage"
