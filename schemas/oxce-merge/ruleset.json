@@ -299,6 +299,9 @@
         "health": {
           "$ref": "#/definitions/health"
         },
+        "transferCosts": {
+          "$ref": "#/definitions/transferCosts"
+        },
         "unitResponseSounds": {
           "items": {
             "$ref": "#/definitions/customUnitResponseSounds"
