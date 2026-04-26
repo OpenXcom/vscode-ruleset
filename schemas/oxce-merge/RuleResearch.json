@@ -19,6 +19,9 @@
         "refNode": {
           "$ref": "RuleResearch.json"
         },
+        "returnsItem": {
+          "type": "boolean"
+        },
         "repeatable": {
           "type": "boolean"
         },
@@ -36,6 +39,9 @@
             "type": "string"
           },
           "type": "array"
+        },
+        "events": {
+          "$ref": "WeightedOptions.json"
         },
         "spawnedEvent": {
           "type": "string"

@@ -652,6 +652,9 @@
             "extendedCurrencySymbol": {
               "type": "string"
             },
+            "extendedSmokeOffset": {
+              "type": "integer"
+            },
             "extendedForceSpawn": {
               "type": "boolean"
             },
@@ -762,6 +765,18 @@
             },
             "replenishAfterMission": {
               "type": "boolean"
+            }
+          }
+        },
+        "transferCosts": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "globalCostMult": {
+              "type": "integer"
+            },
+            "globalCostDiv": {
+              "type": "integer"
             }
           }
         },

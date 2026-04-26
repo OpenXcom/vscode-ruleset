@@ -56,10 +56,16 @@
         "missilePower": {
           "type": "integer"
         },
+        "missileStopChance": {
+          "type": "integer"
+        },
         "unmanned": {
           "type": "boolean"
         },
         "instaHyper": {
+          "type": "boolean"
+        },
+        "noAlert": {
           "type": "boolean"
         },
         "splashdownSurvivalChance": {

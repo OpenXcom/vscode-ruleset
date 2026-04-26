@@ -39,6 +39,9 @@
         "refund": {
           "type": "boolean"
         },
+        "events": {
+          "$ref": "WeightedOptions.json"
+        },
         "randomProducedItems": {
           "items": {
             "$ref": "#/definitions/RandomProductionItem"

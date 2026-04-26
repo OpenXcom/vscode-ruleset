@@ -198,6 +198,9 @@
         "upgradeRace": {
           "type": "string"
         },
+        "alienBaseDiscoveredMessage": {
+          "type": "string"
+        },
         "alienBaseUpgrades": {
           "$ref": "WeightedOptions.json#/definitions/Map"
         }
