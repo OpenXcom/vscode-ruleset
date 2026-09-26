@@ -111,6 +111,15 @@
         "deathFemale": {
           "$ref": "ModOffset.json#/definitions/List"
         },
+        "voiceSets": {
+          "additionalProperties": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "type": "object"
+        },
         "selectUnitMale": {
           "$ref": "ModOffset.json#/definitions/List"
         },

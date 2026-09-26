@@ -60,6 +60,19 @@
             ]
           }
         },
+        "voiceSets": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/delete"
+              },
+              {
+                "$ref": "RuleVoiceSet.json"
+              }
+            ]
+          }
+        },
         "events": {
           "type": "array",
           "items": {
@@ -683,6 +696,9 @@
               "type": "boolean"
             },
             "extendedItemReloadCost": {
+              "type": "boolean"
+            },
+            "extendedIgnoreOverweightRule": {
               "type": "boolean"
             },
             "extendedInventorySlotSorting": {

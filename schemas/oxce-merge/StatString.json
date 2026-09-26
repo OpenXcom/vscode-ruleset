@@ -8,6 +8,9 @@
       "properties": {
         "manaPool": {
           "$ref": "#/definitions/StatStringCondition"
+        },
+        "rank": {
+          "$ref": "#/definitions/StatStringCondition"
         }
       }
     }

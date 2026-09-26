@@ -1,0 +1,64 @@
+{
+  "$id": "https://openxcom.org/schemas/oxce/RuleVoiceSet.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "oneOf": [
+    { "required": [ "type" ] },
+    { "required": [ "new" ] },
+    { "required": [ "override" ] },
+    { "required": [ "update" ] },
+    { "required": [ "ignore" ] }
+  ],
+  "properties": {
+    "new": { "type": "string" },
+    "override": { "type": "string" },
+    "update": { "type": "string" },
+    "ignore": { "type": "string" },
+    "refNode": {
+      "$ref": "RuleVoiceSet.json"
+    },
+    "type": {
+      "type": "string"
+    },
+    "selectUnit": {
+      "$ref": "ModOffset.json#/definitions/List"
+    },
+    "startMoving": {
+      "$ref": "ModOffset.json#/definitions/List"
+    },
+    "selectWeapon": {
+      "$ref": "ModOffset.json#/definitions/List"
+    },
+    "annoyed": {
+      "$ref": "ModOffset.json#/definitions/List"
+    },
+    "allowedGenders": {
+      "items": {
+        "type": "integer"
+      },
+      "type": "array"
+    },
+    "allowedSoldierTypes": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "allowedUnitTypes": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "allowedArmorTypes": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "listOrder": {
+      "type": "integer"
+    }
+  }
+}

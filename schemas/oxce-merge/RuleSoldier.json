@@ -19,6 +19,9 @@
         "refNode": {
           "$ref": "RuleSoldier.json"
         },
+        "prefix": {
+          "type": "string"
+        },
         "group": {
           "type": "integer"
         },
@@ -129,6 +132,27 @@
         },
         "berserkFemale": {
           "$ref": "ModOffset.json#/definitions/List"
+        },
+        "voiceSetsMale": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "voiceSetsFemale": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "voiceSets": {
+          "additionalProperties": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "type": "object"
         },
         "selectUnitMale": {
           "$ref": "ModOffset.json#/definitions/List"

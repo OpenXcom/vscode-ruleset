@@ -19,6 +19,9 @@
         "refNode": {
           "$ref": "RuleManufacture.json"
         },
+        "ufopediaType": {
+          "type": "string"
+        },
         "requiresBaseFunc": {
           "items": {
             "type": "string"

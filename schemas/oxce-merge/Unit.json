@@ -19,6 +19,21 @@
         "refNode": {
           "$ref": "Unit.json"
         },
+        "valueCaptured": {
+          "type": "integer"
+        },
+        "valueCapturedResearched": {
+          "type": "integer"
+        },
+        "valueCivilian": {
+          "type": "integer"
+        },
+        "valueCivilianKilledByXcom": {
+          "type": "integer"
+        },
+        "valueVIP": {
+          "type": "integer"
+        },
         "liveAlien": {
           "type": "string"
         },
@@ -54,6 +69,12 @@
         },
         "autoSurrender": {
           "type": "boolean"
+        },
+        "voiceSets": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
         },
         "panicSound": {
           "$ref": "ModOffset.json#/definitions/List"
